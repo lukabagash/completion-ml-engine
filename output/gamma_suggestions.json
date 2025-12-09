@@ -1,0 +1,2538 @@
+{
+  "metadata": {
+    "timestamp": "2025-12-09T00:53:26.370Z",
+    "document": "gamma_insight_agreement.pdf",
+    "sections_analyzed": 23,
+    "total_edges": 262
+  },
+  "authoritative": {
+    "section_id": "section-13",
+    "rationale": "Section \"3.2 Data Protection Officers and Contacts\" has highest property count (2 Name&Role) (officer section)"
+  },
+  "suggested_updates": [
+    {
+      "target_section": "section-0",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Information Officer",
+          "person": "David Lee",
+          "span": {
+            "start": 2437,
+            "end": 2450
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Chief Information Officer",
+          "person": "Cio David Lee",
+          "span": {
+            "start": 2436,
+            "end": 2477
+          },
+          "conf": 0.9
+        }
+      ],
+      "confidence": 0.47200000000000003,
+      "anchor": "Controller: Delta Pharma Corp., a Delaware corporation",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-13",
+        "spans": [
+          {
+            "start": 2437,
+            "end": 2450
+          },
+          {
+            "start": 2436,
+            "end": 2477
+          }
+        ]
+      },
+      "rationale": "Missing 2 Name&Role properties found in authoritative section \"3.2 Data Protection Officers and Contacts\""
+    },
+    {
+      "target_section": "section-1",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Information Officer",
+          "person": "David Lee",
+          "span": {
+            "start": 2437,
+            "end": 2450
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Chief Information Officer",
+          "person": "Cio David Lee",
+          "span": {
+            "start": 2436,
+            "end": 2477
+          },
+          "conf": 0.9
+        }
+      ],
+      "confidence": 0.526,
+      "anchor": "",
+      "anchor_strategy": "beginning_of_section",
+      "evidence_from": {
+        "section": "section-13",
+        "spans": [
+          {
+            "start": 2437,
+            "end": 2450
+          },
+          {
+            "start": 2436,
+            "end": 2477
+          }
+        ]
+      },
+      "rationale": "Missing 2 Name&Role properties found in authoritative section \"3.2 Data Protection Officers and Contacts\""
+    },
+    {
+      "target_section": "section-2",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Information Officer",
+          "person": "David Lee",
+          "span": {
+            "start": 2437,
+            "end": 2450
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Chief Information Officer",
+          "person": "Cio David Lee",
+          "span": {
+            "start": 2436,
+            "end": 2477
+          },
+          "conf": 0.9
+        }
+      ],
+      "confidence": 0.47200000000000003,
+      "anchor": "",
+      "anchor_strategy": "beginning_of_section",
+      "evidence_from": {
+        "section": "section-13",
+        "spans": [
+          {
+            "start": 2437,
+            "end": 2450
+          },
+          {
+            "start": 2436,
+            "end": 2477
+          }
+        ]
+      },
+      "rationale": "Missing 2 Name&Role properties found in authoritative section \"3.2 Data Protection Officers and Contacts\""
+    },
+    {
+      "target_section": "section-4",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Information Officer",
+          "person": "David Lee",
+          "span": {
+            "start": 2437,
+            "end": 2450
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Chief Information Officer",
+          "person": "Cio David Lee",
+          "span": {
+            "start": 2436,
+            "end": 2477
+          },
+          "conf": 0.9
+        }
+      ],
+      "confidence": 0.47200000000000003,
+      "anchor": "-\ndressed",
+      "anchor_strategy": "after_last_list_item",
+      "evidence_from": {
+        "section": "section-13",
+        "spans": [
+          {
+            "start": 2437,
+            "end": 2450
+          },
+          {
+            "start": 2436,
+            "end": 2477
+          }
+        ]
+      },
+      "rationale": "Missing 2 Name&Role properties found in authoritative section \"3.2 Data Protection Officers and Contacts\""
+    },
+    {
+      "target_section": "section-5",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Information Officer",
+          "person": "David Lee",
+          "span": {
+            "start": 2437,
+            "end": 2450
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Chief Information Officer",
+          "person": "Cio David Lee",
+          "span": {
+            "start": 2436,
+            "end": 2477
+          },
+          "conf": 0.9
+        }
+      ],
+      "confidence": 0.47200000000000003,
+      "anchor": "",
+      "anchor_strategy": "beginning_of_section",
+      "evidence_from": {
+        "section": "section-13",
+        "spans": [
+          {
+            "start": 2437,
+            "end": 2450
+          },
+          {
+            "start": 2436,
+            "end": 2477
+          }
+        ]
+      },
+      "rationale": "Missing 2 Name&Role properties found in authoritative section \"3.2 Data Protection Officers and Contacts\""
+    },
+    {
+      "target_section": "section-6",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Information Officer",
+          "person": "David Lee",
+          "span": {
+            "start": 2437,
+            "end": 2450
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Chief Information Officer",
+          "person": "Cio David Lee",
+          "span": {
+            "start": 2436,
+            "end": 2477
+          },
+          "conf": 0.9
+        }
+      ],
+      "confidence": 0.47200000000000003,
+      "anchor": "The initial term of this DPA (the “Initial Term”) begins on March 15, 2024 and continues",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-13",
+        "spans": [
+          {
+            "start": 2437,
+            "end": 2450
+          },
+          {
+            "start": 2436,
+            "end": 2477
+          }
+        ]
+      },
+      "rationale": "Missing 2 Name&Role properties found in authoritative section \"3.2 Data Protection Officers and Contacts\""
+    },
+    {
+      "target_section": "section-7",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Information Officer",
+          "person": "David Lee",
+          "span": {
+            "start": 2437,
+            "end": 2450
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Chief Information Officer",
+          "person": "Cio David Lee",
+          "span": {
+            "start": 2436,
+            "end": 2477
+          },
+          "conf": 0.9
+        }
+      ],
+      "confidence": 0.47200000000000003,
+      "anchor": "1",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-13",
+        "spans": [
+          {
+            "start": 2437,
+            "end": 2450
+          },
+          {
+            "start": 2436,
+            "end": 2477
+          }
+        ]
+      },
+      "rationale": "Missing 2 Name&Role properties found in authoritative section \"3.2 Data Protection Officers and Contacts\""
+    },
+    {
+      "target_section": "section-8",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Information Officer",
+          "person": "David Lee",
+          "span": {
+            "start": 2437,
+            "end": 2450
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Chief Information Officer",
+          "person": "Cio David Lee",
+          "span": {
+            "start": 2436,
+            "end": 2477
+          },
+          "conf": 0.9
+        }
+      ],
+      "confidence": 0.47200000000000003,
+      "anchor": "Following the Initial Term, this DPA will automatically renew for successive twelve (12)",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-13",
+        "spans": [
+          {
+            "start": 2437,
+            "end": 2450
+          },
+          {
+            "start": 2436,
+            "end": 2477
+          }
+        ]
+      },
+      "rationale": "Missing 2 Name&Role properties found in authoritative section \"3.2 Data Protection Officers and Contacts\""
+    },
+    {
+      "target_section": "section-9",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Information Officer",
+          "person": "David Lee",
+          "span": {
+            "start": 2437,
+            "end": 2450
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Chief Information Officer",
+          "person": "Cio David Lee",
+          "span": {
+            "start": 2436,
+            "end": 2477
+          },
+          "conf": 0.9
+        }
+      ],
+      "confidence": 0.47200000000000003,
+      "anchor": "Either party may terminate this DPA for material breach upon thirty (30) days written",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-13",
+        "spans": [
+          {
+            "start": 2437,
+            "end": 2450
+          },
+          {
+            "start": 2436,
+            "end": 2477
+          }
+        ]
+      },
+      "rationale": "Missing 2 Name&Role properties found in authoritative section \"3.2 Data Protection Officers and Contacts\""
+    },
+    {
+      "target_section": "section-10",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Information Officer",
+          "person": "David Lee",
+          "span": {
+            "start": 2437,
+            "end": 2450
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Chief Information Officer",
+          "person": "Cio David Lee",
+          "span": {
+            "start": 2436,
+            "end": 2477
+          },
+          "conf": 0.9
+        }
+      ],
+      "confidence": 0.47200000000000003,
+      "anchor": "",
+      "anchor_strategy": "beginning_of_section",
+      "evidence_from": {
+        "section": "section-13",
+        "spans": [
+          {
+            "start": 2437,
+            "end": 2450
+          },
+          {
+            "start": 2436,
+            "end": 2477
+          }
+        ]
+      },
+      "rationale": "Missing 2 Name&Role properties found in authoritative section \"3.2 Data Protection Officers and Contacts\""
+    },
+    {
+      "target_section": "section-11",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Information Officer",
+          "person": "David Lee",
+          "span": {
+            "start": 2437,
+            "end": 2450
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Chief Information Officer",
+          "person": "Cio David Lee",
+          "span": {
+            "start": 2436,
+            "end": 2477
+          },
+          "conf": 0.9
+        }
+      ],
+      "confidence": 0.47200000000000003,
+      "anchor": "",
+      "anchor_strategy": "beginning_of_section",
+      "evidence_from": {
+        "section": "section-13",
+        "spans": [
+          {
+            "start": 2437,
+            "end": 2450
+          },
+          {
+            "start": 2436,
+            "end": 2477
+          }
+        ]
+      },
+      "rationale": "Missing 2 Name&Role properties found in authoritative section \"3.2 Data Protection Officers and Contacts\""
+    },
+    {
+      "target_section": "section-12",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Information Officer",
+          "person": "David Lee",
+          "span": {
+            "start": 2437,
+            "end": 2450
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Chief Information Officer",
+          "person": "Cio David Lee",
+          "span": {
+            "start": 2436,
+            "end": 2477
+          },
+          "conf": 0.9
+        }
+      ],
+      "confidence": 0.47200000000000003,
+      "anchor": "Processor will ingest Controller data sets, including pseudonymized patient records and",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-13",
+        "spans": [
+          {
+            "start": 2437,
+            "end": 2450
+          },
+          {
+            "start": 2436,
+            "end": 2477
+          }
+        ]
+      },
+      "rationale": "Missing 2 Name&Role properties found in authoritative section \"3.2 Data Protection Officers and Contacts\""
+    },
+    {
+      "target_section": "section-14",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Information Officer",
+          "person": "David Lee",
+          "span": {
+            "start": 2437,
+            "end": 2450
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Chief Information Officer",
+          "person": "Cio David Lee",
+          "span": {
+            "start": 2436,
+            "end": 2477
+          },
+          "conf": 0.9
+        }
+      ],
+      "confidence": 0.47200000000000003,
+      "anchor": "-\nrized",
+      "anchor_strategy": "after_last_list_item",
+      "evidence_from": {
+        "section": "section-13",
+        "spans": [
+          {
+            "start": 2437,
+            "end": 2450
+          },
+          {
+            "start": 2436,
+            "end": 2477
+          }
+        ]
+      },
+      "rationale": "Missing 2 Name&Role properties found in authoritative section \"3.2 Data Protection Officers and Contacts\""
+    },
+    {
+      "target_section": "section-15",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Information Officer",
+          "person": "David Lee",
+          "span": {
+            "start": 2437,
+            "end": 2450
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Chief Information Officer",
+          "person": "Cio David Lee",
+          "span": {
+            "start": 2436,
+            "end": 2477
+          },
+          "conf": 0.9
+        }
+      ],
+      "confidence": 0.47200000000000003,
+      "anchor": "",
+      "anchor_strategy": "beginning_of_section",
+      "evidence_from": {
+        "section": "section-13",
+        "spans": [
+          {
+            "start": 2437,
+            "end": 2450
+          },
+          {
+            "start": 2436,
+            "end": 2477
+          }
+        ]
+      },
+      "rationale": "Missing 2 Name&Role properties found in authoritative section \"3.2 Data Protection Officers and Contacts\""
+    },
+    {
+      "target_section": "section-16",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Information Officer",
+          "person": "David Lee",
+          "span": {
+            "start": 2437,
+            "end": 2450
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Chief Information Officer",
+          "person": "Cio David Lee",
+          "span": {
+            "start": 2436,
+            "end": 2477
+          },
+          "conf": 0.9
+        }
+      ],
+      "confidence": 0.47200000000000003,
+      "anchor": "Controller will pay an annual platform and services fee of USD $120,000 for the data",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-13",
+        "spans": [
+          {
+            "start": 2437,
+            "end": 2450
+          },
+          {
+            "start": 2436,
+            "end": 2477
+          }
+        ]
+      },
+      "rationale": "Missing 2 Name&Role properties found in authoritative section \"3.2 Data Protection Officers and Contacts\""
+    },
+    {
+      "target_section": "section-17",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Information Officer",
+          "person": "David Lee",
+          "span": {
+            "start": 2437,
+            "end": 2450
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Chief Information Officer",
+          "person": "Cio David Lee",
+          "span": {
+            "start": 2436,
+            "end": 2477
+          },
+          "conf": 0.9
+        }
+      ],
+      "confidence": 0.47200000000000003,
+      "anchor": "Processor will invoice Controller annually in advance. Controller must pay each undisputed",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-13",
+        "spans": [
+          {
+            "start": 2437,
+            "end": 2450
+          },
+          {
+            "start": 2436,
+            "end": 2477
+          }
+        ]
+      },
+      "rationale": "Missing 2 Name&Role properties found in authoritative section \"3.2 Data Protection Officers and Contacts\""
+    },
+    {
+      "target_section": "section-18",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Information Officer",
+          "person": "David Lee",
+          "span": {
+            "start": 2437,
+            "end": 2450
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Chief Information Officer",
+          "person": "Cio David Lee",
+          "span": {
+            "start": 2436,
+            "end": 2477
+          },
+          "conf": 0.9
+        }
+      ],
+      "confidence": 0.47200000000000003,
+      "anchor": "If monthly service uptime falls below 99.5%, Controller will be entitled to a service credit",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-13",
+        "spans": [
+          {
+            "start": 2437,
+            "end": 2450
+          },
+          {
+            "start": 2436,
+            "end": 2477
+          }
+        ]
+      },
+      "rationale": "Missing 2 Name&Role properties found in authoritative section \"3.2 Data Protection Officers and Contacts\""
+    },
+    {
+      "target_section": "section-19",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Information Officer",
+          "person": "David Lee",
+          "span": {
+            "start": 2437,
+            "end": 2450
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Chief Information Officer",
+          "person": "Cio David Lee",
+          "span": {
+            "start": 2436,
+            "end": 2477
+          },
+          "conf": 0.9
+        }
+      ],
+      "confidence": 0.47200000000000003,
+      "anchor": "If any undisputed amounts remain unpaid for more than sixty (60) days after the due date,",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-13",
+        "spans": [
+          {
+            "start": 2437,
+            "end": 2450
+          },
+          {
+            "start": 2436,
+            "end": 2477
+          }
+        ]
+      },
+      "rationale": "Missing 2 Name&Role properties found in authoritative section \"3.2 Data Protection Officers and Contacts\""
+    },
+    {
+      "target_section": "section-20",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Information Officer",
+          "person": "David Lee",
+          "span": {
+            "start": 2437,
+            "end": 2450
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Chief Information Officer",
+          "person": "Cio David Lee",
+          "span": {
+            "start": 2436,
+            "end": 2477
+          },
+          "conf": 0.9
+        }
+      ],
+      "confidence": 0.47200000000000003,
+      "anchor": "2024.\nGamma",
+      "anchor_strategy": "after_last_list_item",
+      "evidence_from": {
+        "section": "section-13",
+        "spans": [
+          {
+            "start": 2437,
+            "end": 2450
+          },
+          {
+            "start": 2436,
+            "end": 2477
+          }
+        ]
+      },
+      "rationale": "Missing 2 Name&Role properties found in authoritative section \"3.2 Data Protection Officers and Contacts\""
+    },
+    {
+      "target_section": "section-21",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Information Officer",
+          "person": "David Lee",
+          "span": {
+            "start": 2437,
+            "end": 2450
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Chief Information Officer",
+          "person": "Cio David Lee",
+          "span": {
+            "start": 2436,
+            "end": 2477
+          },
+          "conf": 0.9
+        }
+      ],
+      "confidence": 0.47200000000000003,
+      "anchor": "DPO Alice Smith",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-13",
+        "spans": [
+          {
+            "start": 2437,
+            "end": 2450
+          },
+          {
+            "start": 2436,
+            "end": 2477
+          }
+        ]
+      },
+      "rationale": "Missing 2 Name&Role properties found in authoritative section \"3.2 Data Protection Officers and Contacts\""
+    },
+    {
+      "target_section": "section-22",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Information Officer",
+          "person": "David Lee",
+          "span": {
+            "start": 2437,
+            "end": 2450
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Chief Information Officer",
+          "person": "Cio David Lee",
+          "span": {
+            "start": 2436,
+            "end": 2477
+          },
+          "conf": 0.9
+        }
+      ],
+      "confidence": 0.47200000000000003,
+      "anchor": "CFO Jonathan Reed",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-13",
+        "spans": [
+          {
+            "start": 2437,
+            "end": 2450
+          },
+          {
+            "start": 2436,
+            "end": 2477
+          }
+        ]
+      },
+      "rationale": "Missing 2 Name&Role properties found in authoritative section \"3.2 Data Protection Officers and Contacts\""
+    },
+    {
+      "target_section": "section-1",
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2024-03-15",
+          "surface": "March 15, 2024",
+          "span": {
+            "start": 272,
+            "end": 286
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "",
+      "anchor_strategy": "beginning_of_section",
+      "evidence_from": {
+        "section": "section-0",
+        "spans": [
+          {
+            "start": 272,
+            "end": 286
+          }
+        ]
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"Effective Date: March 15, 2024\""
+    },
+    {
+      "target_section": "section-2",
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2024-03-15",
+          "surface": "March 15, 2024",
+          "span": {
+            "start": 272,
+            "end": 286
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "",
+      "anchor_strategy": "beginning_of_section",
+      "evidence_from": {
+        "section": "section-0",
+        "spans": [
+          {
+            "start": 272,
+            "end": 286
+          }
+        ]
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"Effective Date: March 15, 2024\""
+    },
+    {
+      "target_section": "section-3",
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2024-03-15",
+          "surface": "March 15, 2024",
+          "span": {
+            "start": 272,
+            "end": 286
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "security, and operational oversight:",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-0",
+        "spans": [
+          {
+            "start": 272,
+            "end": 286
+          }
+        ]
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"Effective Date: March 15, 2024\""
+    },
+    {
+      "target_section": "section-4",
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2024-03-15",
+          "surface": "March 15, 2024",
+          "span": {
+            "start": 272,
+            "end": 286
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "All formal notices under this DPA must be sent in writing, referencing this DPA, and ad-",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-0",
+        "spans": [
+          {
+            "start": 272,
+            "end": 286
+          }
+        ]
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"Effective Date: March 15, 2024\""
+    },
+    {
+      "target_section": "section-5",
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2024-03-15",
+          "surface": "March 15, 2024",
+          "span": {
+            "start": 272,
+            "end": 286
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.46799999999999997,
+      "anchor": "",
+      "anchor_strategy": "beginning_of_section",
+      "evidence_from": {
+        "section": "section-0",
+        "spans": [
+          {
+            "start": 272,
+            "end": 286
+          }
+        ]
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"Effective Date: March 15, 2024\""
+    },
+    {
+      "target_section": "section-7",
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2024-03-15",
+          "surface": "March 15, 2024",
+          "span": {
+            "start": 272,
+            "end": 286
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "1",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-0",
+        "spans": [
+          {
+            "start": 272,
+            "end": 286
+          }
+        ]
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"Effective Date: March 15, 2024\""
+    },
+    {
+      "target_section": "section-8",
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2024-03-15",
+          "surface": "March 15, 2024",
+          "span": {
+            "start": 272,
+            "end": 286
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.46799999999999997,
+      "anchor": "Following the Initial Term, this DPA will automatically renew for successive twelve (12)",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-0",
+        "spans": [
+          {
+            "start": 272,
+            "end": 286
+          }
+        ]
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"Effective Date: March 15, 2024\""
+    },
+    {
+      "target_section": "section-9",
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2024-03-15",
+          "surface": "March 15, 2024",
+          "span": {
+            "start": 272,
+            "end": 286
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.46799999999999997,
+      "anchor": "Either party may terminate this DPA for material breach upon thirty (30) days written",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-0",
+        "spans": [
+          {
+            "start": 272,
+            "end": 286
+          }
+        ]
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"Effective Date: March 15, 2024\""
+    },
+    {
+      "target_section": "section-10",
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2024-03-15",
+          "surface": "March 15, 2024",
+          "span": {
+            "start": 272,
+            "end": 286
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "",
+      "anchor_strategy": "beginning_of_section",
+      "evidence_from": {
+        "section": "section-0",
+        "spans": [
+          {
+            "start": 272,
+            "end": 286
+          }
+        ]
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"Effective Date: March 15, 2024\""
+    },
+    {
+      "target_section": "section-11",
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2024-03-15",
+          "surface": "March 15, 2024",
+          "span": {
+            "start": 272,
+            "end": 286
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "",
+      "anchor_strategy": "beginning_of_section",
+      "evidence_from": {
+        "section": "section-0",
+        "spans": [
+          {
+            "start": 272,
+            "end": 286
+          }
+        ]
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"Effective Date: March 15, 2024\""
+    },
+    {
+      "target_section": "section-12",
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2024-03-15",
+          "surface": "March 15, 2024",
+          "span": {
+            "start": 272,
+            "end": 286
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "Processor will ingest Controller data sets, including pseudonymized patient records and",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-0",
+        "spans": [
+          {
+            "start": 272,
+            "end": 286
+          }
+        ]
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"Effective Date: March 15, 2024\""
+    },
+    {
+      "target_section": "section-13",
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2024-03-15",
+          "surface": "March 15, 2024",
+          "span": {
+            "start": 272,
+            "end": 286
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "The Processor officers overseeing implementation of the data protection program for Con-",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-0",
+        "spans": [
+          {
+            "start": 272,
+            "end": 286
+          }
+        ]
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"Effective Date: March 15, 2024\""
+    },
+    {
+      "target_section": "section-14",
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2024-03-15",
+          "surface": "March 15, 2024",
+          "span": {
+            "start": 272,
+            "end": 286
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "Processor will implement and maintain technical and organizational measures designed to",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-0",
+        "spans": [
+          {
+            "start": 272,
+            "end": 286
+          }
+        ]
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"Effective Date: March 15, 2024\""
+    },
+    {
+      "target_section": "section-15",
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2024-03-15",
+          "surface": "March 15, 2024",
+          "span": {
+            "start": 272,
+            "end": 286
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "",
+      "anchor_strategy": "beginning_of_section",
+      "evidence_from": {
+        "section": "section-0",
+        "spans": [
+          {
+            "start": 272,
+            "end": 286
+          }
+        ]
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"Effective Date: March 15, 2024\""
+    },
+    {
+      "target_section": "section-16",
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2024-03-15",
+          "surface": "March 15, 2024",
+          "span": {
+            "start": 272,
+            "end": 286
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "Controller will pay an annual platform and services fee of USD $120,000 for the data",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-0",
+        "spans": [
+          {
+            "start": 272,
+            "end": 286
+          }
+        ]
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"Effective Date: March 15, 2024\""
+    },
+    {
+      "target_section": "section-17",
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2024-03-15",
+          "surface": "March 15, 2024",
+          "span": {
+            "start": 272,
+            "end": 286
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "Processor will invoice Controller annually in advance. Controller must pay each undisputed",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-0",
+        "spans": [
+          {
+            "start": 272,
+            "end": 286
+          }
+        ]
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"Effective Date: March 15, 2024\""
+    },
+    {
+      "target_section": "section-18",
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2024-03-15",
+          "surface": "March 15, 2024",
+          "span": {
+            "start": 272,
+            "end": 286
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "If monthly service uptime falls below 99.5%, Controller will be entitled to a service credit",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-0",
+        "spans": [
+          {
+            "start": 272,
+            "end": 286
+          }
+        ]
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"Effective Date: March 15, 2024\""
+    },
+    {
+      "target_section": "section-19",
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2024-03-15",
+          "surface": "March 15, 2024",
+          "span": {
+            "start": 272,
+            "end": 286
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "If any undisputed amounts remain unpaid for more than sixty (60) days after the due date,",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-0",
+        "spans": [
+          {
+            "start": 272,
+            "end": 286
+          }
+        ]
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"Effective Date: March 15, 2024\""
+    },
+    {
+      "target_section": "section-20",
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2024-03-15",
+          "surface": "March 15, 2024",
+          "span": {
+            "start": 272,
+            "end": 286
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.46799999999999997,
+      "anchor": "The parties have executed this DPA as of 03/16/2024.",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-0",
+        "spans": [
+          {
+            "start": 272,
+            "end": 286
+          }
+        ]
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"Effective Date: March 15, 2024\""
+    },
+    {
+      "target_section": "section-21",
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2024-03-15",
+          "surface": "March 15, 2024",
+          "span": {
+            "start": 272,
+            "end": 286
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "DPO Alice Smith",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-0",
+        "spans": [
+          {
+            "start": 272,
+            "end": 286
+          }
+        ]
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"Effective Date: March 15, 2024\""
+    },
+    {
+      "target_section": "section-22",
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2024-03-15",
+          "surface": "March 15, 2024",
+          "span": {
+            "start": 272,
+            "end": 286
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "CFO Jonathan Reed",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-0",
+        "spans": [
+          {
+            "start": 272,
+            "end": 286
+          }
+        ]
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"Effective Date: March 15, 2024\""
+    },
+    {
+      "target_section": "section-0",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 12,
+          "unit": "month",
+          "qualifiers": "word_form: twelve",
+          "span": {
+            "start": 1615,
+            "end": 1632
+          },
+          "conf": 0.96
+        },
+        {
+          "name": "duration",
+          "value": 90,
+          "unit": "day",
+          "qualifiers": "word_form: ninety",
+          "span": {
+            "start": 1704,
+            "end": 1720
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "Controller: Delta Pharma Corp., a Delaware corporation",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-8",
+        "spans": [
+          {
+            "start": 1615,
+            "end": 1632
+          },
+          {
+            "start": 1704,
+            "end": 1720
+          }
+        ]
+      },
+      "rationale": "Missing 2 Terms properties found in authoritative section \"2.2 Renewal Term\""
+    },
+    {
+      "target_section": "section-1",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 12,
+          "unit": "month",
+          "qualifiers": "word_form: twelve",
+          "span": {
+            "start": 1615,
+            "end": 1632
+          },
+          "conf": 0.96
+        },
+        {
+          "name": "duration",
+          "value": 90,
+          "unit": "day",
+          "qualifiers": "word_form: ninety",
+          "span": {
+            "start": 1704,
+            "end": 1720
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "",
+      "anchor_strategy": "beginning_of_section",
+      "evidence_from": {
+        "section": "section-8",
+        "spans": [
+          {
+            "start": 1615,
+            "end": 1632
+          },
+          {
+            "start": 1704,
+            "end": 1720
+          }
+        ]
+      },
+      "rationale": "Missing 2 Terms properties found in authoritative section \"2.2 Renewal Term\""
+    },
+    {
+      "target_section": "section-2",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 12,
+          "unit": "month",
+          "qualifiers": "word_form: twelve",
+          "span": {
+            "start": 1615,
+            "end": 1632
+          },
+          "conf": 0.96
+        },
+        {
+          "name": "duration",
+          "value": 90,
+          "unit": "day",
+          "qualifiers": "word_form: ninety",
+          "span": {
+            "start": 1704,
+            "end": 1720
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "",
+      "anchor_strategy": "beginning_of_section",
+      "evidence_from": {
+        "section": "section-8",
+        "spans": [
+          {
+            "start": 1615,
+            "end": 1632
+          },
+          {
+            "start": 1704,
+            "end": 1720
+          }
+        ]
+      },
+      "rationale": "Missing 2 Terms properties found in authoritative section \"2.2 Renewal Term\""
+    },
+    {
+      "target_section": "section-3",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 12,
+          "unit": "month",
+          "qualifiers": "word_form: twelve",
+          "span": {
+            "start": 1615,
+            "end": 1632
+          },
+          "conf": 0.96
+        },
+        {
+          "name": "duration",
+          "value": 90,
+          "unit": "day",
+          "qualifiers": "word_form: ninety",
+          "span": {
+            "start": 1704,
+            "end": 1720
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "security, and operational oversight:",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-8",
+        "spans": [
+          {
+            "start": 1615,
+            "end": 1632
+          },
+          {
+            "start": 1704,
+            "end": 1720
+          }
+        ]
+      },
+      "rationale": "Missing 2 Terms properties found in authoritative section \"2.2 Renewal Term\""
+    },
+    {
+      "target_section": "section-4",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 12,
+          "unit": "month",
+          "qualifiers": "word_form: twelve",
+          "span": {
+            "start": 1615,
+            "end": 1632
+          },
+          "conf": 0.96
+        },
+        {
+          "name": "duration",
+          "value": 90,
+          "unit": "day",
+          "qualifiers": "word_form: ninety",
+          "span": {
+            "start": 1704,
+            "end": 1720
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "All formal notices under this DPA must be sent in writing, referencing this DPA, and ad-",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-8",
+        "spans": [
+          {
+            "start": 1615,
+            "end": 1632
+          },
+          {
+            "start": 1704,
+            "end": 1720
+          }
+        ]
+      },
+      "rationale": "Missing 2 Terms properties found in authoritative section \"2.2 Renewal Term\""
+    },
+    {
+      "target_section": "section-5",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 12,
+          "unit": "month",
+          "qualifiers": "word_form: twelve",
+          "span": {
+            "start": 1615,
+            "end": 1632
+          },
+          "conf": 0.96
+        },
+        {
+          "name": "duration",
+          "value": 90,
+          "unit": "day",
+          "qualifiers": "word_form: ninety",
+          "span": {
+            "start": 1704,
+            "end": 1720
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.46799999999999997,
+      "anchor": "",
+      "anchor_strategy": "beginning_of_section",
+      "evidence_from": {
+        "section": "section-8",
+        "spans": [
+          {
+            "start": 1615,
+            "end": 1632
+          },
+          {
+            "start": 1704,
+            "end": 1720
+          }
+        ]
+      },
+      "rationale": "Missing 2 Terms properties found in authoritative section \"2.2 Renewal Term\""
+    },
+    {
+      "target_section": "section-6",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 12,
+          "unit": "month",
+          "qualifiers": "word_form: twelve",
+          "span": {
+            "start": 1615,
+            "end": 1632
+          },
+          "conf": 0.96
+        },
+        {
+          "name": "duration",
+          "value": 90,
+          "unit": "day",
+          "qualifiers": "word_form: ninety",
+          "span": {
+            "start": 1704,
+            "end": 1720
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.46799999999999997,
+      "anchor": "The initial term of this DPA (the “Initial Term”) begins on March 15, 2024 and continues",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-8",
+        "spans": [
+          {
+            "start": 1615,
+            "end": 1632
+          },
+          {
+            "start": 1704,
+            "end": 1720
+          }
+        ]
+      },
+      "rationale": "Missing 2 Terms properties found in authoritative section \"2.2 Renewal Term\""
+    },
+    {
+      "target_section": "section-7",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 12,
+          "unit": "month",
+          "qualifiers": "word_form: twelve",
+          "span": {
+            "start": 1615,
+            "end": 1632
+          },
+          "conf": 0.96
+        },
+        {
+          "name": "duration",
+          "value": 90,
+          "unit": "day",
+          "qualifiers": "word_form: ninety",
+          "span": {
+            "start": 1704,
+            "end": 1720
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "1",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-8",
+        "spans": [
+          {
+            "start": 1615,
+            "end": 1632
+          },
+          {
+            "start": 1704,
+            "end": 1720
+          }
+        ]
+      },
+      "rationale": "Missing 2 Terms properties found in authoritative section \"2.2 Renewal Term\""
+    },
+    {
+      "target_section": "section-9",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 12,
+          "unit": "month",
+          "qualifiers": "word_form: twelve",
+          "span": {
+            "start": 1615,
+            "end": 1632
+          },
+          "conf": 0.96
+        },
+        {
+          "name": "duration",
+          "value": 90,
+          "unit": "day",
+          "qualifiers": "word_form: ninety",
+          "span": {
+            "start": 1704,
+            "end": 1720
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.46799999999999997,
+      "anchor": "Either party may terminate this DPA for material breach upon thirty (30) days written",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-8",
+        "spans": [
+          {
+            "start": 1615,
+            "end": 1632
+          },
+          {
+            "start": 1704,
+            "end": 1720
+          }
+        ]
+      },
+      "rationale": "Missing 2 Terms properties found in authoritative section \"2.2 Renewal Term\""
+    },
+    {
+      "target_section": "section-10",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 12,
+          "unit": "month",
+          "qualifiers": "word_form: twelve",
+          "span": {
+            "start": 1615,
+            "end": 1632
+          },
+          "conf": 0.96
+        },
+        {
+          "name": "duration",
+          "value": 90,
+          "unit": "day",
+          "qualifiers": "word_form: ninety",
+          "span": {
+            "start": 1704,
+            "end": 1720
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "",
+      "anchor_strategy": "beginning_of_section",
+      "evidence_from": {
+        "section": "section-8",
+        "spans": [
+          {
+            "start": 1615,
+            "end": 1632
+          },
+          {
+            "start": 1704,
+            "end": 1720
+          }
+        ]
+      },
+      "rationale": "Missing 2 Terms properties found in authoritative section \"2.2 Renewal Term\""
+    },
+    {
+      "target_section": "section-11",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 12,
+          "unit": "month",
+          "qualifiers": "word_form: twelve",
+          "span": {
+            "start": 1615,
+            "end": 1632
+          },
+          "conf": 0.96
+        },
+        {
+          "name": "duration",
+          "value": 90,
+          "unit": "day",
+          "qualifiers": "word_form: ninety",
+          "span": {
+            "start": 1704,
+            "end": 1720
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "",
+      "anchor_strategy": "beginning_of_section",
+      "evidence_from": {
+        "section": "section-8",
+        "spans": [
+          {
+            "start": 1615,
+            "end": 1632
+          },
+          {
+            "start": 1704,
+            "end": 1720
+          }
+        ]
+      },
+      "rationale": "Missing 2 Terms properties found in authoritative section \"2.2 Renewal Term\""
+    },
+    {
+      "target_section": "section-12",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 12,
+          "unit": "month",
+          "qualifiers": "word_form: twelve",
+          "span": {
+            "start": 1615,
+            "end": 1632
+          },
+          "conf": 0.96
+        },
+        {
+          "name": "duration",
+          "value": 90,
+          "unit": "day",
+          "qualifiers": "word_form: ninety",
+          "span": {
+            "start": 1704,
+            "end": 1720
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "Processor will ingest Controller data sets, including pseudonymized patient records and",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-8",
+        "spans": [
+          {
+            "start": 1615,
+            "end": 1632
+          },
+          {
+            "start": 1704,
+            "end": 1720
+          }
+        ]
+      },
+      "rationale": "Missing 2 Terms properties found in authoritative section \"2.2 Renewal Term\""
+    },
+    {
+      "target_section": "section-13",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 12,
+          "unit": "month",
+          "qualifiers": "word_form: twelve",
+          "span": {
+            "start": 1615,
+            "end": 1632
+          },
+          "conf": 0.96
+        },
+        {
+          "name": "duration",
+          "value": 90,
+          "unit": "day",
+          "qualifiers": "word_form: ninety",
+          "span": {
+            "start": 1704,
+            "end": 1720
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "The Processor officers overseeing implementation of the data protection program for Con-",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-8",
+        "spans": [
+          {
+            "start": 1615,
+            "end": 1632
+          },
+          {
+            "start": 1704,
+            "end": 1720
+          }
+        ]
+      },
+      "rationale": "Missing 2 Terms properties found in authoritative section \"2.2 Renewal Term\""
+    },
+    {
+      "target_section": "section-14",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 12,
+          "unit": "month",
+          "qualifiers": "word_form: twelve",
+          "span": {
+            "start": 1615,
+            "end": 1632
+          },
+          "conf": 0.96
+        },
+        {
+          "name": "duration",
+          "value": 90,
+          "unit": "day",
+          "qualifiers": "word_form: ninety",
+          "span": {
+            "start": 1704,
+            "end": 1720
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "Processor will implement and maintain technical and organizational measures designed to",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-8",
+        "spans": [
+          {
+            "start": 1615,
+            "end": 1632
+          },
+          {
+            "start": 1704,
+            "end": 1720
+          }
+        ]
+      },
+      "rationale": "Missing 2 Terms properties found in authoritative section \"2.2 Renewal Term\""
+    },
+    {
+      "target_section": "section-15",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 12,
+          "unit": "month",
+          "qualifiers": "word_form: twelve",
+          "span": {
+            "start": 1615,
+            "end": 1632
+          },
+          "conf": 0.96
+        },
+        {
+          "name": "duration",
+          "value": 90,
+          "unit": "day",
+          "qualifiers": "word_form: ninety",
+          "span": {
+            "start": 1704,
+            "end": 1720
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.46799999999999997,
+      "anchor": "",
+      "anchor_strategy": "beginning_of_section",
+      "evidence_from": {
+        "section": "section-8",
+        "spans": [
+          {
+            "start": 1615,
+            "end": 1632
+          },
+          {
+            "start": 1704,
+            "end": 1720
+          }
+        ]
+      },
+      "rationale": "Missing 2 Terms properties found in authoritative section \"2.2 Renewal Term\""
+    },
+    {
+      "target_section": "section-16",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 12,
+          "unit": "month",
+          "qualifiers": "word_form: twelve",
+          "span": {
+            "start": 1615,
+            "end": 1632
+          },
+          "conf": 0.96
+        },
+        {
+          "name": "duration",
+          "value": 90,
+          "unit": "day",
+          "qualifiers": "word_form: ninety",
+          "span": {
+            "start": 1704,
+            "end": 1720
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.46799999999999997,
+      "anchor": "Controller will pay an annual platform and services fee of USD $120,000 for the data",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-8",
+        "spans": [
+          {
+            "start": 1615,
+            "end": 1632
+          },
+          {
+            "start": 1704,
+            "end": 1720
+          }
+        ]
+      },
+      "rationale": "Missing 2 Terms properties found in authoritative section \"2.2 Renewal Term\""
+    },
+    {
+      "target_section": "section-17",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 12,
+          "unit": "month",
+          "qualifiers": "word_form: twelve",
+          "span": {
+            "start": 1615,
+            "end": 1632
+          },
+          "conf": 0.96
+        },
+        {
+          "name": "duration",
+          "value": 90,
+          "unit": "day",
+          "qualifiers": "word_form: ninety",
+          "span": {
+            "start": 1704,
+            "end": 1720
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.46799999999999997,
+      "anchor": "Processor will invoice Controller annually in advance. Controller must pay each undisputed",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-8",
+        "spans": [
+          {
+            "start": 1615,
+            "end": 1632
+          },
+          {
+            "start": 1704,
+            "end": 1720
+          }
+        ]
+      },
+      "rationale": "Missing 2 Terms properties found in authoritative section \"2.2 Renewal Term\""
+    },
+    {
+      "target_section": "section-18",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 12,
+          "unit": "month",
+          "qualifiers": "word_form: twelve",
+          "span": {
+            "start": 1615,
+            "end": 1632
+          },
+          "conf": 0.96
+        },
+        {
+          "name": "duration",
+          "value": 90,
+          "unit": "day",
+          "qualifiers": "word_form: ninety",
+          "span": {
+            "start": 1704,
+            "end": 1720
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "If monthly service uptime falls below 99.5%, Controller will be entitled to a service credit",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-8",
+        "spans": [
+          {
+            "start": 1615,
+            "end": 1632
+          },
+          {
+            "start": 1704,
+            "end": 1720
+          }
+        ]
+      },
+      "rationale": "Missing 2 Terms properties found in authoritative section \"2.2 Renewal Term\""
+    },
+    {
+      "target_section": "section-19",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 12,
+          "unit": "month",
+          "qualifiers": "word_form: twelve",
+          "span": {
+            "start": 1615,
+            "end": 1632
+          },
+          "conf": 0.96
+        },
+        {
+          "name": "duration",
+          "value": 90,
+          "unit": "day",
+          "qualifiers": "word_form: ninety",
+          "span": {
+            "start": 1704,
+            "end": 1720
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.46799999999999997,
+      "anchor": "If any undisputed amounts remain unpaid for more than sixty (60) days after the due date,",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-8",
+        "spans": [
+          {
+            "start": 1615,
+            "end": 1632
+          },
+          {
+            "start": 1704,
+            "end": 1720
+          }
+        ]
+      },
+      "rationale": "Missing 2 Terms properties found in authoritative section \"2.2 Renewal Term\""
+    },
+    {
+      "target_section": "section-20",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 12,
+          "unit": "month",
+          "qualifiers": "word_form: twelve",
+          "span": {
+            "start": 1615,
+            "end": 1632
+          },
+          "conf": 0.96
+        },
+        {
+          "name": "duration",
+          "value": 90,
+          "unit": "day",
+          "qualifiers": "word_form: ninety",
+          "span": {
+            "start": 1704,
+            "end": 1720
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "The parties have executed this DPA as of 03/16/2024.",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-8",
+        "spans": [
+          {
+            "start": 1615,
+            "end": 1632
+          },
+          {
+            "start": 1704,
+            "end": 1720
+          }
+        ]
+      },
+      "rationale": "Missing 2 Terms properties found in authoritative section \"2.2 Renewal Term\""
+    },
+    {
+      "target_section": "section-21",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 12,
+          "unit": "month",
+          "qualifiers": "word_form: twelve",
+          "span": {
+            "start": 1615,
+            "end": 1632
+          },
+          "conf": 0.96
+        },
+        {
+          "name": "duration",
+          "value": 90,
+          "unit": "day",
+          "qualifiers": "word_form: ninety",
+          "span": {
+            "start": 1704,
+            "end": 1720
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "DPO Alice Smith",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-8",
+        "spans": [
+          {
+            "start": 1615,
+            "end": 1632
+          },
+          {
+            "start": 1704,
+            "end": 1720
+          }
+        ]
+      },
+      "rationale": "Missing 2 Terms properties found in authoritative section \"2.2 Renewal Term\""
+    },
+    {
+      "target_section": "section-22",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 12,
+          "unit": "month",
+          "qualifiers": "word_form: twelve",
+          "span": {
+            "start": 1615,
+            "end": 1632
+          },
+          "conf": 0.96
+        },
+        {
+          "name": "duration",
+          "value": 90,
+          "unit": "day",
+          "qualifiers": "word_form: ninety",
+          "span": {
+            "start": 1704,
+            "end": 1720
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "CFO Jonathan Reed",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-8",
+        "spans": [
+          {
+            "start": 1615,
+            "end": 1632
+          },
+          {
+            "start": 1704,
+            "end": 1720
+          }
+        ]
+      },
+      "rationale": "Missing 2 Terms properties found in authoritative section \"2.2 Renewal Term\""
+    }
+  ],
+  "unchanged": [
+    {
+      "property_type": "Date",
+      "sections": [
+        "section-0",
+        "section-6"
+      ]
+    },
+    {
+      "property_type": "Terms",
+      "sections": [
+        "section-9",
+        "section-17"
+      ]
+    }
+  ],
+  "validation_results": {
+    "passed": 1,
+    "failed": 2,
+    "total": 3
+  }
+}

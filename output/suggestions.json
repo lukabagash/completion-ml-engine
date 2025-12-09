@@ -1,0 +1,2100 @@
+{
+  "metadata": {
+    "timestamp": "2025-12-08T03:43:15.004Z",
+    "document": "mock_legal_agreement.pdf",
+    "sections_analyzed": 23,
+    "total_edges": 280
+  },
+  "authoritative": {
+    "section_id": "section-3",
+    "section_title": "For purposes of this Agreement, the following individuals are designated as officers respon-",
+    "rationale": "Section \"For purposes of this Agreement, the following individuals are designated as officers respon-\" has highest property count (6 Name&Role) (designated officer section)"
+  },
+  "suggested_updates": [
+    {
+      "target_section": {
+        "id": "section-0",
+        "title": "Effective Date:  January 1, 2025"
+      },
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Technology Officer",
+          "person": "John Doe"
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Mark Miller"
+        },
+        {
+          "role": "Associate",
+          "person": "Brian Brown"
+        },
+        {
+          "role": "Chief Technology Officer",
+          "person": "Cto John Doe"
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Cfo Mark Miller"
+        },
+        {
+          "role": "Senior Associate",
+          "person": "Associate Brian Brown"
+        }
+      ],
+      "confidence": 0.47,
+      "anchor": {
+        "text": "-\nfacturing",
+        "strategy": "after_last_list_item"
+      },
+      "evidence_from": {
+        "section_id": "section-3",
+        "section_title": "For purposes of this Agreement, the following individuals are designated as officers respon-"
+      },
+      "rationale": "Missing 6 Name&Role properties found in authoritative section \"For purposes of this Agreement, the following individuals are designated as officers respon-\""
+    },
+    {
+      "target_section": {
+        "id": "section-1",
+        "title": "Section 1:  Parties, Officers, and Contacts"
+      },
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Technology Officer",
+          "person": "John Doe"
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Mark Miller"
+        },
+        {
+          "role": "Associate",
+          "person": "Brian Brown"
+        },
+        {
+          "role": "Chief Technology Officer",
+          "person": "Cto John Doe"
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Cfo Mark Miller"
+        },
+        {
+          "role": "Senior Associate",
+          "person": "Associate Brian Brown"
+        }
+      ],
+      "confidence": 0.53,
+      "anchor": {
+        "text": "",
+        "strategy": "beginning_of_section"
+      },
+      "evidence_from": {
+        "section_id": "section-3",
+        "section_title": "For purposes of this Agreement, the following individuals are designated as officers respon-"
+      },
+      "rationale": "Missing 6 Name&Role properties found in authoritative section \"For purposes of this Agreement, the following individuals are designated as officers respon-\""
+    },
+    {
+      "target_section": {
+        "id": "section-2",
+        "title": "1.1 Designated Officers"
+      },
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Technology Officer",
+          "person": "John Doe"
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Mark Miller"
+        },
+        {
+          "role": "Associate",
+          "person": "Brian Brown"
+        },
+        {
+          "role": "Chief Technology Officer",
+          "person": "Cto John Doe"
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Cfo Mark Miller"
+        },
+        {
+          "role": "Senior Associate",
+          "person": "Associate Brian Brown"
+        }
+      ],
+      "confidence": 0.53,
+      "anchor": {
+        "text": "",
+        "strategy": "beginning_of_section"
+      },
+      "evidence_from": {
+        "section_id": "section-3",
+        "section_title": "For purposes of this Agreement, the following individuals are designated as officers respon-"
+      },
+      "rationale": "Missing 6 Name&Role properties found in authoritative section \"For purposes of this Agreement, the following individuals are designated as officers respon-\""
+    },
+    {
+      "target_section": {
+        "id": "section-4",
+        "title": "notices, and to coordinate technical onboarding."
+      },
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Technology Officer",
+          "person": "John Doe"
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Mark Miller"
+        },
+        {
+          "role": "Associate",
+          "person": "Brian Brown"
+        },
+        {
+          "role": "Chief Technology Officer",
+          "person": "Cto John Doe"
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Cfo Mark Miller"
+        },
+        {
+          "role": "Senior Associate",
+          "person": "Associate Brian Brown"
+        }
+      ],
+      "confidence": 0.47,
+      "anchor": {
+        "text": "",
+        "strategy": "beginning_of_section"
+      },
+      "evidence_from": {
+        "section_id": "section-3",
+        "section_title": "For purposes of this Agreement, the following individuals are designated as officers respon-"
+      },
+      "rationale": "Missing 6 Name&Role properties found in authoritative section \"For purposes of this Agreement, the following individuals are designated as officers respon-\""
+    },
+    {
+      "target_section": {
+        "id": "section-5",
+        "title": "1.2 Notices"
+      },
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Technology Officer",
+          "person": "John Doe"
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Mark Miller"
+        },
+        {
+          "role": "Associate",
+          "person": "Brian Brown"
+        },
+        {
+          "role": "Chief Technology Officer",
+          "person": "Cto John Doe"
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Cfo Mark Miller"
+        },
+        {
+          "role": "Senior Associate",
+          "person": "Associate Brian Brown"
+        }
+      ],
+      "confidence": 0.47,
+      "anchor": {
+        "text": "-\nment",
+        "strategy": "after_last_list_item"
+      },
+      "evidence_from": {
+        "section_id": "section-3",
+        "section_title": "For purposes of this Agreement, the following individuals are designated as officers respon-"
+      },
+      "rationale": "Missing 6 Name&Role properties found in authoritative section \"For purposes of this Agreement, the following individuals are designated as officers respon-\""
+    },
+    {
+      "target_section": {
+        "id": "section-6",
+        "title": "Section 2:  Term and Renewal"
+      },
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Technology Officer",
+          "person": "John Doe"
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Mark Miller"
+        },
+        {
+          "role": "Associate",
+          "person": "Brian Brown"
+        },
+        {
+          "role": "Chief Technology Officer",
+          "person": "Cto John Doe"
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Cfo Mark Miller"
+        },
+        {
+          "role": "Senior Associate",
+          "person": "Associate Brian Brown"
+        }
+      ],
+      "confidence": 0.47,
+      "anchor": {
+        "text": "",
+        "strategy": "beginning_of_section"
+      },
+      "evidence_from": {
+        "section_id": "section-3",
+        "section_title": "For purposes of this Agreement, the following individuals are designated as officers respon-"
+      },
+      "rationale": "Missing 6 Name&Role properties found in authoritative section \"For purposes of this Agreement, the following individuals are designated as officers respon-\""
+    },
+    {
+      "target_section": {
+        "id": "section-7",
+        "title": "2.1 Initial Term"
+      },
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Technology Officer",
+          "person": "John Doe"
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Mark Miller"
+        },
+        {
+          "role": "Associate",
+          "person": "Brian Brown"
+        },
+        {
+          "role": "Chief Technology Officer",
+          "person": "Cto John Doe"
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Cfo Mark Miller"
+        },
+        {
+          "role": "Senior Associate",
+          "person": "Associate Brian Brown"
+        }
+      ],
+      "confidence": 0.47,
+      "anchor": {
+        "text": "The  initial  term  of  this  Agreement  (the  “Initial  Term”)  begins  on  January  1,  2025  and",
+        "strategy": "after_heading"
+      },
+      "evidence_from": {
+        "section_id": "section-3",
+        "section_title": "For purposes of this Agreement, the following individuals are designated as officers respon-"
+      },
+      "rationale": "Missing 6 Name&Role properties found in authoritative section \"For purposes of this Agreement, the following individuals are designated as officers respon-\""
+    },
+    {
+      "target_section": {
+        "id": "section-8",
+        "title": "2.2 Renewal Term"
+      },
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Technology Officer",
+          "person": "John Doe"
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Mark Miller"
+        },
+        {
+          "role": "Associate",
+          "person": "Brian Brown"
+        },
+        {
+          "role": "Chief Technology Officer",
+          "person": "Cto John Doe"
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Cfo Mark Miller"
+        },
+        {
+          "role": "Senior Associate",
+          "person": "Associate Brian Brown"
+        }
+      ],
+      "confidence": 0.47,
+      "anchor": {
+        "text": "Following the Initial Term, this Agreement will automatically renew for successive twelve",
+        "strategy": "after_heading"
+      },
+      "evidence_from": {
+        "section_id": "section-3",
+        "section_title": "For purposes of this Agreement, the following individuals are designated as officers respon-"
+      },
+      "rationale": "Missing 6 Name&Role properties found in authoritative section \"For purposes of this Agreement, the following individuals are designated as officers respon-\""
+    },
+    {
+      "target_section": {
+        "id": "section-9",
+        "title": "2.3 Early Termination"
+      },
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Technology Officer",
+          "person": "John Doe"
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Mark Miller"
+        },
+        {
+          "role": "Associate",
+          "person": "Brian Brown"
+        },
+        {
+          "role": "Chief Technology Officer",
+          "person": "Cto John Doe"
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Cfo Mark Miller"
+        },
+        {
+          "role": "Senior Associate",
+          "person": "Associate Brian Brown"
+        }
+      ],
+      "confidence": 0.47,
+      "anchor": {
+        "text": "Either  party  may  terminate  this  Agreement  for  material  breach  upon thirty  (30)  days",
+        "strategy": "after_heading"
+      },
+      "evidence_from": {
+        "section_id": "section-3",
+        "section_title": "For purposes of this Agreement, the following individuals are designated as officers respon-"
+      },
+      "rationale": "Missing 6 Name&Role properties found in authoritative section \"For purposes of this Agreement, the following individuals are designated as officers respon-\""
+    },
+    {
+      "target_section": {
+        "id": "section-10",
+        "title": "Section 3:  Services, Data, and Responsibility"
+      },
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Technology Officer",
+          "person": "John Doe"
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Mark Miller"
+        },
+        {
+          "role": "Associate",
+          "person": "Brian Brown"
+        },
+        {
+          "role": "Chief Technology Officer",
+          "person": "Cto John Doe"
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Cfo Mark Miller"
+        },
+        {
+          "role": "Senior Associate",
+          "person": "Associate Brian Brown"
+        }
+      ],
+      "confidence": 0.47,
+      "anchor": {
+        "text": "",
+        "strategy": "beginning_of_section"
+      },
+      "evidence_from": {
+        "section_id": "section-3",
+        "section_title": "For purposes of this Agreement, the following individuals are designated as officers respon-"
+      },
+      "rationale": "Missing 6 Name&Role properties found in authoritative section \"For purposes of this Agreement, the following individuals are designated as officers respon-\""
+    },
+    {
+      "target_section": {
+        "id": "section-11",
+        "title": "3.1 Scope of Services"
+      },
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Technology Officer",
+          "person": "John Doe"
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Mark Miller"
+        },
+        {
+          "role": "Associate",
+          "person": "Brian Brown"
+        },
+        {
+          "role": "Chief Technology Officer",
+          "person": "Cto John Doe"
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Cfo Mark Miller"
+        },
+        {
+          "role": "Senior Associate",
+          "person": "Associate Brian Brown"
+        }
+      ],
+      "confidence": 0.47,
+      "anchor": {
+        "text": "-\nsand",
+        "strategy": "after_last_list_item"
+      },
+      "evidence_from": {
+        "section_id": "section-3",
+        "section_title": "For purposes of this Agreement, the following individuals are designated as officers respon-"
+      },
+      "rationale": "Missing 6 Name&Role properties found in authoritative section \"For purposes of this Agreement, the following individuals are designated as officers respon-\""
+    },
+    {
+      "target_section": {
+        "id": "section-12",
+        "title": "3.2 Responsible Officers for Implementation"
+      },
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Associate",
+          "person": "Brian Brown"
+        },
+        {
+          "role": "Senior Associate",
+          "person": "Associate Brian Brown"
+        }
+      ],
+      "confidence": 0.81,
+      "anchor": {
+        "text": "•  CFO",
+        "strategy": "after_last_list_item"
+      },
+      "evidence_from": {
+        "section_id": "section-3",
+        "section_title": "For purposes of this Agreement, the following individuals are designated as officers respon-"
+      },
+      "rationale": "Missing 2 Name&Role properties found in authoritative section \"For purposes of this Agreement, the following individuals are designated as officers respon-\""
+    },
+    {
+      "target_section": {
+        "id": "section-13",
+        "title": "For  purposes  of  this  Agreement,  the  officers  in  this  subsection  are  intended  to  match  the"
+      },
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Technology Officer",
+          "person": "John Doe"
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Mark Miller"
+        },
+        {
+          "role": "Chief Technology Officer",
+          "person": "Cto John Doe"
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Cfo Mark Miller"
+        },
+        {
+          "role": "Senior Associate",
+          "person": "Associate Brian Brown"
+        }
+      ],
+      "confidence": 0.6,
+      "anchor": {
+        "text": "1.  Associate",
+        "strategy": "after_last_list_item"
+      },
+      "evidence_from": {
+        "section_id": "section-3",
+        "section_title": "For purposes of this Agreement, the following individuals are designated as officers respon-"
+      },
+      "rationale": "Missing 5 Name&Role properties found in authoritative section \"For purposes of this Agreement, the following individuals are designated as officers respon-\""
+    },
+    {
+      "target_section": {
+        "id": "section-14",
+        "title": "3.3 Data Processing"
+      },
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Technology Officer",
+          "person": "John Doe"
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Mark Miller"
+        },
+        {
+          "role": "Associate",
+          "person": "Brian Brown"
+        },
+        {
+          "role": "Chief Technology Officer",
+          "person": "Cto John Doe"
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Cfo Mark Miller"
+        },
+        {
+          "role": "Senior Associate",
+          "person": "Associate Brian Brown"
+        }
+      ],
+      "confidence": 0.47,
+      "anchor": {
+        "text": "Provider  will  process  Client  data  solely  for  the  purpose  of  delivering  the  services  und",
+        "strategy": "after_heading"
+      },
+      "evidence_from": {
+        "section_id": "section-3",
+        "section_title": "For purposes of this Agreement, the following individuals are designated as officers respon-"
+      },
+      "rationale": "Missing 6 Name&Role properties found in authoritative section \"For purposes of this Agreement, the following individuals are designated as officers respon-\""
+    },
+    {
+      "target_section": {
+        "id": "section-15",
+        "title": "Section 4:  Fees and Payment Terms"
+      },
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Technology Officer",
+          "person": "John Doe"
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Mark Miller"
+        },
+        {
+          "role": "Associate",
+          "person": "Brian Brown"
+        },
+        {
+          "role": "Chief Technology Officer",
+          "person": "Cto John Doe"
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Cfo Mark Miller"
+        },
+        {
+          "role": "Senior Associate",
+          "person": "Associate Brian Brown"
+        }
+      ],
+      "confidence": 0.47,
+      "anchor": {
+        "text": "",
+        "strategy": "beginning_of_section"
+      },
+      "evidence_from": {
+        "section_id": "section-3",
+        "section_title": "For purposes of this Agreement, the following individuals are designated as officers respon-"
+      },
+      "rationale": "Missing 6 Name&Role properties found in authoritative section \"For purposes of this Agreement, the following individuals are designated as officers respon-\""
+    },
+    {
+      "target_section": {
+        "id": "section-16",
+        "title": "4.1 Subscription Fees"
+      },
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Technology Officer",
+          "person": "John Doe"
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Mark Miller"
+        },
+        {
+          "role": "Associate",
+          "person": "Brian Brown"
+        },
+        {
+          "role": "Chief Technology Officer",
+          "person": "Cto John Doe"
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Cfo Mark Miller"
+        },
+        {
+          "role": "Senior Associate",
+          "person": "Associate Brian Brown"
+        }
+      ],
+      "confidence": 0.47,
+      "anchor": {
+        "text": "Client will pay a recurring platform subscription fee of USD$25,000 per contract year.",
+        "strategy": "after_heading"
+      },
+      "evidence_from": {
+        "section_id": "section-3",
+        "section_title": "For purposes of this Agreement, the following individuals are designated as officers respon-"
+      },
+      "rationale": "Missing 6 Name&Role properties found in authoritative section \"For purposes of this Agreement, the following individuals are designated as officers respon-\""
+    },
+    {
+      "target_section": {
+        "id": "section-17",
+        "title": "For clarity, a contract year is a twelve (12) month period beginning on the Effective Date"
+      },
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Technology Officer",
+          "person": "John Doe"
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Mark Miller"
+        },
+        {
+          "role": "Associate",
+          "person": "Brian Brown"
+        },
+        {
+          "role": "Chief Technology Officer",
+          "person": "Cto John Doe"
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Cfo Mark Miller"
+        },
+        {
+          "role": "Senior Associate",
+          "person": "Associate Brian Brown"
+        }
+      ],
+      "confidence": 0.47,
+      "anchor": {
+        "text": "and on each anniversary of the Effective Date.",
+        "strategy": "after_heading"
+      },
+      "evidence_from": {
+        "section_id": "section-3",
+        "section_title": "For purposes of this Agreement, the following individuals are designated as officers respon-"
+      },
+      "rationale": "Missing 6 Name&Role properties found in authoritative section \"For purposes of this Agreement, the following individuals are designated as officers respon-\""
+    },
+    {
+      "target_section": {
+        "id": "section-18",
+        "title": "4.2 Invoicing and Payment"
+      },
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Technology Officer",
+          "person": "John Doe"
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Mark Miller"
+        },
+        {
+          "role": "Associate",
+          "person": "Brian Brown"
+        },
+        {
+          "role": "Chief Technology Officer",
+          "person": "Cto John Doe"
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Cfo Mark Miller"
+        },
+        {
+          "role": "Senior Associate",
+          "person": "Associate Brian Brown"
+        }
+      ],
+      "confidence": 0.47,
+      "anchor": {
+        "text": "Provider will invoice Client annually in advance.  Client must pay each undisputed invoice",
+        "strategy": "after_heading"
+      },
+      "evidence_from": {
+        "section_id": "section-3",
+        "section_title": "For purposes of this Agreement, the following individuals are designated as officers respon-"
+      },
+      "rationale": "Missing 6 Name&Role properties found in authoritative section \"For purposes of this Agreement, the following individuals are designated as officers respon-\""
+    },
+    {
+      "target_section": {
+        "id": "section-19",
+        "title": "4.3 Suspension for Non Payment"
+      },
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Technology Officer",
+          "person": "John Doe"
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Mark Miller"
+        },
+        {
+          "role": "Associate",
+          "person": "Brian Brown"
+        },
+        {
+          "role": "Chief Technology Officer",
+          "person": "Cto John Doe"
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Cfo Mark Miller"
+        },
+        {
+          "role": "Senior Associate",
+          "person": "Associate Brian Brown"
+        }
+      ],
+      "confidence": 0.47,
+      "anchor": {
+        "text": "If  any  undisputed  amounts  remain  unpaid  for  more  than sixty  (60)  days  after  the  due",
+        "strategy": "after_heading"
+      },
+      "evidence_from": {
+        "section_id": "section-3",
+        "section_title": "For purposes of this Agreement, the following individuals are designated as officers respon-"
+      },
+      "rationale": "Missing 6 Name&Role properties found in authoritative section \"For purposes of this Agreement, the following individuals are designated as officers respon-\""
+    },
+    {
+      "target_section": {
+        "id": "section-20",
+        "title": "Section 5:  Signatures"
+      },
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Technology Officer",
+          "person": "John Doe"
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Mark Miller"
+        },
+        {
+          "role": "Associate",
+          "person": "Brian Brown"
+        },
+        {
+          "role": "Chief Technology Officer",
+          "person": "Cto John Doe"
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Cfo Mark Miller"
+        },
+        {
+          "role": "Senior Associate",
+          "person": "Associate Brian Brown"
+        }
+      ],
+      "confidence": 0.47,
+      "anchor": {
+        "text": "2025.\nAlpha",
+        "strategy": "after_last_list_item"
+      },
+      "evidence_from": {
+        "section_id": "section-3",
+        "section_title": "For purposes of this Agreement, the following individuals are designated as officers respon-"
+      },
+      "rationale": "Missing 6 Name&Role properties found in authoritative section \"For purposes of this Agreement, the following individuals are designated as officers respon-\""
+    },
+    {
+      "target_section": {
+        "id": "section-21",
+        "title": "By:"
+      },
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Technology Officer",
+          "person": "John Doe"
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Mark Miller"
+        },
+        {
+          "role": "Associate",
+          "person": "Brian Brown"
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Cfo Mark Miller"
+        },
+        {
+          "role": "Senior Associate",
+          "person": "Associate Brian Brown"
+        }
+      ],
+      "confidence": 0.54,
+      "anchor": {
+        "text": "CTO John Doe",
+        "strategy": "after_heading"
+      },
+      "evidence_from": {
+        "section_id": "section-3",
+        "section_title": "For purposes of this Agreement, the following individuals are designated as officers respon-"
+      },
+      "rationale": "Missing 5 Name&Role properties found in authoritative section \"For purposes of this Agreement, the following individuals are designated as officers respon-\""
+    },
+    {
+      "target_section": {
+        "id": "section-22",
+        "title": "By:"
+      },
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Technology Officer",
+          "person": "John Doe"
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Mark Miller"
+        },
+        {
+          "role": "Associate",
+          "person": "Brian Brown"
+        },
+        {
+          "role": "Chief Technology Officer",
+          "person": "Cto John Doe"
+        },
+        {
+          "role": "Senior Associate",
+          "person": "Associate Brian Brown"
+        }
+      ],
+      "confidence": 0.54,
+      "anchor": {
+        "text": "CFO Mark Miller",
+        "strategy": "after_heading"
+      },
+      "evidence_from": {
+        "section_id": "section-3",
+        "section_title": "For purposes of this Agreement, the following individuals are designated as officers respon-"
+      },
+      "rationale": "Missing 5 Name&Role properties found in authoritative section \"For purposes of this Agreement, the following individuals are designated as officers respon-\""
+    },
+    {
+      "target_section": {
+        "id": "section-1",
+        "title": "Section 1:  Parties, Officers, and Contacts"
+      },
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2025-01-01",
+          "surface": "January 1,  2025"
+        }
+      ],
+      "confidence": 0.43,
+      "anchor": {
+        "text": "",
+        "strategy": "beginning_of_section"
+      },
+      "evidence_from": {
+        "section_id": "section-0",
+        "section_title": "Effective Date:  January 1, 2025"
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"Effective Date:  January 1, 2025\""
+    },
+    {
+      "target_section": {
+        "id": "section-2",
+        "title": "1.1 Designated Officers"
+      },
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2025-01-01",
+          "surface": "January 1,  2025"
+        }
+      ],
+      "confidence": 0.43,
+      "anchor": {
+        "text": "",
+        "strategy": "beginning_of_section"
+      },
+      "evidence_from": {
+        "section_id": "section-0",
+        "section_title": "Effective Date:  January 1, 2025"
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"Effective Date:  January 1, 2025\""
+    },
+    {
+      "target_section": {
+        "id": "section-3",
+        "title": "For purposes of this Agreement, the following individuals are designated as officers respon-"
+      },
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2025-01-01",
+          "surface": "January 1,  2025"
+        }
+      ],
+      "confidence": 0.43,
+      "anchor": {
+        "text": "sible for administration of the services:",
+        "strategy": "after_heading"
+      },
+      "evidence_from": {
+        "section_id": "section-0",
+        "section_title": "Effective Date:  January 1, 2025"
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"Effective Date:  January 1, 2025\""
+    },
+    {
+      "target_section": {
+        "id": "section-4",
+        "title": "notices, and to coordinate technical onboarding."
+      },
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2025-01-01",
+          "surface": "January 1,  2025"
+        }
+      ],
+      "confidence": 0.43,
+      "anchor": {
+        "text": "",
+        "strategy": "beginning_of_section"
+      },
+      "evidence_from": {
+        "section_id": "section-0",
+        "section_title": "Effective Date:  January 1, 2025"
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"Effective Date:  January 1, 2025\""
+    },
+    {
+      "target_section": {
+        "id": "section-5",
+        "title": "1.2 Notices"
+      },
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2025-01-01",
+          "surface": "January 1,  2025"
+        }
+      ],
+      "confidence": 0.43,
+      "anchor": {
+        "text": "All  formal  notices  under  this  Agreement  must  be  sent  in  writing,  referencing  this  Agree",
+        "strategy": "after_heading"
+      },
+      "evidence_from": {
+        "section_id": "section-0",
+        "section_title": "Effective Date:  January 1, 2025"
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"Effective Date:  January 1, 2025\""
+    },
+    {
+      "target_section": {
+        "id": "section-6",
+        "title": "Section 2:  Term and Renewal"
+      },
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2025-01-01",
+          "surface": "January 1,  2025"
+        }
+      ],
+      "confidence": 0.47,
+      "anchor": {
+        "text": "",
+        "strategy": "beginning_of_section"
+      },
+      "evidence_from": {
+        "section_id": "section-0",
+        "section_title": "Effective Date:  January 1, 2025"
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"Effective Date:  January 1, 2025\""
+    },
+    {
+      "target_section": {
+        "id": "section-8",
+        "title": "2.2 Renewal Term"
+      },
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2025-01-01",
+          "surface": "January 1,  2025"
+        }
+      ],
+      "confidence": 0.47,
+      "anchor": {
+        "text": "Following the Initial Term, this Agreement will automatically renew for successive twelve",
+        "strategy": "after_heading"
+      },
+      "evidence_from": {
+        "section_id": "section-0",
+        "section_title": "Effective Date:  January 1, 2025"
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"Effective Date:  January 1, 2025\""
+    },
+    {
+      "target_section": {
+        "id": "section-9",
+        "title": "2.3 Early Termination"
+      },
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2025-01-01",
+          "surface": "January 1,  2025"
+        }
+      ],
+      "confidence": 0.47,
+      "anchor": {
+        "text": "Either  party  may  terminate  this  Agreement  for  material  breach  upon thirty  (30)  days",
+        "strategy": "after_heading"
+      },
+      "evidence_from": {
+        "section_id": "section-0",
+        "section_title": "Effective Date:  January 1, 2025"
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"Effective Date:  January 1, 2025\""
+    },
+    {
+      "target_section": {
+        "id": "section-10",
+        "title": "Section 3:  Services, Data, and Responsibility"
+      },
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2025-01-01",
+          "surface": "January 1,  2025"
+        }
+      ],
+      "confidence": 0.43,
+      "anchor": {
+        "text": "",
+        "strategy": "beginning_of_section"
+      },
+      "evidence_from": {
+        "section_id": "section-0",
+        "section_title": "Effective Date:  January 1, 2025"
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"Effective Date:  January 1, 2025\""
+    },
+    {
+      "target_section": {
+        "id": "section-11",
+        "title": "3.1 Scope of Services"
+      },
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2025-01-01",
+          "surface": "January 1,  2025"
+        }
+      ],
+      "confidence": 0.43,
+      "anchor": {
+        "text": "Provider will ingest Client documentation, including agreements that may exceed one thou-",
+        "strategy": "after_heading"
+      },
+      "evidence_from": {
+        "section_id": "section-0",
+        "section_title": "Effective Date:  January 1, 2025"
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"Effective Date:  January 1, 2025\""
+    },
+    {
+      "target_section": {
+        "id": "section-12",
+        "title": "3.2 Responsible Officers for Implementation"
+      },
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2025-01-01",
+          "surface": "January 1,  2025"
+        }
+      ],
+      "confidence": 0.43,
+      "anchor": {
+        "text": "The officers overseeing implementation of the AI analytics platform for Client are:",
+        "strategy": "after_heading"
+      },
+      "evidence_from": {
+        "section_id": "section-0",
+        "section_title": "Effective Date:  January 1, 2025"
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"Effective Date:  January 1, 2025\""
+    },
+    {
+      "target_section": {
+        "id": "section-13",
+        "title": "For  purposes  of  this  Agreement,  the  officers  in  this  subsection  are  intended  to  match  the"
+      },
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2025-01-01",
+          "surface": "January 1,  2025"
+        }
+      ],
+      "confidence": 0.43,
+      "anchor": {
+        "text": "officer roster identified in Section 1.1.  Associate Brian Brown supports implementation but",
+        "strategy": "after_heading"
+      },
+      "evidence_from": {
+        "section_id": "section-0",
+        "section_title": "Effective Date:  January 1, 2025"
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"Effective Date:  January 1, 2025\""
+    },
+    {
+      "target_section": {
+        "id": "section-14",
+        "title": "3.3 Data Processing"
+      },
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2025-01-01",
+          "surface": "January 1,  2025"
+        }
+      ],
+      "confidence": 0.43,
+      "anchor": {
+        "text": "Provider  will  process  Client  data  solely  for  the  purpose  of  delivering  the  services  und",
+        "strategy": "after_heading"
+      },
+      "evidence_from": {
+        "section_id": "section-0",
+        "section_title": "Effective Date:  January 1, 2025"
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"Effective Date:  January 1, 2025\""
+    },
+    {
+      "target_section": {
+        "id": "section-15",
+        "title": "Section 4:  Fees and Payment Terms"
+      },
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2025-01-01",
+          "surface": "January 1,  2025"
+        }
+      ],
+      "confidence": 0.47,
+      "anchor": {
+        "text": "",
+        "strategy": "beginning_of_section"
+      },
+      "evidence_from": {
+        "section_id": "section-0",
+        "section_title": "Effective Date:  January 1, 2025"
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"Effective Date:  January 1, 2025\""
+    },
+    {
+      "target_section": {
+        "id": "section-16",
+        "title": "4.1 Subscription Fees"
+      },
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2025-01-01",
+          "surface": "January 1,  2025"
+        }
+      ],
+      "confidence": 0.43,
+      "anchor": {
+        "text": "Client will pay a recurring platform subscription fee of USD$25,000 per contract year.",
+        "strategy": "after_heading"
+      },
+      "evidence_from": {
+        "section_id": "section-0",
+        "section_title": "Effective Date:  January 1, 2025"
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"Effective Date:  January 1, 2025\""
+    },
+    {
+      "target_section": {
+        "id": "section-17",
+        "title": "For clarity, a contract year is a twelve (12) month period beginning on the Effective Date"
+      },
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2025-01-01",
+          "surface": "January 1,  2025"
+        }
+      ],
+      "confidence": 0.47,
+      "anchor": {
+        "text": "and on each anniversary of the Effective Date.",
+        "strategy": "after_heading"
+      },
+      "evidence_from": {
+        "section_id": "section-0",
+        "section_title": "Effective Date:  January 1, 2025"
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"Effective Date:  January 1, 2025\""
+    },
+    {
+      "target_section": {
+        "id": "section-18",
+        "title": "4.2 Invoicing and Payment"
+      },
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2025-01-01",
+          "surface": "January 1,  2025"
+        }
+      ],
+      "confidence": 0.43,
+      "anchor": {
+        "text": "Provider will invoice Client annually in advance.  Client must pay each undisputed invoice",
+        "strategy": "after_heading"
+      },
+      "evidence_from": {
+        "section_id": "section-0",
+        "section_title": "Effective Date:  January 1, 2025"
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"Effective Date:  January 1, 2025\""
+    },
+    {
+      "target_section": {
+        "id": "section-19",
+        "title": "4.3 Suspension for Non Payment"
+      },
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2025-01-01",
+          "surface": "January 1,  2025"
+        }
+      ],
+      "confidence": 0.43,
+      "anchor": {
+        "text": "If  any  undisputed  amounts  remain  unpaid  for  more  than sixty  (60)  days  after  the  due",
+        "strategy": "after_heading"
+      },
+      "evidence_from": {
+        "section_id": "section-0",
+        "section_title": "Effective Date:  January 1, 2025"
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"Effective Date:  January 1, 2025\""
+    },
+    {
+      "target_section": {
+        "id": "section-21",
+        "title": "By:"
+      },
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2025-01-01",
+          "surface": "January 1,  2025"
+        }
+      ],
+      "confidence": 0.43,
+      "anchor": {
+        "text": "CTO John Doe",
+        "strategy": "after_heading"
+      },
+      "evidence_from": {
+        "section_id": "section-0",
+        "section_title": "Effective Date:  January 1, 2025"
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"Effective Date:  January 1, 2025\""
+    },
+    {
+      "target_section": {
+        "id": "section-22",
+        "title": "By:"
+      },
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2025-01-01",
+          "surface": "January 1,  2025"
+        }
+      ],
+      "confidence": 0.43,
+      "anchor": {
+        "text": "CFO Mark Miller",
+        "strategy": "after_heading"
+      },
+      "evidence_from": {
+        "section_id": "section-0",
+        "section_title": "Effective Date:  January 1, 2025"
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"Effective Date:  January 1, 2025\""
+    },
+    {
+      "target_section": {
+        "id": "section-0",
+        "title": "Effective Date:  January 1, 2025"
+      },
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 12,
+          "unit": "month"
+        },
+        {
+          "name": "duration",
+          "value": 60,
+          "unit": "day"
+        }
+      ],
+      "confidence": 0.43,
+      "anchor": {
+        "text": "Client:  Beta Manufacturing, LLC, a Delaware limited liability company",
+        "strategy": "after_heading"
+      },
+      "evidence_from": {
+        "section_id": "section-8",
+        "section_title": "2.2 Renewal Term"
+      },
+      "rationale": "Missing 2 Terms properties found in authoritative section \"2.2 Renewal Term\""
+    },
+    {
+      "target_section": {
+        "id": "section-1",
+        "title": "Section 1:  Parties, Officers, and Contacts"
+      },
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 12,
+          "unit": "month"
+        },
+        {
+          "name": "duration",
+          "value": 60,
+          "unit": "day"
+        }
+      ],
+      "confidence": 0.43,
+      "anchor": {
+        "text": "",
+        "strategy": "beginning_of_section"
+      },
+      "evidence_from": {
+        "section_id": "section-8",
+        "section_title": "2.2 Renewal Term"
+      },
+      "rationale": "Missing 2 Terms properties found in authoritative section \"2.2 Renewal Term\""
+    },
+    {
+      "target_section": {
+        "id": "section-2",
+        "title": "1.1 Designated Officers"
+      },
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 12,
+          "unit": "month"
+        },
+        {
+          "name": "duration",
+          "value": 60,
+          "unit": "day"
+        }
+      ],
+      "confidence": 0.43,
+      "anchor": {
+        "text": "",
+        "strategy": "beginning_of_section"
+      },
+      "evidence_from": {
+        "section_id": "section-8",
+        "section_title": "2.2 Renewal Term"
+      },
+      "rationale": "Missing 2 Terms properties found in authoritative section \"2.2 Renewal Term\""
+    },
+    {
+      "target_section": {
+        "id": "section-3",
+        "title": "For purposes of this Agreement, the following individuals are designated as officers respon-"
+      },
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 12,
+          "unit": "month"
+        },
+        {
+          "name": "duration",
+          "value": 60,
+          "unit": "day"
+        }
+      ],
+      "confidence": 0.43,
+      "anchor": {
+        "text": "sible for administration of the services:",
+        "strategy": "after_heading"
+      },
+      "evidence_from": {
+        "section_id": "section-8",
+        "section_title": "2.2 Renewal Term"
+      },
+      "rationale": "Missing 2 Terms properties found in authoritative section \"2.2 Renewal Term\""
+    },
+    {
+      "target_section": {
+        "id": "section-4",
+        "title": "notices, and to coordinate technical onboarding."
+      },
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 12,
+          "unit": "month"
+        },
+        {
+          "name": "duration",
+          "value": 60,
+          "unit": "day"
+        }
+      ],
+      "confidence": 0.43,
+      "anchor": {
+        "text": "",
+        "strategy": "beginning_of_section"
+      },
+      "evidence_from": {
+        "section_id": "section-8",
+        "section_title": "2.2 Renewal Term"
+      },
+      "rationale": "Missing 2 Terms properties found in authoritative section \"2.2 Renewal Term\""
+    },
+    {
+      "target_section": {
+        "id": "section-5",
+        "title": "1.2 Notices"
+      },
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 12,
+          "unit": "month"
+        },
+        {
+          "name": "duration",
+          "value": 60,
+          "unit": "day"
+        }
+      ],
+      "confidence": 0.43,
+      "anchor": {
+        "text": "All  formal  notices  under  this  Agreement  must  be  sent  in  writing,  referencing  this  Agree",
+        "strategy": "after_heading"
+      },
+      "evidence_from": {
+        "section_id": "section-8",
+        "section_title": "2.2 Renewal Term"
+      },
+      "rationale": "Missing 2 Terms properties found in authoritative section \"2.2 Renewal Term\""
+    },
+    {
+      "target_section": {
+        "id": "section-6",
+        "title": "Section 2:  Term and Renewal"
+      },
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 12,
+          "unit": "month"
+        },
+        {
+          "name": "duration",
+          "value": 60,
+          "unit": "day"
+        }
+      ],
+      "confidence": 0.47,
+      "anchor": {
+        "text": "",
+        "strategy": "beginning_of_section"
+      },
+      "evidence_from": {
+        "section_id": "section-8",
+        "section_title": "2.2 Renewal Term"
+      },
+      "rationale": "Missing 2 Terms properties found in authoritative section \"2.2 Renewal Term\""
+    },
+    {
+      "target_section": {
+        "id": "section-7",
+        "title": "2.1 Initial Term"
+      },
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 12,
+          "unit": "month"
+        },
+        {
+          "name": "duration",
+          "value": 60,
+          "unit": "day"
+        }
+      ],
+      "confidence": 0.47,
+      "anchor": {
+        "text": "The  initial  term  of  this  Agreement  (the  “Initial  Term”)  begins  on  January  1,  2025  and",
+        "strategy": "after_heading"
+      },
+      "evidence_from": {
+        "section_id": "section-8",
+        "section_title": "2.2 Renewal Term"
+      },
+      "rationale": "Missing 2 Terms properties found in authoritative section \"2.2 Renewal Term\""
+    },
+    {
+      "target_section": {
+        "id": "section-9",
+        "title": "2.3 Early Termination"
+      },
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 12,
+          "unit": "month"
+        },
+        {
+          "name": "duration",
+          "value": 60,
+          "unit": "day"
+        }
+      ],
+      "confidence": 0.47,
+      "anchor": {
+        "text": "Either  party  may  terminate  this  Agreement  for  material  breach  upon thirty  (30)  days",
+        "strategy": "after_heading"
+      },
+      "evidence_from": {
+        "section_id": "section-8",
+        "section_title": "2.2 Renewal Term"
+      },
+      "rationale": "Missing 2 Terms properties found in authoritative section \"2.2 Renewal Term\""
+    },
+    {
+      "target_section": {
+        "id": "section-10",
+        "title": "Section 3:  Services, Data, and Responsibility"
+      },
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 12,
+          "unit": "month"
+        },
+        {
+          "name": "duration",
+          "value": 60,
+          "unit": "day"
+        }
+      ],
+      "confidence": 0.43,
+      "anchor": {
+        "text": "",
+        "strategy": "beginning_of_section"
+      },
+      "evidence_from": {
+        "section_id": "section-8",
+        "section_title": "2.2 Renewal Term"
+      },
+      "rationale": "Missing 2 Terms properties found in authoritative section \"2.2 Renewal Term\""
+    },
+    {
+      "target_section": {
+        "id": "section-11",
+        "title": "3.1 Scope of Services"
+      },
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 12,
+          "unit": "month"
+        },
+        {
+          "name": "duration",
+          "value": 60,
+          "unit": "day"
+        }
+      ],
+      "confidence": 0.43,
+      "anchor": {
+        "text": "Provider will ingest Client documentation, including agreements that may exceed one thou-",
+        "strategy": "after_heading"
+      },
+      "evidence_from": {
+        "section_id": "section-8",
+        "section_title": "2.2 Renewal Term"
+      },
+      "rationale": "Missing 2 Terms properties found in authoritative section \"2.2 Renewal Term\""
+    },
+    {
+      "target_section": {
+        "id": "section-12",
+        "title": "3.2 Responsible Officers for Implementation"
+      },
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 12,
+          "unit": "month"
+        },
+        {
+          "name": "duration",
+          "value": 60,
+          "unit": "day"
+        }
+      ],
+      "confidence": 0.43,
+      "anchor": {
+        "text": "The officers overseeing implementation of the AI analytics platform for Client are:",
+        "strategy": "after_heading"
+      },
+      "evidence_from": {
+        "section_id": "section-8",
+        "section_title": "2.2 Renewal Term"
+      },
+      "rationale": "Missing 2 Terms properties found in authoritative section \"2.2 Renewal Term\""
+    },
+    {
+      "target_section": {
+        "id": "section-13",
+        "title": "For  purposes  of  this  Agreement,  the  officers  in  this  subsection  are  intended  to  match  the"
+      },
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 12,
+          "unit": "month"
+        },
+        {
+          "name": "duration",
+          "value": 60,
+          "unit": "day"
+        }
+      ],
+      "confidence": 0.43,
+      "anchor": {
+        "text": "officer roster identified in Section 1.1.  Associate Brian Brown supports implementation but",
+        "strategy": "after_heading"
+      },
+      "evidence_from": {
+        "section_id": "section-8",
+        "section_title": "2.2 Renewal Term"
+      },
+      "rationale": "Missing 2 Terms properties found in authoritative section \"2.2 Renewal Term\""
+    },
+    {
+      "target_section": {
+        "id": "section-14",
+        "title": "3.3 Data Processing"
+      },
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 12,
+          "unit": "month"
+        },
+        {
+          "name": "duration",
+          "value": 60,
+          "unit": "day"
+        }
+      ],
+      "confidence": 0.43,
+      "anchor": {
+        "text": "Provider  will  process  Client  data  solely  for  the  purpose  of  delivering  the  services  und",
+        "strategy": "after_heading"
+      },
+      "evidence_from": {
+        "section_id": "section-8",
+        "section_title": "2.2 Renewal Term"
+      },
+      "rationale": "Missing 2 Terms properties found in authoritative section \"2.2 Renewal Term\""
+    },
+    {
+      "target_section": {
+        "id": "section-15",
+        "title": "Section 4:  Fees and Payment Terms"
+      },
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 12,
+          "unit": "month"
+        },
+        {
+          "name": "duration",
+          "value": 60,
+          "unit": "day"
+        }
+      ],
+      "confidence": 0.47,
+      "anchor": {
+        "text": "",
+        "strategy": "beginning_of_section"
+      },
+      "evidence_from": {
+        "section_id": "section-8",
+        "section_title": "2.2 Renewal Term"
+      },
+      "rationale": "Missing 2 Terms properties found in authoritative section \"2.2 Renewal Term\""
+    },
+    {
+      "target_section": {
+        "id": "section-16",
+        "title": "4.1 Subscription Fees"
+      },
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 12,
+          "unit": "month"
+        },
+        {
+          "name": "duration",
+          "value": 60,
+          "unit": "day"
+        }
+      ],
+      "confidence": 0.47,
+      "anchor": {
+        "text": "Client will pay a recurring platform subscription fee of USD$25,000 per contract year.",
+        "strategy": "after_heading"
+      },
+      "evidence_from": {
+        "section_id": "section-8",
+        "section_title": "2.2 Renewal Term"
+      },
+      "rationale": "Missing 2 Terms properties found in authoritative section \"2.2 Renewal Term\""
+    },
+    {
+      "target_section": {
+        "id": "section-17",
+        "title": "For clarity, a contract year is a twelve (12) month period beginning on the Effective Date"
+      },
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 12,
+          "unit": "month"
+        },
+        {
+          "name": "duration",
+          "value": 60,
+          "unit": "day"
+        }
+      ],
+      "confidence": 0.43,
+      "anchor": {
+        "text": "and on each anniversary of the Effective Date.",
+        "strategy": "after_heading"
+      },
+      "evidence_from": {
+        "section_id": "section-8",
+        "section_title": "2.2 Renewal Term"
+      },
+      "rationale": "Missing 2 Terms properties found in authoritative section \"2.2 Renewal Term\""
+    },
+    {
+      "target_section": {
+        "id": "section-18",
+        "title": "4.2 Invoicing and Payment"
+      },
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 12,
+          "unit": "month"
+        },
+        {
+          "name": "duration",
+          "value": 60,
+          "unit": "day"
+        }
+      ],
+      "confidence": 0.47,
+      "anchor": {
+        "text": "Provider will invoice Client annually in advance.  Client must pay each undisputed invoice",
+        "strategy": "after_heading"
+      },
+      "evidence_from": {
+        "section_id": "section-8",
+        "section_title": "2.2 Renewal Term"
+      },
+      "rationale": "Missing 2 Terms properties found in authoritative section \"2.2 Renewal Term\""
+    },
+    {
+      "target_section": {
+        "id": "section-19",
+        "title": "4.3 Suspension for Non Payment"
+      },
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 12,
+          "unit": "month"
+        }
+      ],
+      "confidence": 0.71,
+      "anchor": {
+        "text": "If  any  undisputed  amounts  remain  unpaid  for  more  than sixty  (60)  days  after  the  due",
+        "strategy": "after_heading"
+      },
+      "evidence_from": {
+        "section_id": "section-8",
+        "section_title": "2.2 Renewal Term"
+      },
+      "rationale": "Missing 1 Terms property found in authoritative section \"2.2 Renewal Term\""
+    },
+    {
+      "target_section": {
+        "id": "section-20",
+        "title": "Section 5:  Signatures"
+      },
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 12,
+          "unit": "month"
+        },
+        {
+          "name": "duration",
+          "value": 60,
+          "unit": "day"
+        }
+      ],
+      "confidence": 0.43,
+      "anchor": {
+        "text": "The parties have executed this Agreement as of 01/01/2025.",
+        "strategy": "after_heading"
+      },
+      "evidence_from": {
+        "section_id": "section-8",
+        "section_title": "2.2 Renewal Term"
+      },
+      "rationale": "Missing 2 Terms properties found in authoritative section \"2.2 Renewal Term\""
+    },
+    {
+      "target_section": {
+        "id": "section-21",
+        "title": "By:"
+      },
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 12,
+          "unit": "month"
+        },
+        {
+          "name": "duration",
+          "value": 60,
+          "unit": "day"
+        }
+      ],
+      "confidence": 0.43,
+      "anchor": {
+        "text": "CTO John Doe",
+        "strategy": "after_heading"
+      },
+      "evidence_from": {
+        "section_id": "section-8",
+        "section_title": "2.2 Renewal Term"
+      },
+      "rationale": "Missing 2 Terms properties found in authoritative section \"2.2 Renewal Term\""
+    },
+    {
+      "target_section": {
+        "id": "section-22",
+        "title": "By:"
+      },
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 12,
+          "unit": "month"
+        },
+        {
+          "name": "duration",
+          "value": 60,
+          "unit": "day"
+        }
+      ],
+      "confidence": 0.43,
+      "anchor": {
+        "text": "CFO Mark Miller",
+        "strategy": "after_heading"
+      },
+      "evidence_from": {
+        "section_id": "section-8",
+        "section_title": "2.2 Renewal Term"
+      },
+      "rationale": "Missing 2 Terms properties found in authoritative section \"2.2 Renewal Term\""
+    }
+  ],
+  "unchanged": [
+    {
+      "property_type": "Date",
+      "value": "2025-01-01",
+      "sections": [
+        "section-0",
+        "section-7"
+      ]
+    }
+  ]
+}
