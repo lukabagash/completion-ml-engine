@@ -93,7 +93,7 @@ describe('BasicSuggestionEngine', () => {
       expect(report.authoritative.rationale).toContain('3 Name&Role');
     });
 
-    it('should prefer officer sections with policy bonus', async () => {
+    it('should prefer sections with more properties (70/30 weighting)', async () => {
       const sections: Section[] = [
         {
           id: 'sec1',
@@ -140,8 +140,9 @@ describe('BasicSuggestionEngine', () => {
       const graph: SectionGraph = { nodes: sections, edges };
       const report = await engine.generateSuggestions(graph, inventory);
 
-      // sec2 should be preferred due to policy bonus (officer section)
-      expect(report.authoritative.section).toBe('sec2');
+      // sec1 should be preferred: 2 properties * 0.7 = 1.4 + policy * 0.3 = 1.5+ (total 1.9+)
+      // vs sec2: 1 property * 0.7 = 0.7 + policy * 0.3 = 1.2+ (total ~1.9, but sec1 wins on count)
+      expect(report.authoritative.section).toBe('sec1');
     });
   });
 

@@ -29,19 +29,22 @@ export class BasicSuggestionEngine implements ISuggestionEngine {
     inventory?: Map<string, SectionInventory>
   ): Promise<SuggestionsReport> {
     
-    // Step 1: Find authoritative sections for each property type
-    const authoritativeSections = this.findAuthoritativeSections(graph, inventory);
+    // Step 1: Find authority clusters (connected sections with matching properties)
+    const clusters = this.findAuthorityClusters(graph, inventory);
     
-    // Step 2: Compute deltas (missing properties) from edges
-    const deltas = this.computeDeltas(graph, authoritativeSections);
+    // Step 2: For each property type, select primary authority from cluster
+    const authoritativeSections = this.selectPrimaryAuthoritiesFromClusters(clusters, graph, inventory);
     
-    // Step 3: Generate suggestions for missing properties
+    // Step 3: Compute deltas using cluster information (not just single authority)
+    const deltas = this.computeDeltasFromClusters(clusters, graph, inventory);
+    
+    // Step 4: Generate suggestions for missing properties
     const suggestedUpdates = this.generateUpdateSuggestions(deltas, graph, inventory);
     
-    // Step 4: Identify unchanged properties (high-confidence matches)
+    // Step 5: Identify unchanged properties (high-confidence matches)
     const unchanged = this.identifyUnchangedProperties(graph);
     
-    // Step 5: Create final report
+    // Step 6: Create final report
     const primaryAuthoritative = authoritativeSections['Name&Role'] || 
                                  authoritativeSections['Date'] || 
                                  authoritativeSections['Terms'];
@@ -63,10 +66,91 @@ export class BasicSuggestionEngine implements ISuggestionEngine {
   }
 
   /**
-   * Find authoritative sections for each property type
-   * Based on property count and section type (policy bonuses)
+   * Find clusters of sections connected by matching properties
+   * Returns mapping of property type to list of clusters
    */
-  private findAuthoritativeSections(
+  private findAuthorityClusters(
+    graph: SectionGraph,
+    inventory?: Map<string, SectionInventory>
+  ): Record<string, string[][]> {
+    const clusters: Record<string, string[][]> = {
+      'Name&Role': [],
+      'Date': [],
+      'Terms': [],
+    };
+    
+    if (!inventory) return clusters;
+    
+    const propertyTypes: Array<'Name&Role' | 'Date' | 'Terms'> = ['Name&Role', 'Date', 'Terms'];
+    
+    for (const propType of propertyTypes) {
+      const visited = new Set<string>();
+      
+      // For each section with this property type
+      for (const [sectionId, inv] of inventory) {
+        if (visited.has(sectionId) || inv[propType].length === 0) continue;
+        
+        // BFS to find all connected sections
+        const cluster = this.buildClusterBFS(sectionId, propType, graph, inventory, visited);
+        if (cluster.length > 0) {
+          clusters[propType].push(cluster);
+        }
+      }
+    }
+    
+    return clusters;
+  }
+
+  /**
+   * Build a cluster of connected sections using BFS
+   */
+  private buildClusterBFS(
+    startSectionId: string,
+    propType: 'Name&Role' | 'Date' | 'Terms',
+    graph: SectionGraph,
+    inventory?: Map<string, SectionInventory>,
+    visited?: Set<string>
+  ): string[] {
+    const cluster: string[] = [];
+    const queue: string[] = [startSectionId];
+    const localVisited = visited || new Set<string>();
+    
+    while (queue.length > 0) {
+      const current = queue.shift()!;
+      if (localVisited.has(current)) continue;
+      
+      localVisited.add(current);
+      
+      const inv = inventory?.get(current);
+      if (!inv || inv[propType].length === 0) continue;
+      
+      cluster.push(current);
+      
+      // Find connected edges
+      const connectedEdges = graph.edges.filter(
+        e => e.prop === propType && (e.from === current || e.to === current)
+      );
+      
+      for (const edge of connectedEdges) {
+        const neighbor = edge.from === current ? edge.to : edge.from;
+        if (!localVisited.has(neighbor) && inventory?.has(neighbor)) {
+          const neighborInv = inventory.get(neighbor)!;
+          if (neighborInv[propType].length > 0) {
+            queue.push(neighbor);
+          }
+        }
+      }
+    }
+    
+    return cluster;
+  }
+
+  /**
+   * Select primary authority for each property type from clusters
+   * Chooses section with most properties from each cluster
+   */
+  private selectPrimaryAuthoritiesFromClusters(
+    clusters: Record<string, string[][]>,
     graph: SectionGraph,
     inventory?: Map<string, SectionInventory>
   ): Record<string, string> {
@@ -74,28 +158,29 @@ export class BasicSuggestionEngine implements ISuggestionEngine {
     
     if (!inventory) return result;
     
-    // Find authoritative section for each property type
-    const propertyTypes: Array<'Name&Role' | 'Date' | 'Terms'> = ['Name&Role', 'Date', 'Terms'];
-    
-    for (const propType of propertyTypes) {
+    for (const [propType, clusterList] of Object.entries(clusters)) {
+      const propTyped = propType as 'Name&Role' | 'Date' | 'Terms';
       let bestSection: string | null = null;
       let bestScore = -1;
       
-      for (const [sectionId, inv] of inventory) {
-        const props = inv[propType];
-        if (props.length === 0) continue;
-        
-        const section = graph.nodes.find(n => n.id === sectionId);
-        if (!section) continue;
-        
-        // Score = property count + policy bonus
-        const propertyCount = props.length;
-        const policyScore = this.getSectionPolicyScore(section, propType);
-        const score = propertyCount * 0.6 + policyScore * 0.4;
-        
-        if (score > bestScore) {
-          bestScore = score;
-          bestSection = sectionId;
+      // Find best section across all clusters
+      for (const cluster of clusterList) {
+        for (const sectionId of cluster) {
+          const inv = inventory.get(sectionId);
+          if (!inv) continue;
+          
+          const section = graph.nodes.find(n => n.id === sectionId);
+          if (!section) continue;
+          
+          // Score = property count (70%) + policy bonus (30%)
+          const propertyCount = inv[propTyped].length;
+          const policyScore = this.getSectionPolicyScore(section, propTyped);
+          const score = propertyCount * 0.7 + policyScore * 0.3;
+          
+          if (score > bestScore) {
+            bestScore = score;
+            bestSection = sectionId;
+          }
         }
       }
       
@@ -108,52 +193,14 @@ export class BasicSuggestionEngine implements ISuggestionEngine {
   }
 
   /**
-   * Get policy score for a section based on its type
+   * Compute deltas from clusters
+   * For each cluster, generate suggestions to add missing properties to all sections
+   * Also handle edges between sections even if one section has no properties yet
    */
-  private getSectionPolicyScore(
-    section: { title: string; kind?: string },
-    propType: 'Name&Role' | 'Date' | 'Terms'
-  ): number {
-    const title = section.title.toLowerCase();
-    const kind = (section.kind || '').toLowerCase();
-    
-    if (propType === 'Name&Role') {
-      if ((title.includes('designated') && title.includes('officer')) || 
-          kind.includes('officer')) {
-        return 10; // Highest priority for officer sections
-      }
-      if (title.includes('officer') || title.includes('parties')) {
-        return 8;
-      }
-      if (title.includes('signature')) {
-        return 6;
-      }
-      return 3;
-    }
-    
-    if (propType === 'Date') {
-      if (title.includes('effective') || title.includes('term') || kind.includes('term')) {
-        return 8;
-      }
-      return 5;
-    }
-    
-    if (propType === 'Terms') {
-      if (title.includes('term') || title.includes('fee') || title.includes('payment')) {
-        return 8;
-      }
-      return 5;
-    }
-    
-    return 3;
-  }
-
-  /**
-   * Compute deltas (missing properties) from graph edges
-   */
-  private computeDeltas(
+  private computeDeltasFromClusters(
+    clusters: Record<string, string[][]>,
     graph: SectionGraph,
-    authoritativeSections: Record<string, string>
+    inventory?: Map<string, SectionInventory>
   ): Array<{
     targetSection: string;
     propType: 'Name&Role' | 'Date' | 'Terms';
@@ -169,39 +216,164 @@ export class BasicSuggestionEngine implements ISuggestionEngine {
       confidence: number;
     }> = [];
     
-    // For each authoritative section, find edges showing missing properties
-    for (const [propType, authSectionId] of Object.entries(authoritativeSections)) {
-      const propTyped = propType as 'Name&Role' | 'Date' | 'Terms';
+    if (!inventory) return deltas;
+    
+    // For each property type cluster
+    for (const [propTypeStr, clusterList] of Object.entries(clusters)) {
+      const propType = propTypeStr as 'Name&Role' | 'Date' | 'Terms';
       
-      // Find edges from authoritative section
-      const relevantEdges = graph.edges.filter(
-        e => e.prop === propTyped && 
-             (e.from === authSectionId || e.to === authSectionId)
-      );
-      
-      for (const edge of relevantEdges) {
-        // Find missing properties (properties in auth section but not in other section)
-        const missingInTarget = edge.evidence.missing.filter(m => {
-          const targetSectionId = edge.from === authSectionId ? edge.to : edge.from;
-          return m.inSection === targetSectionId;
-        });
+      for (const cluster of clusterList) {
+        // Find the most complete section in cluster (reference)
+        let refSection: string | null = null;
+        let maxProps = 0;
         
-        if (missingInTarget.length > 0) {
-          const targetSectionId = edge.from === authSectionId ? edge.to : edge.from;
+        for (const sectionId of cluster) {
+          const inv = inventory.get(sectionId);
+          if (!inv) continue;
           
-          deltas.push({
-            targetSection: targetSectionId,
-            propType: propTyped,
-            missingValues: missingInTarget,
-            sourceSection: authSectionId,
-            confidence: edge.weight,
-          });
+          const propCount = inv[propType].length;
+          if (propCount > maxProps) {
+            maxProps = propCount;
+            refSection = sectionId;
+          }
         }
+        
+        if (!refSection) continue;
+        
+        const refInv = inventory.get(refSection)!;
+        const refProps = refInv[propType];
+        
+        // For each section in cluster, check what's missing
+        for (const sectionId of cluster) {
+          if (sectionId === refSection) continue; // Skip reference section
+          
+          const inv = inventory.get(sectionId);
+          if (!inv) continue;
+          
+          const currentProps = inv[propType];
+          
+          // Find properties in reference that are missing in current
+          const missingProps: any[] = [];
+          
+          for (const refProp of refProps) {
+            const refValue = this.getPropertyValue(refProp, propType);
+            const exists = currentProps.some(p => this.getPropertyValue(p, propType) === refValue);
+            
+            if (!exists) {
+              missingProps.push(refProp);
+            }
+          }
+          
+          // Find edge weight for confidence
+          const edge = graph.edges.find(
+            e => e.prop === propType && 
+                 ((e.from === refSection && e.to === sectionId) || 
+                  (e.from === sectionId && e.to === refSection))
+          );
+          
+          const confidence = edge?.weight || 0.75;
+          
+          if (missingProps.length > 0) {
+            deltas.push({
+              targetSection: sectionId,
+              propType,
+              missingValues: missingProps,
+              sourceSection: refSection,
+              confidence,
+            });
+          }
+        }
+      }
+    }
+    
+    // FALLBACK: For edges not covered by clusters (e.g., section with no properties)
+    // Find all edges and check if they create suggestions
+    const processedPairs = new Set<string>();
+    
+    for (const edge of graph.edges) {
+      const pairKey = `${edge.from}-${edge.to}-${edge.prop}`;
+      if (processedPairs.has(pairKey)) continue;
+      processedPairs.add(pairKey);
+      
+      const fromInv = inventory.get(edge.from);
+      const toInv = inventory.get(edge.to);
+      
+      if (!fromInv || !toInv) continue;
+      
+      // If from has properties and to doesn't, suggest adding
+      if (fromInv[edge.prop].length > 0 && toInv[edge.prop].length === 0) {
+        const missingProps = fromInv[edge.prop];
+        deltas.push({
+          targetSection: edge.to,
+          propType: edge.prop,
+          missingValues: missingProps,
+          sourceSection: edge.from,
+          confidence: edge.weight,
+        });
+      }
+      // If to has properties and from doesn't, suggest adding to from
+      else if (toInv[edge.prop].length > 0 && fromInv[edge.prop].length === 0) {
+        const missingProps = toInv[edge.prop];
+        deltas.push({
+          targetSection: edge.from,
+          propType: edge.prop,
+          missingValues: missingProps,
+          sourceSection: edge.to,
+          confidence: edge.weight,
+        });
       }
     }
     
     return deltas;
   }
+
+  /**
+   * Get policy score for a section based on its type
+   * Note: Scores are kept moderate (max 5) to ensure property count dominates with 70/30 weighting
+   */
+  private getSectionPolicyScore(
+    section: { title: string; kind?: string },
+    propType: 'Name&Role' | 'Date' | 'Terms'
+  ): number {
+    const title = section.title.toLowerCase();
+    const kind = (section.kind || '').toLowerCase();
+    
+    if (propType === 'Name&Role') {
+      // Any title that explicitly lists/designates officers is a good source
+      if (title.includes('designated') || (title.includes('designation') && title.includes('officer'))) {
+        return 4; // Designated officer lists are authoritative
+      }
+      if ((title.includes('designated') && title.includes('officer')) || 
+          kind.includes('officer')) {
+        return 5; // Explicit officer section
+      }
+      if (title.includes('officer') || title.includes('parties')) {
+        return 4;
+      }
+      if (title.includes('signature')) {
+        return 3;
+      }
+      return 2;
+    }
+    
+    if (propType === 'Date') {
+      if (title.includes('effective') || title.includes('term') || kind.includes('term')) {
+        return 4;
+      }
+      return 2;
+    }
+    
+    if (propType === 'Terms') {
+      if (title.includes('term') || title.includes('fee') || title.includes('payment')) {
+        return 4;
+      }
+      return 2;
+    }
+    
+    return 2;
+  }
+
+
 
   /**
    * Generate update suggestions from deltas
@@ -228,15 +400,9 @@ export class BasicSuggestionEngine implements ISuggestionEngine {
       // Find anchor point in target section
       const anchor = this.findAnchor(targetSection, delta.propType, inventory);
       
-      // Get source properties from inventory
-      const sourceInv = inventory?.get(delta.sourceSection);
-      const sourceProps = sourceInv?.[delta.propType] || [];
-      
-      // Filter to only missing properties
-      const missingProps = sourceProps.filter(prop => {
-        const propValue = this.getPropertyValue(prop, delta.propType);
-        return delta.missingValues.some(m => m.value.includes(propValue));
-      });
+      // The missingValues from delta are already the actual property objects
+      // from the cluster computation, so we can use them directly
+      const missingProps = delta.missingValues;
       
       if (missingProps.length === 0) continue;
       

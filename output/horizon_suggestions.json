@@ -1,0 +1,5194 @@
+{
+  "metadata": {
+    "timestamp": "2025-12-09T02:23:17.362Z",
+    "document": "horizon_agreement.pdf",
+    "sections_analyzed": 17,
+    "total_edges": 147
+  },
+  "authoritative": {
+    "section_id": "section-3",
+    "rationale": "Section \"1.1 Designated Representatives\" has highest property count (5 Name&Role)"
+  },
+  "suggested_updates": [
+    {
+      "target_section": "section-10",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Executive Officer",
+          "person": "Alex Carter",
+          "span": {
+            "start": 691,
+            "end": 706
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Nina Patel",
+          "span": {
+            "start": 761,
+            "end": 775
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Vice President",
+          "person": "Operations Sarah Green",
+          "span": {
+            "start": 830,
+            "end": 855
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Chief Executive Officer",
+          "person": "Ceo Alex Carter",
+          "span": {
+            "start": 690,
+            "end": 731
+          },
+          "conf": 0.9
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Cfo Nina Patel",
+          "span": {
+            "start": 760,
+            "end": 800
+          },
+          "conf": 0.9
+        }
+      ],
+      "confidence": 0.47280000000000005,
+      "anchor": "• CFO",
+      "anchor_strategy": "after_last_list_item",
+      "evidence_from": {
+        "section": "section-3",
+        "spans": [
+          {
+            "start": 691,
+            "end": 706
+          },
+          {
+            "start": 761,
+            "end": 775
+          },
+          {
+            "start": 830,
+            "end": 855
+          },
+          {
+            "start": 690,
+            "end": 731
+          },
+          {
+            "start": 760,
+            "end": 800
+          }
+        ]
+      },
+      "rationale": "Missing 5 Name&Role properties found in authoritative section \"1.1 Designated Representatives\""
+    },
+    {
+      "target_section": "section-15",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Executive Officer",
+          "person": "Alex Carter",
+          "span": {
+            "start": 691,
+            "end": 706
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Nina Patel",
+          "span": {
+            "start": 761,
+            "end": 775
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Vice President",
+          "person": "Operations Sarah Green",
+          "span": {
+            "start": 830,
+            "end": 855
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Cfo Nina Patel",
+          "span": {
+            "start": 760,
+            "end": 800
+          },
+          "conf": 0.9
+        }
+      ],
+      "confidence": 0.558,
+      "anchor": "CEO Alex Carter",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-3",
+        "spans": [
+          {
+            "start": 691,
+            "end": 706
+          },
+          {
+            "start": 761,
+            "end": 775
+          },
+          {
+            "start": 830,
+            "end": 855
+          },
+          {
+            "start": 760,
+            "end": 800
+          }
+        ]
+      },
+      "rationale": "Missing 4 Name&Role properties found in authoritative section \"1.1 Designated Representatives\""
+    },
+    {
+      "target_section": "section-16",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Executive Officer",
+          "person": "Alex Carter",
+          "span": {
+            "start": 691,
+            "end": 706
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Nina Patel",
+          "span": {
+            "start": 761,
+            "end": 775
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Vice President",
+          "person": "Operations Sarah Green",
+          "span": {
+            "start": 830,
+            "end": 855
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Chief Executive Officer",
+          "person": "Ceo Alex Carter",
+          "span": {
+            "start": 690,
+            "end": 731
+          },
+          "conf": 0.9
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Cfo Nina Patel",
+          "span": {
+            "start": 760,
+            "end": 800
+          },
+          "conf": 0.9
+        }
+      ],
+      "confidence": 0.47280000000000005,
+      "anchor": "CFO Dana Brooks",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-3",
+        "spans": [
+          {
+            "start": 691,
+            "end": 706
+          },
+          {
+            "start": 761,
+            "end": 775
+          },
+          {
+            "start": 830,
+            "end": 855
+          },
+          {
+            "start": 690,
+            "end": 731
+          },
+          {
+            "start": 760,
+            "end": 800
+          }
+        ]
+      },
+      "rationale": "Missing 5 Name&Role properties found in authoritative section \"1.1 Designated Representatives\""
+    },
+    {
+      "target_section": "section-14",
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2024-03-15",
+          "surface": "March 15, 2024",
+          "span": {
+            "start": 1091,
+            "end": 1105
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.46799999999999997,
+      "anchor": "The parties have executed this Agreement as of 03/20/2024.",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-6",
+        "spans": [
+          {
+            "start": 1091,
+            "end": 1105
+          }
+        ]
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"2.1 Term\""
+    },
+    {
+      "target_section": "section-7",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 24,
+          "unit": "month",
+          "qualifiers": "word_form: twenty four",
+          "span": {
+            "start": 1124,
+            "end": 1147
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.46799999999999997,
+      "anchor": "Either party may terminate for material breach upon thirty (30) days written notice if not",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-6",
+        "spans": [
+          {
+            "start": 1124,
+            "end": 1147
+          }
+        ]
+      },
+      "rationale": "Missing 1 Terms property found in authoritative section \"2.1 Term\""
+    },
+    {
+      "target_section": "section-12",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 24,
+          "unit": "month",
+          "qualifiers": "word_form: twenty four",
+          "span": {
+            "start": 1124,
+            "end": 1147
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.46799999999999997,
+      "anchor": "Customer will pay a subscription fee of USD $50,000 per year for access and support.",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-6",
+        "spans": [
+          {
+            "start": 1124,
+            "end": 1147
+          }
+        ]
+      },
+      "rationale": "Missing 1 Terms property found in authoritative section \"2.1 Term\""
+    },
+    {
+      "target_section": "section-13",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 24,
+          "unit": "month",
+          "qualifiers": "word_form: twenty four",
+          "span": {
+            "start": 1124,
+            "end": 1147
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.46799999999999997,
+      "anchor": "Invoices are due within forty five (45) days of the invoice date.",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-6",
+        "spans": [
+          {
+            "start": 1124,
+            "end": 1147
+          }
+        ]
+      },
+      "rationale": "Missing 1 Terms property found in authoritative section \"2.1 Term\""
+    },
+    {
+      "target_section": "section-0",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Executive Officer",
+          "person": "Alex Carter",
+          "span": {
+            "start": 691,
+            "end": 706
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Nina Patel",
+          "span": {
+            "start": 761,
+            "end": 775
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Vice President",
+          "person": "Operations Sarah Green",
+          "span": {
+            "start": 830,
+            "end": 855
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Chief Executive Officer",
+          "person": "Ceo Alex Carter",
+          "span": {
+            "start": 690,
+            "end": 731
+          },
+          "conf": 0.9
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Cfo Nina Patel",
+          "span": {
+            "start": 760,
+            "end": 800
+          },
+          "conf": 0.9
+        }
+      ],
+      "confidence": 0.47280000000000005,
+      "anchor": "Provider: Summit Data Systems, Inc., a California corporation",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-3",
+        "spans": [
+          {
+            "start": 691,
+            "end": 706
+          },
+          {
+            "start": 761,
+            "end": 775
+          },
+          {
+            "start": 830,
+            "end": 855
+          },
+          {
+            "start": 690,
+            "end": 731
+          },
+          {
+            "start": 760,
+            "end": 800
+          }
+        ]
+      },
+      "rationale": "Missing 5 Name&Role properties found in authoritative section \"1.1 Designated Representatives\""
+    },
+    {
+      "target_section": "section-0",
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2024-03-15",
+          "surface": "March 15, 2024",
+          "span": {
+            "start": 1091,
+            "end": 1105
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.46799999999999997,
+      "anchor": "Provider: Summit Data Systems, Inc., a California corporation",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-6",
+        "spans": [
+          {
+            "start": 1091,
+            "end": 1105
+          }
+        ]
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"2.1 Term\""
+    },
+    {
+      "target_section": "section-0",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 24,
+          "unit": "month",
+          "qualifiers": "word_form: twenty four",
+          "span": {
+            "start": 1124,
+            "end": 1147
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "Provider: Summit Data Systems, Inc., a California corporation",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-6",
+        "spans": [
+          {
+            "start": 1124,
+            "end": 1147
+          }
+        ]
+      },
+      "rationale": "Missing 1 Terms property found in authoritative section \"2.1 Term\""
+    },
+    {
+      "target_section": "section-0",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 30,
+          "unit": "day",
+          "qualifiers": "word_form: thirty",
+          "span": {
+            "start": 1210,
+            "end": 1226
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "Provider: Summit Data Systems, Inc., a California corporation",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-7",
+        "spans": [
+          {
+            "start": 1210,
+            "end": 1226
+          }
+        ]
+      },
+      "rationale": "Missing 1 Terms property found in authoritative section \"2.2 Termination\""
+    },
+    {
+      "target_section": "section-0",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Financial Officer",
+          "person": "Nina Patel These",
+          "span": {
+            "start": 1505,
+            "end": 1525
+          },
+          "conf": 0.92
+        }
+      ],
+      "confidence": 0.42200000000000004,
+      "anchor": "Provider: Summit Data Systems, Inc., a California corporation",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-10",
+        "spans": [
+          {
+            "start": 1505,
+            "end": 1525
+          }
+        ]
+      },
+      "rationale": "Missing 1 Name&Role property found in authoritative section \"3.2 Support Representatives\""
+    },
+    {
+      "target_section": "section-0",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "fee",
+          "value": 50000,
+          "unit": "USD",
+          "span": {
+            "start": 1711,
+            "end": 1718
+          },
+          "conf": 0.94
+        }
+      ],
+      "confidence": 0.424,
+      "anchor": "Provider: Summit Data Systems, Inc., a California corporation",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-12",
+        "spans": [
+          {
+            "start": 1711,
+            "end": 1718
+          }
+        ]
+      },
+      "rationale": "Missing 1 Terms property found in authoritative section \"4.1 Subscription Fee\""
+    },
+    {
+      "target_section": "section-0",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 45,
+          "unit": "day",
+          "qualifiers": "word_form: forty five",
+          "span": {
+            "start": 1797,
+            "end": 1817
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "Provider: Summit Data Systems, Inc., a California corporation",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-13",
+        "spans": [
+          {
+            "start": 1797,
+            "end": 1817
+          }
+        ]
+      },
+      "rationale": "Missing 1 Terms property found in authoritative section \"4.2 Payment Terms\""
+    },
+    {
+      "target_section": "section-0",
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2024-03-20",
+          "surface": "03/20/2024",
+          "span": {
+            "start": 1904,
+            "end": 1914
+          },
+          "conf": 0.95
+        }
+      ],
+      "confidence": 0.46399999999999997,
+      "anchor": "Provider: Summit Data Systems, Inc., a California corporation",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-14",
+        "spans": [
+          {
+            "start": 1904,
+            "end": 1914
+          }
+        ]
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"Section 5: Signatures\""
+    },
+    {
+      "target_section": "section-0",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Executive Officer",
+          "person": "Horizon Pharma Llc",
+          "span": {
+            "start": 1987,
+            "end": 2029
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Chief Executive Officer",
+          "person": "Ceo Alex Carter",
+          "span": {
+            "start": 1980,
+            "end": 2010
+          },
+          "conf": 0.85
+        }
+      ],
+      "confidence": 0.40800000000000003,
+      "anchor": "Provider: Summit Data Systems, Inc., a California corporation",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-15",
+        "spans": [
+          {
+            "start": 1987,
+            "end": 2029
+          },
+          {
+            "start": 1980,
+            "end": 2010
+          }
+        ]
+      },
+      "rationale": "Missing 2 Name&Role properties found in authoritative section \"By:\""
+    },
+    {
+      "target_section": "section-0",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Financial Officer",
+          "person": "Cfo Dana Brooks",
+          "span": {
+            "start": 2050,
+            "end": 2080
+          },
+          "conf": 0.85
+        }
+      ],
+      "confidence": 0.394,
+      "anchor": "Provider: Summit Data Systems, Inc., a California corporation",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-16",
+        "spans": [
+          {
+            "start": 2050,
+            "end": 2080
+          }
+        ]
+      },
+      "rationale": "Missing 1 Name&Role property found in authoritative section \"By:\""
+    },
+    {
+      "target_section": "section-1",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Executive Officer",
+          "person": "Alex Carter",
+          "span": {
+            "start": 691,
+            "end": 706
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Nina Patel",
+          "span": {
+            "start": 761,
+            "end": 775
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Vice President",
+          "person": "Operations Sarah Green",
+          "span": {
+            "start": 830,
+            "end": 855
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Chief Executive Officer",
+          "person": "Ceo Alex Carter",
+          "span": {
+            "start": 690,
+            "end": 731
+          },
+          "conf": 0.9
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Cfo Nina Patel",
+          "span": {
+            "start": 760,
+            "end": 800
+          },
+          "conf": 0.9
+        }
+      ],
+      "confidence": 0.47280000000000005,
+      "anchor": "Horizon Pharma LLC (“Customer”). Provider will deliver enterprise data analytics software",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-3",
+        "spans": [
+          {
+            "start": 691,
+            "end": 706
+          },
+          {
+            "start": 761,
+            "end": 775
+          },
+          {
+            "start": 830,
+            "end": 855
+          },
+          {
+            "start": 690,
+            "end": 731
+          },
+          {
+            "start": 760,
+            "end": 800
+          }
+        ]
+      },
+      "rationale": "Missing 5 Name&Role properties found in authoritative section \"1.1 Designated Representatives\""
+    },
+    {
+      "target_section": "section-1",
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2024-03-15",
+          "surface": "March 15, 2024",
+          "span": {
+            "start": 1091,
+            "end": 1105
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.46799999999999997,
+      "anchor": "Horizon Pharma LLC (“Customer”). Provider will deliver enterprise data analytics software",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-6",
+        "spans": [
+          {
+            "start": 1091,
+            "end": 1105
+          }
+        ]
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"2.1 Term\""
+    },
+    {
+      "target_section": "section-1",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 24,
+          "unit": "month",
+          "qualifiers": "word_form: twenty four",
+          "span": {
+            "start": 1124,
+            "end": 1147
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "Horizon Pharma LLC (“Customer”). Provider will deliver enterprise data analytics software",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-6",
+        "spans": [
+          {
+            "start": 1124,
+            "end": 1147
+          }
+        ]
+      },
+      "rationale": "Missing 1 Terms property found in authoritative section \"2.1 Term\""
+    },
+    {
+      "target_section": "section-1",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 30,
+          "unit": "day",
+          "qualifiers": "word_form: thirty",
+          "span": {
+            "start": 1210,
+            "end": 1226
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "Horizon Pharma LLC (“Customer”). Provider will deliver enterprise data analytics software",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-7",
+        "spans": [
+          {
+            "start": 1210,
+            "end": 1226
+          }
+        ]
+      },
+      "rationale": "Missing 1 Terms property found in authoritative section \"2.2 Termination\""
+    },
+    {
+      "target_section": "section-1",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Financial Officer",
+          "person": "Nina Patel These",
+          "span": {
+            "start": 1505,
+            "end": 1525
+          },
+          "conf": 0.92
+        }
+      ],
+      "confidence": 0.42200000000000004,
+      "anchor": "Horizon Pharma LLC (“Customer”). Provider will deliver enterprise data analytics software",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-10",
+        "spans": [
+          {
+            "start": 1505,
+            "end": 1525
+          }
+        ]
+      },
+      "rationale": "Missing 1 Name&Role property found in authoritative section \"3.2 Support Representatives\""
+    },
+    {
+      "target_section": "section-1",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "fee",
+          "value": 50000,
+          "unit": "USD",
+          "span": {
+            "start": 1711,
+            "end": 1718
+          },
+          "conf": 0.94
+        }
+      ],
+      "confidence": 0.424,
+      "anchor": "Horizon Pharma LLC (“Customer”). Provider will deliver enterprise data analytics software",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-12",
+        "spans": [
+          {
+            "start": 1711,
+            "end": 1718
+          }
+        ]
+      },
+      "rationale": "Missing 1 Terms property found in authoritative section \"4.1 Subscription Fee\""
+    },
+    {
+      "target_section": "section-1",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 45,
+          "unit": "day",
+          "qualifiers": "word_form: forty five",
+          "span": {
+            "start": 1797,
+            "end": 1817
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "Horizon Pharma LLC (“Customer”). Provider will deliver enterprise data analytics software",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-13",
+        "spans": [
+          {
+            "start": 1797,
+            "end": 1817
+          }
+        ]
+      },
+      "rationale": "Missing 1 Terms property found in authoritative section \"4.2 Payment Terms\""
+    },
+    {
+      "target_section": "section-1",
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2024-03-20",
+          "surface": "03/20/2024",
+          "span": {
+            "start": 1904,
+            "end": 1914
+          },
+          "conf": 0.95
+        }
+      ],
+      "confidence": 0.46399999999999997,
+      "anchor": "Horizon Pharma LLC (“Customer”). Provider will deliver enterprise data analytics software",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-14",
+        "spans": [
+          {
+            "start": 1904,
+            "end": 1914
+          }
+        ]
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"Section 5: Signatures\""
+    },
+    {
+      "target_section": "section-1",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Executive Officer",
+          "person": "Horizon Pharma Llc",
+          "span": {
+            "start": 1987,
+            "end": 2029
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Chief Executive Officer",
+          "person": "Ceo Alex Carter",
+          "span": {
+            "start": 1980,
+            "end": 2010
+          },
+          "conf": 0.85
+        }
+      ],
+      "confidence": 0.40800000000000003,
+      "anchor": "Horizon Pharma LLC (“Customer”). Provider will deliver enterprise data analytics software",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-15",
+        "spans": [
+          {
+            "start": 1987,
+            "end": 2029
+          },
+          {
+            "start": 1980,
+            "end": 2010
+          }
+        ]
+      },
+      "rationale": "Missing 2 Name&Role properties found in authoritative section \"By:\""
+    },
+    {
+      "target_section": "section-1",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Financial Officer",
+          "person": "Cfo Dana Brooks",
+          "span": {
+            "start": 2050,
+            "end": 2080
+          },
+          "conf": 0.85
+        }
+      ],
+      "confidence": 0.394,
+      "anchor": "Horizon Pharma LLC (“Customer”). Provider will deliver enterprise data analytics software",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-16",
+        "spans": [
+          {
+            "start": 2050,
+            "end": 2080
+          }
+        ]
+      },
+      "rationale": "Missing 1 Name&Role property found in authoritative section \"By:\""
+    },
+    {
+      "target_section": "section-2",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Executive Officer",
+          "person": "Alex Carter",
+          "span": {
+            "start": 691,
+            "end": 706
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Nina Patel",
+          "span": {
+            "start": 761,
+            "end": 775
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Vice President",
+          "person": "Operations Sarah Green",
+          "span": {
+            "start": 830,
+            "end": 855
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Chief Executive Officer",
+          "person": "Ceo Alex Carter",
+          "span": {
+            "start": 690,
+            "end": 731
+          },
+          "conf": 0.9
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Cfo Nina Patel",
+          "span": {
+            "start": 760,
+            "end": 800
+          },
+          "conf": 0.9
+        }
+      ],
+      "confidence": 0.5268,
+      "anchor": "",
+      "anchor_strategy": "beginning_of_section",
+      "evidence_from": {
+        "section": "section-3",
+        "spans": [
+          {
+            "start": 691,
+            "end": 706
+          },
+          {
+            "start": 761,
+            "end": 775
+          },
+          {
+            "start": 830,
+            "end": 855
+          },
+          {
+            "start": 690,
+            "end": 731
+          },
+          {
+            "start": 760,
+            "end": 800
+          }
+        ]
+      },
+      "rationale": "Missing 5 Name&Role properties found in authoritative section \"1.1 Designated Representatives\""
+    },
+    {
+      "target_section": "section-2",
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2024-03-15",
+          "surface": "March 15, 2024",
+          "span": {
+            "start": 1091,
+            "end": 1105
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "",
+      "anchor_strategy": "beginning_of_section",
+      "evidence_from": {
+        "section": "section-6",
+        "spans": [
+          {
+            "start": 1091,
+            "end": 1105
+          }
+        ]
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"2.1 Term\""
+    },
+    {
+      "target_section": "section-2",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 24,
+          "unit": "month",
+          "qualifiers": "word_form: twenty four",
+          "span": {
+            "start": 1124,
+            "end": 1147
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "",
+      "anchor_strategy": "beginning_of_section",
+      "evidence_from": {
+        "section": "section-6",
+        "spans": [
+          {
+            "start": 1124,
+            "end": 1147
+          }
+        ]
+      },
+      "rationale": "Missing 1 Terms property found in authoritative section \"2.1 Term\""
+    },
+    {
+      "target_section": "section-2",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 30,
+          "unit": "day",
+          "qualifiers": "word_form: thirty",
+          "span": {
+            "start": 1210,
+            "end": 1226
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "",
+      "anchor_strategy": "beginning_of_section",
+      "evidence_from": {
+        "section": "section-7",
+        "spans": [
+          {
+            "start": 1210,
+            "end": 1226
+          }
+        ]
+      },
+      "rationale": "Missing 1 Terms property found in authoritative section \"2.2 Termination\""
+    },
+    {
+      "target_section": "section-2",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Financial Officer",
+          "person": "Nina Patel These",
+          "span": {
+            "start": 1505,
+            "end": 1525
+          },
+          "conf": 0.92
+        }
+      ],
+      "confidence": 0.47600000000000003,
+      "anchor": "",
+      "anchor_strategy": "beginning_of_section",
+      "evidence_from": {
+        "section": "section-10",
+        "spans": [
+          {
+            "start": 1505,
+            "end": 1525
+          }
+        ]
+      },
+      "rationale": "Missing 1 Name&Role property found in authoritative section \"3.2 Support Representatives\""
+    },
+    {
+      "target_section": "section-2",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "fee",
+          "value": 50000,
+          "unit": "USD",
+          "span": {
+            "start": 1711,
+            "end": 1718
+          },
+          "conf": 0.94
+        }
+      ],
+      "confidence": 0.424,
+      "anchor": "",
+      "anchor_strategy": "beginning_of_section",
+      "evidence_from": {
+        "section": "section-12",
+        "spans": [
+          {
+            "start": 1711,
+            "end": 1718
+          }
+        ]
+      },
+      "rationale": "Missing 1 Terms property found in authoritative section \"4.1 Subscription Fee\""
+    },
+    {
+      "target_section": "section-2",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 45,
+          "unit": "day",
+          "qualifiers": "word_form: forty five",
+          "span": {
+            "start": 1797,
+            "end": 1817
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "",
+      "anchor_strategy": "beginning_of_section",
+      "evidence_from": {
+        "section": "section-13",
+        "spans": [
+          {
+            "start": 1797,
+            "end": 1817
+          }
+        ]
+      },
+      "rationale": "Missing 1 Terms property found in authoritative section \"4.2 Payment Terms\""
+    },
+    {
+      "target_section": "section-2",
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2024-03-20",
+          "surface": "03/20/2024",
+          "span": {
+            "start": 1904,
+            "end": 1914
+          },
+          "conf": 0.95
+        }
+      ],
+      "confidence": 0.428,
+      "anchor": "",
+      "anchor_strategy": "beginning_of_section",
+      "evidence_from": {
+        "section": "section-14",
+        "spans": [
+          {
+            "start": 1904,
+            "end": 1914
+          }
+        ]
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"Section 5: Signatures\""
+    },
+    {
+      "target_section": "section-2",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Executive Officer",
+          "person": "Horizon Pharma Llc",
+          "span": {
+            "start": 1987,
+            "end": 2029
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Chief Executive Officer",
+          "person": "Ceo Alex Carter",
+          "span": {
+            "start": 1980,
+            "end": 2010
+          },
+          "conf": 0.85
+        }
+      ],
+      "confidence": 0.462,
+      "anchor": "",
+      "anchor_strategy": "beginning_of_section",
+      "evidence_from": {
+        "section": "section-15",
+        "spans": [
+          {
+            "start": 1987,
+            "end": 2029
+          },
+          {
+            "start": 1980,
+            "end": 2010
+          }
+        ]
+      },
+      "rationale": "Missing 2 Name&Role properties found in authoritative section \"By:\""
+    },
+    {
+      "target_section": "section-2",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Financial Officer",
+          "person": "Cfo Dana Brooks",
+          "span": {
+            "start": 2050,
+            "end": 2080
+          },
+          "conf": 0.85
+        }
+      ],
+      "confidence": 0.448,
+      "anchor": "",
+      "anchor_strategy": "beginning_of_section",
+      "evidence_from": {
+        "section": "section-16",
+        "spans": [
+          {
+            "start": 2050,
+            "end": 2080
+          }
+        ]
+      },
+      "rationale": "Missing 1 Name&Role property found in authoritative section \"By:\""
+    },
+    {
+      "target_section": "section-4",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Executive Officer",
+          "person": "Alex Carter",
+          "span": {
+            "start": 691,
+            "end": 706
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Nina Patel",
+          "span": {
+            "start": 761,
+            "end": 775
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Vice President",
+          "person": "Operations Sarah Green",
+          "span": {
+            "start": 830,
+            "end": 855
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Chief Executive Officer",
+          "person": "Ceo Alex Carter",
+          "span": {
+            "start": 690,
+            "end": 731
+          },
+          "conf": 0.9
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Cfo Nina Patel",
+          "span": {
+            "start": 760,
+            "end": 800
+          },
+          "conf": 0.9
+        }
+      ],
+      "confidence": 0.47280000000000005,
+      "anchor": "All changes to contact information must be made in writing.",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-3",
+        "spans": [
+          {
+            "start": 691,
+            "end": 706
+          },
+          {
+            "start": 761,
+            "end": 775
+          },
+          {
+            "start": 830,
+            "end": 855
+          },
+          {
+            "start": 690,
+            "end": 731
+          },
+          {
+            "start": 760,
+            "end": 800
+          }
+        ]
+      },
+      "rationale": "Missing 5 Name&Role properties found in authoritative section \"1.1 Designated Representatives\""
+    },
+    {
+      "target_section": "section-5",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Executive Officer",
+          "person": "Alex Carter",
+          "span": {
+            "start": 691,
+            "end": 706
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Nina Patel",
+          "span": {
+            "start": 761,
+            "end": 775
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Vice President",
+          "person": "Operations Sarah Green",
+          "span": {
+            "start": 830,
+            "end": 855
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Chief Executive Officer",
+          "person": "Ceo Alex Carter",
+          "span": {
+            "start": 690,
+            "end": 731
+          },
+          "conf": 0.9
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Cfo Nina Patel",
+          "span": {
+            "start": 760,
+            "end": 800
+          },
+          "conf": 0.9
+        }
+      ],
+      "confidence": 0.47280000000000005,
+      "anchor": "",
+      "anchor_strategy": "beginning_of_section",
+      "evidence_from": {
+        "section": "section-3",
+        "spans": [
+          {
+            "start": 691,
+            "end": 706
+          },
+          {
+            "start": 761,
+            "end": 775
+          },
+          {
+            "start": 830,
+            "end": 855
+          },
+          {
+            "start": 690,
+            "end": 731
+          },
+          {
+            "start": 760,
+            "end": 800
+          }
+        ]
+      },
+      "rationale": "Missing 5 Name&Role properties found in authoritative section \"1.1 Designated Representatives\""
+    },
+    {
+      "target_section": "section-6",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Executive Officer",
+          "person": "Alex Carter",
+          "span": {
+            "start": 691,
+            "end": 706
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Nina Patel",
+          "span": {
+            "start": 761,
+            "end": 775
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Vice President",
+          "person": "Operations Sarah Green",
+          "span": {
+            "start": 830,
+            "end": 855
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Chief Executive Officer",
+          "person": "Ceo Alex Carter",
+          "span": {
+            "start": 690,
+            "end": 731
+          },
+          "conf": 0.9
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Cfo Nina Patel",
+          "span": {
+            "start": 760,
+            "end": 800
+          },
+          "conf": 0.9
+        }
+      ],
+      "confidence": 0.47280000000000005,
+      "anchor": "The term of this Agreement begins on March 15, 2024 and continues for twenty four (24)",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-3",
+        "spans": [
+          {
+            "start": 691,
+            "end": 706
+          },
+          {
+            "start": 761,
+            "end": 775
+          },
+          {
+            "start": 830,
+            "end": 855
+          },
+          {
+            "start": 690,
+            "end": 731
+          },
+          {
+            "start": 760,
+            "end": 800
+          }
+        ]
+      },
+      "rationale": "Missing 5 Name&Role properties found in authoritative section \"1.1 Designated Representatives\""
+    },
+    {
+      "target_section": "section-3",
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2024-03-15",
+          "surface": "March 15, 2024",
+          "span": {
+            "start": 1091,
+            "end": 1105
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "The following individuals are designated as the primary representatives:",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-6",
+        "spans": [
+          {
+            "start": 1091,
+            "end": 1105
+          }
+        ]
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"2.1 Term\""
+    },
+    {
+      "target_section": "section-3",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 24,
+          "unit": "month",
+          "qualifiers": "word_form: twenty four",
+          "span": {
+            "start": 1124,
+            "end": 1147
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "The following individuals are designated as the primary representatives:",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-6",
+        "spans": [
+          {
+            "start": 1124,
+            "end": 1147
+          }
+        ]
+      },
+      "rationale": "Missing 1 Terms property found in authoritative section \"2.1 Term\""
+    },
+    {
+      "target_section": "section-7",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Executive Officer",
+          "person": "Alex Carter",
+          "span": {
+            "start": 691,
+            "end": 706
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Nina Patel",
+          "span": {
+            "start": 761,
+            "end": 775
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Vice President",
+          "person": "Operations Sarah Green",
+          "span": {
+            "start": 830,
+            "end": 855
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Chief Executive Officer",
+          "person": "Ceo Alex Carter",
+          "span": {
+            "start": 690,
+            "end": 731
+          },
+          "conf": 0.9
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Cfo Nina Patel",
+          "span": {
+            "start": 760,
+            "end": 800
+          },
+          "conf": 0.9
+        }
+      ],
+      "confidence": 0.47280000000000005,
+      "anchor": "Either party may terminate for material breach upon thirty (30) days written notice if not",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-3",
+        "spans": [
+          {
+            "start": 691,
+            "end": 706
+          },
+          {
+            "start": 761,
+            "end": 775
+          },
+          {
+            "start": 830,
+            "end": 855
+          },
+          {
+            "start": 690,
+            "end": 731
+          },
+          {
+            "start": 760,
+            "end": 800
+          }
+        ]
+      },
+      "rationale": "Missing 5 Name&Role properties found in authoritative section \"1.1 Designated Representatives\""
+    },
+    {
+      "target_section": "section-3",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 30,
+          "unit": "day",
+          "qualifiers": "word_form: thirty",
+          "span": {
+            "start": 1210,
+            "end": 1226
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "The following individuals are designated as the primary representatives:",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-7",
+        "spans": [
+          {
+            "start": 1210,
+            "end": 1226
+          }
+        ]
+      },
+      "rationale": "Missing 1 Terms property found in authoritative section \"2.2 Termination\""
+    },
+    {
+      "target_section": "section-8",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Executive Officer",
+          "person": "Alex Carter",
+          "span": {
+            "start": 691,
+            "end": 706
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Nina Patel",
+          "span": {
+            "start": 761,
+            "end": 775
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Vice President",
+          "person": "Operations Sarah Green",
+          "span": {
+            "start": 830,
+            "end": 855
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Chief Executive Officer",
+          "person": "Ceo Alex Carter",
+          "span": {
+            "start": 690,
+            "end": 731
+          },
+          "conf": 0.9
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Cfo Nina Patel",
+          "span": {
+            "start": 760,
+            "end": 800
+          },
+          "conf": 0.9
+        }
+      ],
+      "confidence": 0.47280000000000005,
+      "anchor": "",
+      "anchor_strategy": "beginning_of_section",
+      "evidence_from": {
+        "section": "section-3",
+        "spans": [
+          {
+            "start": 691,
+            "end": 706
+          },
+          {
+            "start": 761,
+            "end": 775
+          },
+          {
+            "start": 830,
+            "end": 855
+          },
+          {
+            "start": 690,
+            "end": 731
+          },
+          {
+            "start": 760,
+            "end": 800
+          }
+        ]
+      },
+      "rationale": "Missing 5 Name&Role properties found in authoritative section \"1.1 Designated Representatives\""
+    },
+    {
+      "target_section": "section-9",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Executive Officer",
+          "person": "Alex Carter",
+          "span": {
+            "start": 691,
+            "end": 706
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Nina Patel",
+          "span": {
+            "start": 761,
+            "end": 775
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Vice President",
+          "person": "Operations Sarah Green",
+          "span": {
+            "start": 830,
+            "end": 855
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Chief Executive Officer",
+          "person": "Ceo Alex Carter",
+          "span": {
+            "start": 690,
+            "end": 731
+          },
+          "conf": 0.9
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Cfo Nina Patel",
+          "span": {
+            "start": 760,
+            "end": 800
+          },
+          "conf": 0.9
+        }
+      ],
+      "confidence": 0.47280000000000005,
+      "anchor": "Provider will grant Customer access to its cloud-hosted analytics software.",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-3",
+        "spans": [
+          {
+            "start": 691,
+            "end": 706
+          },
+          {
+            "start": 761,
+            "end": 775
+          },
+          {
+            "start": 830,
+            "end": 855
+          },
+          {
+            "start": 690,
+            "end": 731
+          },
+          {
+            "start": 760,
+            "end": 800
+          }
+        ]
+      },
+      "rationale": "Missing 5 Name&Role properties found in authoritative section \"1.1 Designated Representatives\""
+    },
+    {
+      "target_section": "section-11",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Executive Officer",
+          "person": "Alex Carter",
+          "span": {
+            "start": 691,
+            "end": 706
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Nina Patel",
+          "span": {
+            "start": 761,
+            "end": 775
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Vice President",
+          "person": "Operations Sarah Green",
+          "span": {
+            "start": 830,
+            "end": 855
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Chief Executive Officer",
+          "person": "Ceo Alex Carter",
+          "span": {
+            "start": 690,
+            "end": 731
+          },
+          "conf": 0.9
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Cfo Nina Patel",
+          "span": {
+            "start": 760,
+            "end": 800
+          },
+          "conf": 0.9
+        }
+      ],
+      "confidence": 0.47280000000000005,
+      "anchor": "",
+      "anchor_strategy": "beginning_of_section",
+      "evidence_from": {
+        "section": "section-3",
+        "spans": [
+          {
+            "start": 691,
+            "end": 706
+          },
+          {
+            "start": 761,
+            "end": 775
+          },
+          {
+            "start": 830,
+            "end": 855
+          },
+          {
+            "start": 690,
+            "end": 731
+          },
+          {
+            "start": 760,
+            "end": 800
+          }
+        ]
+      },
+      "rationale": "Missing 5 Name&Role properties found in authoritative section \"1.1 Designated Representatives\""
+    },
+    {
+      "target_section": "section-12",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Executive Officer",
+          "person": "Alex Carter",
+          "span": {
+            "start": 691,
+            "end": 706
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Nina Patel",
+          "span": {
+            "start": 761,
+            "end": 775
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Vice President",
+          "person": "Operations Sarah Green",
+          "span": {
+            "start": 830,
+            "end": 855
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Chief Executive Officer",
+          "person": "Ceo Alex Carter",
+          "span": {
+            "start": 690,
+            "end": 731
+          },
+          "conf": 0.9
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Cfo Nina Patel",
+          "span": {
+            "start": 760,
+            "end": 800
+          },
+          "conf": 0.9
+        }
+      ],
+      "confidence": 0.47280000000000005,
+      "anchor": "Customer will pay a subscription fee of USD $50,000 per year for access and support.",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-3",
+        "spans": [
+          {
+            "start": 691,
+            "end": 706
+          },
+          {
+            "start": 761,
+            "end": 775
+          },
+          {
+            "start": 830,
+            "end": 855
+          },
+          {
+            "start": 690,
+            "end": 731
+          },
+          {
+            "start": 760,
+            "end": 800
+          }
+        ]
+      },
+      "rationale": "Missing 5 Name&Role properties found in authoritative section \"1.1 Designated Representatives\""
+    },
+    {
+      "target_section": "section-3",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "fee",
+          "value": 50000,
+          "unit": "USD",
+          "span": {
+            "start": 1711,
+            "end": 1718
+          },
+          "conf": 0.94
+        }
+      ],
+      "confidence": 0.424,
+      "anchor": "The following individuals are designated as the primary representatives:",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-12",
+        "spans": [
+          {
+            "start": 1711,
+            "end": 1718
+          }
+        ]
+      },
+      "rationale": "Missing 1 Terms property found in authoritative section \"4.1 Subscription Fee\""
+    },
+    {
+      "target_section": "section-13",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Executive Officer",
+          "person": "Alex Carter",
+          "span": {
+            "start": 691,
+            "end": 706
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Nina Patel",
+          "span": {
+            "start": 761,
+            "end": 775
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Vice President",
+          "person": "Operations Sarah Green",
+          "span": {
+            "start": 830,
+            "end": 855
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Chief Executive Officer",
+          "person": "Ceo Alex Carter",
+          "span": {
+            "start": 690,
+            "end": 731
+          },
+          "conf": 0.9
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Cfo Nina Patel",
+          "span": {
+            "start": 760,
+            "end": 800
+          },
+          "conf": 0.9
+        }
+      ],
+      "confidence": 0.47280000000000005,
+      "anchor": "Invoices are due within forty five (45) days of the invoice date.",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-3",
+        "spans": [
+          {
+            "start": 691,
+            "end": 706
+          },
+          {
+            "start": 761,
+            "end": 775
+          },
+          {
+            "start": 830,
+            "end": 855
+          },
+          {
+            "start": 690,
+            "end": 731
+          },
+          {
+            "start": 760,
+            "end": 800
+          }
+        ]
+      },
+      "rationale": "Missing 5 Name&Role properties found in authoritative section \"1.1 Designated Representatives\""
+    },
+    {
+      "target_section": "section-3",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 45,
+          "unit": "day",
+          "qualifiers": "word_form: forty five",
+          "span": {
+            "start": 1797,
+            "end": 1817
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "The following individuals are designated as the primary representatives:",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-13",
+        "spans": [
+          {
+            "start": 1797,
+            "end": 1817
+          }
+        ]
+      },
+      "rationale": "Missing 1 Terms property found in authoritative section \"4.2 Payment Terms\""
+    },
+    {
+      "target_section": "section-14",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Executive Officer",
+          "person": "Alex Carter",
+          "span": {
+            "start": 691,
+            "end": 706
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Nina Patel",
+          "span": {
+            "start": 761,
+            "end": 775
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Vice President",
+          "person": "Operations Sarah Green",
+          "span": {
+            "start": 830,
+            "end": 855
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Chief Executive Officer",
+          "person": "Ceo Alex Carter",
+          "span": {
+            "start": 690,
+            "end": 731
+          },
+          "conf": 0.9
+        },
+        {
+          "role": "Chief Financial Officer",
+          "person": "Cfo Nina Patel",
+          "span": {
+            "start": 760,
+            "end": 800
+          },
+          "conf": 0.9
+        }
+      ],
+      "confidence": 0.47280000000000005,
+      "anchor": "2024.\nSummit",
+      "anchor_strategy": "after_last_list_item",
+      "evidence_from": {
+        "section": "section-3",
+        "spans": [
+          {
+            "start": 691,
+            "end": 706
+          },
+          {
+            "start": 761,
+            "end": 775
+          },
+          {
+            "start": 830,
+            "end": 855
+          },
+          {
+            "start": 690,
+            "end": 731
+          },
+          {
+            "start": 760,
+            "end": 800
+          }
+        ]
+      },
+      "rationale": "Missing 5 Name&Role properties found in authoritative section \"1.1 Designated Representatives\""
+    },
+    {
+      "target_section": "section-3",
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2024-03-20",
+          "surface": "03/20/2024",
+          "span": {
+            "start": 1904,
+            "end": 1914
+          },
+          "conf": 0.95
+        }
+      ],
+      "confidence": 0.428,
+      "anchor": "The following individuals are designated as the primary representatives:",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-14",
+        "spans": [
+          {
+            "start": 1904,
+            "end": 1914
+          }
+        ]
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"Section 5: Signatures\""
+    },
+    {
+      "target_section": "section-4",
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2024-03-15",
+          "surface": "March 15, 2024",
+          "span": {
+            "start": 1091,
+            "end": 1105
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "All changes to contact information must be made in writing.",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-6",
+        "spans": [
+          {
+            "start": 1091,
+            "end": 1105
+          }
+        ]
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"2.1 Term\""
+    },
+    {
+      "target_section": "section-4",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 24,
+          "unit": "month",
+          "qualifiers": "word_form: twenty four",
+          "span": {
+            "start": 1124,
+            "end": 1147
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "All changes to contact information must be made in writing.",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-6",
+        "spans": [
+          {
+            "start": 1124,
+            "end": 1147
+          }
+        ]
+      },
+      "rationale": "Missing 1 Terms property found in authoritative section \"2.1 Term\""
+    },
+    {
+      "target_section": "section-4",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 30,
+          "unit": "day",
+          "qualifiers": "word_form: thirty",
+          "span": {
+            "start": 1210,
+            "end": 1226
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "All changes to contact information must be made in writing.",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-7",
+        "spans": [
+          {
+            "start": 1210,
+            "end": 1226
+          }
+        ]
+      },
+      "rationale": "Missing 1 Terms property found in authoritative section \"2.2 Termination\""
+    },
+    {
+      "target_section": "section-4",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Financial Officer",
+          "person": "Nina Patel These",
+          "span": {
+            "start": 1505,
+            "end": 1525
+          },
+          "conf": 0.92
+        }
+      ],
+      "confidence": 0.42200000000000004,
+      "anchor": "All changes to contact information must be made in writing.",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-10",
+        "spans": [
+          {
+            "start": 1505,
+            "end": 1525
+          }
+        ]
+      },
+      "rationale": "Missing 1 Name&Role property found in authoritative section \"3.2 Support Representatives\""
+    },
+    {
+      "target_section": "section-4",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "fee",
+          "value": 50000,
+          "unit": "USD",
+          "span": {
+            "start": 1711,
+            "end": 1718
+          },
+          "conf": 0.94
+        }
+      ],
+      "confidence": 0.424,
+      "anchor": "All changes to contact information must be made in writing.",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-12",
+        "spans": [
+          {
+            "start": 1711,
+            "end": 1718
+          }
+        ]
+      },
+      "rationale": "Missing 1 Terms property found in authoritative section \"4.1 Subscription Fee\""
+    },
+    {
+      "target_section": "section-4",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 45,
+          "unit": "day",
+          "qualifiers": "word_form: forty five",
+          "span": {
+            "start": 1797,
+            "end": 1817
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "All changes to contact information must be made in writing.",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-13",
+        "spans": [
+          {
+            "start": 1797,
+            "end": 1817
+          }
+        ]
+      },
+      "rationale": "Missing 1 Terms property found in authoritative section \"4.2 Payment Terms\""
+    },
+    {
+      "target_section": "section-4",
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2024-03-20",
+          "surface": "03/20/2024",
+          "span": {
+            "start": 1904,
+            "end": 1914
+          },
+          "conf": 0.95
+        }
+      ],
+      "confidence": 0.428,
+      "anchor": "All changes to contact information must be made in writing.",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-14",
+        "spans": [
+          {
+            "start": 1904,
+            "end": 1914
+          }
+        ]
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"Section 5: Signatures\""
+    },
+    {
+      "target_section": "section-4",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Executive Officer",
+          "person": "Horizon Pharma Llc",
+          "span": {
+            "start": 1987,
+            "end": 2029
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Chief Executive Officer",
+          "person": "Ceo Alex Carter",
+          "span": {
+            "start": 1980,
+            "end": 2010
+          },
+          "conf": 0.85
+        }
+      ],
+      "confidence": 0.40800000000000003,
+      "anchor": "All changes to contact information must be made in writing.",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-15",
+        "spans": [
+          {
+            "start": 1987,
+            "end": 2029
+          },
+          {
+            "start": 1980,
+            "end": 2010
+          }
+        ]
+      },
+      "rationale": "Missing 2 Name&Role properties found in authoritative section \"By:\""
+    },
+    {
+      "target_section": "section-4",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Financial Officer",
+          "person": "Cfo Dana Brooks",
+          "span": {
+            "start": 2050,
+            "end": 2080
+          },
+          "conf": 0.85
+        }
+      ],
+      "confidence": 0.394,
+      "anchor": "All changes to contact information must be made in writing.",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-16",
+        "spans": [
+          {
+            "start": 2050,
+            "end": 2080
+          }
+        ]
+      },
+      "rationale": "Missing 1 Name&Role property found in authoritative section \"By:\""
+    },
+    {
+      "target_section": "section-5",
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2024-03-15",
+          "surface": "March 15, 2024",
+          "span": {
+            "start": 1091,
+            "end": 1105
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.46799999999999997,
+      "anchor": "",
+      "anchor_strategy": "beginning_of_section",
+      "evidence_from": {
+        "section": "section-6",
+        "spans": [
+          {
+            "start": 1091,
+            "end": 1105
+          }
+        ]
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"2.1 Term\""
+    },
+    {
+      "target_section": "section-5",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 24,
+          "unit": "month",
+          "qualifiers": "word_form: twenty four",
+          "span": {
+            "start": 1124,
+            "end": 1147
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.46799999999999997,
+      "anchor": "",
+      "anchor_strategy": "beginning_of_section",
+      "evidence_from": {
+        "section": "section-6",
+        "spans": [
+          {
+            "start": 1124,
+            "end": 1147
+          }
+        ]
+      },
+      "rationale": "Missing 1 Terms property found in authoritative section \"2.1 Term\""
+    },
+    {
+      "target_section": "section-5",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 30,
+          "unit": "day",
+          "qualifiers": "word_form: thirty",
+          "span": {
+            "start": 1210,
+            "end": 1226
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.46799999999999997,
+      "anchor": "",
+      "anchor_strategy": "beginning_of_section",
+      "evidence_from": {
+        "section": "section-7",
+        "spans": [
+          {
+            "start": 1210,
+            "end": 1226
+          }
+        ]
+      },
+      "rationale": "Missing 1 Terms property found in authoritative section \"2.2 Termination\""
+    },
+    {
+      "target_section": "section-5",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Financial Officer",
+          "person": "Nina Patel These",
+          "span": {
+            "start": 1505,
+            "end": 1525
+          },
+          "conf": 0.92
+        }
+      ],
+      "confidence": 0.42200000000000004,
+      "anchor": "",
+      "anchor_strategy": "beginning_of_section",
+      "evidence_from": {
+        "section": "section-10",
+        "spans": [
+          {
+            "start": 1505,
+            "end": 1525
+          }
+        ]
+      },
+      "rationale": "Missing 1 Name&Role property found in authoritative section \"3.2 Support Representatives\""
+    },
+    {
+      "target_section": "section-5",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "fee",
+          "value": 50000,
+          "unit": "USD",
+          "span": {
+            "start": 1711,
+            "end": 1718
+          },
+          "conf": 0.94
+        }
+      ],
+      "confidence": 0.45999999999999996,
+      "anchor": "",
+      "anchor_strategy": "beginning_of_section",
+      "evidence_from": {
+        "section": "section-12",
+        "spans": [
+          {
+            "start": 1711,
+            "end": 1718
+          }
+        ]
+      },
+      "rationale": "Missing 1 Terms property found in authoritative section \"4.1 Subscription Fee\""
+    },
+    {
+      "target_section": "section-5",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 45,
+          "unit": "day",
+          "qualifiers": "word_form: forty five",
+          "span": {
+            "start": 1797,
+            "end": 1817
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.46799999999999997,
+      "anchor": "",
+      "anchor_strategy": "beginning_of_section",
+      "evidence_from": {
+        "section": "section-13",
+        "spans": [
+          {
+            "start": 1797,
+            "end": 1817
+          }
+        ]
+      },
+      "rationale": "Missing 1 Terms property found in authoritative section \"4.2 Payment Terms\""
+    },
+    {
+      "target_section": "section-5",
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2024-03-20",
+          "surface": "03/20/2024",
+          "span": {
+            "start": 1904,
+            "end": 1914
+          },
+          "conf": 0.95
+        }
+      ],
+      "confidence": 0.46399999999999997,
+      "anchor": "",
+      "anchor_strategy": "beginning_of_section",
+      "evidence_from": {
+        "section": "section-14",
+        "spans": [
+          {
+            "start": 1904,
+            "end": 1914
+          }
+        ]
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"Section 5: Signatures\""
+    },
+    {
+      "target_section": "section-5",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Executive Officer",
+          "person": "Horizon Pharma Llc",
+          "span": {
+            "start": 1987,
+            "end": 2029
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Chief Executive Officer",
+          "person": "Ceo Alex Carter",
+          "span": {
+            "start": 1980,
+            "end": 2010
+          },
+          "conf": 0.85
+        }
+      ],
+      "confidence": 0.40800000000000003,
+      "anchor": "",
+      "anchor_strategy": "beginning_of_section",
+      "evidence_from": {
+        "section": "section-15",
+        "spans": [
+          {
+            "start": 1987,
+            "end": 2029
+          },
+          {
+            "start": 1980,
+            "end": 2010
+          }
+        ]
+      },
+      "rationale": "Missing 2 Name&Role properties found in authoritative section \"By:\""
+    },
+    {
+      "target_section": "section-5",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Financial Officer",
+          "person": "Cfo Dana Brooks",
+          "span": {
+            "start": 2050,
+            "end": 2080
+          },
+          "conf": 0.85
+        }
+      ],
+      "confidence": 0.394,
+      "anchor": "",
+      "anchor_strategy": "beginning_of_section",
+      "evidence_from": {
+        "section": "section-16",
+        "spans": [
+          {
+            "start": 2050,
+            "end": 2080
+          }
+        ]
+      },
+      "rationale": "Missing 1 Name&Role property found in authoritative section \"By:\""
+    },
+    {
+      "target_section": "section-7",
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2024-03-15",
+          "surface": "March 15, 2024",
+          "span": {
+            "start": 1091,
+            "end": 1105
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.46799999999999997,
+      "anchor": "Either party may terminate for material breach upon thirty (30) days written notice if not",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-6",
+        "spans": [
+          {
+            "start": 1091,
+            "end": 1105
+          }
+        ]
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"2.1 Term\""
+    },
+    {
+      "target_section": "section-8",
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2024-03-15",
+          "surface": "March 15, 2024",
+          "span": {
+            "start": 1091,
+            "end": 1105
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "",
+      "anchor_strategy": "beginning_of_section",
+      "evidence_from": {
+        "section": "section-6",
+        "spans": [
+          {
+            "start": 1091,
+            "end": 1105
+          }
+        ]
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"2.1 Term\""
+    },
+    {
+      "target_section": "section-8",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 24,
+          "unit": "month",
+          "qualifiers": "word_form: twenty four",
+          "span": {
+            "start": 1124,
+            "end": 1147
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "",
+      "anchor_strategy": "beginning_of_section",
+      "evidence_from": {
+        "section": "section-6",
+        "spans": [
+          {
+            "start": 1124,
+            "end": 1147
+          }
+        ]
+      },
+      "rationale": "Missing 1 Terms property found in authoritative section \"2.1 Term\""
+    },
+    {
+      "target_section": "section-9",
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2024-03-15",
+          "surface": "March 15, 2024",
+          "span": {
+            "start": 1091,
+            "end": 1105
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "Provider will grant Customer access to its cloud-hosted analytics software.",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-6",
+        "spans": [
+          {
+            "start": 1091,
+            "end": 1105
+          }
+        ]
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"2.1 Term\""
+    },
+    {
+      "target_section": "section-9",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 24,
+          "unit": "month",
+          "qualifiers": "word_form: twenty four",
+          "span": {
+            "start": 1124,
+            "end": 1147
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "Provider will grant Customer access to its cloud-hosted analytics software.",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-6",
+        "spans": [
+          {
+            "start": 1124,
+            "end": 1147
+          }
+        ]
+      },
+      "rationale": "Missing 1 Terms property found in authoritative section \"2.1 Term\""
+    },
+    {
+      "target_section": "section-6",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Financial Officer",
+          "person": "Nina Patel These",
+          "span": {
+            "start": 1505,
+            "end": 1525
+          },
+          "conf": 0.92
+        }
+      ],
+      "confidence": 0.42200000000000004,
+      "anchor": "The term of this Agreement begins on March 15, 2024 and continues for twenty four (24)",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-10",
+        "spans": [
+          {
+            "start": 1505,
+            "end": 1525
+          }
+        ]
+      },
+      "rationale": "Missing 1 Name&Role property found in authoritative section \"3.2 Support Representatives\""
+    },
+    {
+      "target_section": "section-10",
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2024-03-15",
+          "surface": "March 15, 2024",
+          "span": {
+            "start": 1091,
+            "end": 1105
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "The following individuals will oversee technical support and onboarding:",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-6",
+        "spans": [
+          {
+            "start": 1091,
+            "end": 1105
+          }
+        ]
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"2.1 Term\""
+    },
+    {
+      "target_section": "section-10",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 24,
+          "unit": "month",
+          "qualifiers": "word_form: twenty four",
+          "span": {
+            "start": 1124,
+            "end": 1147
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "The following individuals will oversee technical support and onboarding:",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-6",
+        "spans": [
+          {
+            "start": 1124,
+            "end": 1147
+          }
+        ]
+      },
+      "rationale": "Missing 1 Terms property found in authoritative section \"2.1 Term\""
+    },
+    {
+      "target_section": "section-11",
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2024-03-15",
+          "surface": "March 15, 2024",
+          "span": {
+            "start": 1091,
+            "end": 1105
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "",
+      "anchor_strategy": "beginning_of_section",
+      "evidence_from": {
+        "section": "section-6",
+        "spans": [
+          {
+            "start": 1091,
+            "end": 1105
+          }
+        ]
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"2.1 Term\""
+    },
+    {
+      "target_section": "section-11",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 24,
+          "unit": "month",
+          "qualifiers": "word_form: twenty four",
+          "span": {
+            "start": 1124,
+            "end": 1147
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.46799999999999997,
+      "anchor": "",
+      "anchor_strategy": "beginning_of_section",
+      "evidence_from": {
+        "section": "section-6",
+        "spans": [
+          {
+            "start": 1124,
+            "end": 1147
+          }
+        ]
+      },
+      "rationale": "Missing 1 Terms property found in authoritative section \"2.1 Term\""
+    },
+    {
+      "target_section": "section-12",
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2024-03-15",
+          "surface": "March 15, 2024",
+          "span": {
+            "start": 1091,
+            "end": 1105
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "Customer will pay a subscription fee of USD $50,000 per year for access and support.",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-6",
+        "spans": [
+          {
+            "start": 1091,
+            "end": 1105
+          }
+        ]
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"2.1 Term\""
+    },
+    {
+      "target_section": "section-13",
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2024-03-15",
+          "surface": "March 15, 2024",
+          "span": {
+            "start": 1091,
+            "end": 1105
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.46799999999999997,
+      "anchor": "Invoices are due within forty five (45) days of the invoice date.",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-6",
+        "spans": [
+          {
+            "start": 1091,
+            "end": 1105
+          }
+        ]
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"2.1 Term\""
+    },
+    {
+      "target_section": "section-14",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 24,
+          "unit": "month",
+          "qualifiers": "word_form: twenty four",
+          "span": {
+            "start": 1124,
+            "end": 1147
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "The parties have executed this Agreement as of 03/20/2024.",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-6",
+        "spans": [
+          {
+            "start": 1124,
+            "end": 1147
+          }
+        ]
+      },
+      "rationale": "Missing 1 Terms property found in authoritative section \"2.1 Term\""
+    },
+    {
+      "target_section": "section-6",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Executive Officer",
+          "person": "Horizon Pharma Llc",
+          "span": {
+            "start": 1987,
+            "end": 2029
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Chief Executive Officer",
+          "person": "Ceo Alex Carter",
+          "span": {
+            "start": 1980,
+            "end": 2010
+          },
+          "conf": 0.85
+        }
+      ],
+      "confidence": 0.40800000000000003,
+      "anchor": "The term of this Agreement begins on March 15, 2024 and continues for twenty four (24)",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-15",
+        "spans": [
+          {
+            "start": 1987,
+            "end": 2029
+          },
+          {
+            "start": 1980,
+            "end": 2010
+          }
+        ]
+      },
+      "rationale": "Missing 2 Name&Role properties found in authoritative section \"By:\""
+    },
+    {
+      "target_section": "section-15",
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2024-03-15",
+          "surface": "March 15, 2024",
+          "span": {
+            "start": 1091,
+            "end": 1105
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "CEO Alex Carter",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-6",
+        "spans": [
+          {
+            "start": 1091,
+            "end": 1105
+          }
+        ]
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"2.1 Term\""
+    },
+    {
+      "target_section": "section-15",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 24,
+          "unit": "month",
+          "qualifiers": "word_form: twenty four",
+          "span": {
+            "start": 1124,
+            "end": 1147
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "CEO Alex Carter",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-6",
+        "spans": [
+          {
+            "start": 1124,
+            "end": 1147
+          }
+        ]
+      },
+      "rationale": "Missing 1 Terms property found in authoritative section \"2.1 Term\""
+    },
+    {
+      "target_section": "section-6",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Financial Officer",
+          "person": "Cfo Dana Brooks",
+          "span": {
+            "start": 2050,
+            "end": 2080
+          },
+          "conf": 0.85
+        }
+      ],
+      "confidence": 0.394,
+      "anchor": "The term of this Agreement begins on March 15, 2024 and continues for twenty four (24)",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-16",
+        "spans": [
+          {
+            "start": 2050,
+            "end": 2080
+          }
+        ]
+      },
+      "rationale": "Missing 1 Name&Role property found in authoritative section \"By:\""
+    },
+    {
+      "target_section": "section-16",
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2024-03-15",
+          "surface": "March 15, 2024",
+          "span": {
+            "start": 1091,
+            "end": 1105
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "CFO Dana Brooks",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-6",
+        "spans": [
+          {
+            "start": 1091,
+            "end": 1105
+          }
+        ]
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"2.1 Term\""
+    },
+    {
+      "target_section": "section-16",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 24,
+          "unit": "month",
+          "qualifiers": "word_form: twenty four",
+          "span": {
+            "start": 1124,
+            "end": 1147
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "CFO Dana Brooks",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-6",
+        "spans": [
+          {
+            "start": 1124,
+            "end": 1147
+          }
+        ]
+      },
+      "rationale": "Missing 1 Terms property found in authoritative section \"2.1 Term\""
+    },
+    {
+      "target_section": "section-8",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 30,
+          "unit": "day",
+          "qualifiers": "word_form: thirty",
+          "span": {
+            "start": 1210,
+            "end": 1226
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "",
+      "anchor_strategy": "beginning_of_section",
+      "evidence_from": {
+        "section": "section-7",
+        "spans": [
+          {
+            "start": 1210,
+            "end": 1226
+          }
+        ]
+      },
+      "rationale": "Missing 1 Terms property found in authoritative section \"2.2 Termination\""
+    },
+    {
+      "target_section": "section-9",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 30,
+          "unit": "day",
+          "qualifiers": "word_form: thirty",
+          "span": {
+            "start": 1210,
+            "end": 1226
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "Provider will grant Customer access to its cloud-hosted analytics software.",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-7",
+        "spans": [
+          {
+            "start": 1210,
+            "end": 1226
+          }
+        ]
+      },
+      "rationale": "Missing 1 Terms property found in authoritative section \"2.2 Termination\""
+    },
+    {
+      "target_section": "section-7",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Financial Officer",
+          "person": "Nina Patel These",
+          "span": {
+            "start": 1505,
+            "end": 1525
+          },
+          "conf": 0.92
+        }
+      ],
+      "confidence": 0.42200000000000004,
+      "anchor": "Either party may terminate for material breach upon thirty (30) days written notice if not",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-10",
+        "spans": [
+          {
+            "start": 1505,
+            "end": 1525
+          }
+        ]
+      },
+      "rationale": "Missing 1 Name&Role property found in authoritative section \"3.2 Support Representatives\""
+    },
+    {
+      "target_section": "section-10",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 30,
+          "unit": "day",
+          "qualifiers": "word_form: thirty",
+          "span": {
+            "start": 1210,
+            "end": 1226
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "The following individuals will oversee technical support and onboarding:",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-7",
+        "spans": [
+          {
+            "start": 1210,
+            "end": 1226
+          }
+        ]
+      },
+      "rationale": "Missing 1 Terms property found in authoritative section \"2.2 Termination\""
+    },
+    {
+      "target_section": "section-11",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 30,
+          "unit": "day",
+          "qualifiers": "word_form: thirty",
+          "span": {
+            "start": 1210,
+            "end": 1226
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.46799999999999997,
+      "anchor": "",
+      "anchor_strategy": "beginning_of_section",
+      "evidence_from": {
+        "section": "section-7",
+        "spans": [
+          {
+            "start": 1210,
+            "end": 1226
+          }
+        ]
+      },
+      "rationale": "Missing 1 Terms property found in authoritative section \"2.2 Termination\""
+    },
+    {
+      "target_section": "section-7",
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2024-03-20",
+          "surface": "03/20/2024",
+          "span": {
+            "start": 1904,
+            "end": 1914
+          },
+          "conf": 0.95
+        }
+      ],
+      "confidence": 0.46399999999999997,
+      "anchor": "Either party may terminate for material breach upon thirty (30) days written notice if not",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-14",
+        "spans": [
+          {
+            "start": 1904,
+            "end": 1914
+          }
+        ]
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"Section 5: Signatures\""
+    },
+    {
+      "target_section": "section-14",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 30,
+          "unit": "day",
+          "qualifiers": "word_form: thirty",
+          "span": {
+            "start": 1210,
+            "end": 1226
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "The parties have executed this Agreement as of 03/20/2024.",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-7",
+        "spans": [
+          {
+            "start": 1210,
+            "end": 1226
+          }
+        ]
+      },
+      "rationale": "Missing 1 Terms property found in authoritative section \"2.2 Termination\""
+    },
+    {
+      "target_section": "section-7",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Executive Officer",
+          "person": "Horizon Pharma Llc",
+          "span": {
+            "start": 1987,
+            "end": 2029
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Chief Executive Officer",
+          "person": "Ceo Alex Carter",
+          "span": {
+            "start": 1980,
+            "end": 2010
+          },
+          "conf": 0.85
+        }
+      ],
+      "confidence": 0.40800000000000003,
+      "anchor": "Either party may terminate for material breach upon thirty (30) days written notice if not",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-15",
+        "spans": [
+          {
+            "start": 1987,
+            "end": 2029
+          },
+          {
+            "start": 1980,
+            "end": 2010
+          }
+        ]
+      },
+      "rationale": "Missing 2 Name&Role properties found in authoritative section \"By:\""
+    },
+    {
+      "target_section": "section-15",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 30,
+          "unit": "day",
+          "qualifiers": "word_form: thirty",
+          "span": {
+            "start": 1210,
+            "end": 1226
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "CEO Alex Carter",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-7",
+        "spans": [
+          {
+            "start": 1210,
+            "end": 1226
+          }
+        ]
+      },
+      "rationale": "Missing 1 Terms property found in authoritative section \"2.2 Termination\""
+    },
+    {
+      "target_section": "section-7",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Financial Officer",
+          "person": "Cfo Dana Brooks",
+          "span": {
+            "start": 2050,
+            "end": 2080
+          },
+          "conf": 0.85
+        }
+      ],
+      "confidence": 0.394,
+      "anchor": "Either party may terminate for material breach upon thirty (30) days written notice if not",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-16",
+        "spans": [
+          {
+            "start": 2050,
+            "end": 2080
+          }
+        ]
+      },
+      "rationale": "Missing 1 Name&Role property found in authoritative section \"By:\""
+    },
+    {
+      "target_section": "section-16",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 30,
+          "unit": "day",
+          "qualifiers": "word_form: thirty",
+          "span": {
+            "start": 1210,
+            "end": 1226
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "CFO Dana Brooks",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-7",
+        "spans": [
+          {
+            "start": 1210,
+            "end": 1226
+          }
+        ]
+      },
+      "rationale": "Missing 1 Terms property found in authoritative section \"2.2 Termination\""
+    },
+    {
+      "target_section": "section-8",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Financial Officer",
+          "person": "Nina Patel These",
+          "span": {
+            "start": 1505,
+            "end": 1525
+          },
+          "conf": 0.92
+        }
+      ],
+      "confidence": 0.42200000000000004,
+      "anchor": "",
+      "anchor_strategy": "beginning_of_section",
+      "evidence_from": {
+        "section": "section-10",
+        "spans": [
+          {
+            "start": 1505,
+            "end": 1525
+          }
+        ]
+      },
+      "rationale": "Missing 1 Name&Role property found in authoritative section \"3.2 Support Representatives\""
+    },
+    {
+      "target_section": "section-8",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "fee",
+          "value": 50000,
+          "unit": "USD",
+          "span": {
+            "start": 1711,
+            "end": 1718
+          },
+          "conf": 0.94
+        }
+      ],
+      "confidence": 0.424,
+      "anchor": "",
+      "anchor_strategy": "beginning_of_section",
+      "evidence_from": {
+        "section": "section-12",
+        "spans": [
+          {
+            "start": 1711,
+            "end": 1718
+          }
+        ]
+      },
+      "rationale": "Missing 1 Terms property found in authoritative section \"4.1 Subscription Fee\""
+    },
+    {
+      "target_section": "section-8",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 45,
+          "unit": "day",
+          "qualifiers": "word_form: forty five",
+          "span": {
+            "start": 1797,
+            "end": 1817
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "",
+      "anchor_strategy": "beginning_of_section",
+      "evidence_from": {
+        "section": "section-13",
+        "spans": [
+          {
+            "start": 1797,
+            "end": 1817
+          }
+        ]
+      },
+      "rationale": "Missing 1 Terms property found in authoritative section \"4.2 Payment Terms\""
+    },
+    {
+      "target_section": "section-8",
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2024-03-20",
+          "surface": "03/20/2024",
+          "span": {
+            "start": 1904,
+            "end": 1914
+          },
+          "conf": 0.95
+        }
+      ],
+      "confidence": 0.428,
+      "anchor": "",
+      "anchor_strategy": "beginning_of_section",
+      "evidence_from": {
+        "section": "section-14",
+        "spans": [
+          {
+            "start": 1904,
+            "end": 1914
+          }
+        ]
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"Section 5: Signatures\""
+    },
+    {
+      "target_section": "section-8",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Executive Officer",
+          "person": "Horizon Pharma Llc",
+          "span": {
+            "start": 1987,
+            "end": 2029
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Chief Executive Officer",
+          "person": "Ceo Alex Carter",
+          "span": {
+            "start": 1980,
+            "end": 2010
+          },
+          "conf": 0.85
+        }
+      ],
+      "confidence": 0.40800000000000003,
+      "anchor": "",
+      "anchor_strategy": "beginning_of_section",
+      "evidence_from": {
+        "section": "section-15",
+        "spans": [
+          {
+            "start": 1987,
+            "end": 2029
+          },
+          {
+            "start": 1980,
+            "end": 2010
+          }
+        ]
+      },
+      "rationale": "Missing 2 Name&Role properties found in authoritative section \"By:\""
+    },
+    {
+      "target_section": "section-8",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Financial Officer",
+          "person": "Cfo Dana Brooks",
+          "span": {
+            "start": 2050,
+            "end": 2080
+          },
+          "conf": 0.85
+        }
+      ],
+      "confidence": 0.394,
+      "anchor": "",
+      "anchor_strategy": "beginning_of_section",
+      "evidence_from": {
+        "section": "section-16",
+        "spans": [
+          {
+            "start": 2050,
+            "end": 2080
+          }
+        ]
+      },
+      "rationale": "Missing 1 Name&Role property found in authoritative section \"By:\""
+    },
+    {
+      "target_section": "section-9",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Financial Officer",
+          "person": "Nina Patel These",
+          "span": {
+            "start": 1505,
+            "end": 1525
+          },
+          "conf": 0.92
+        }
+      ],
+      "confidence": 0.42200000000000004,
+      "anchor": "Provider will grant Customer access to its cloud-hosted analytics software.",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-10",
+        "spans": [
+          {
+            "start": 1505,
+            "end": 1525
+          }
+        ]
+      },
+      "rationale": "Missing 1 Name&Role property found in authoritative section \"3.2 Support Representatives\""
+    },
+    {
+      "target_section": "section-9",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "fee",
+          "value": 50000,
+          "unit": "USD",
+          "span": {
+            "start": 1711,
+            "end": 1718
+          },
+          "conf": 0.94
+        }
+      ],
+      "confidence": 0.424,
+      "anchor": "Provider will grant Customer access to its cloud-hosted analytics software.",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-12",
+        "spans": [
+          {
+            "start": 1711,
+            "end": 1718
+          }
+        ]
+      },
+      "rationale": "Missing 1 Terms property found in authoritative section \"4.1 Subscription Fee\""
+    },
+    {
+      "target_section": "section-9",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 45,
+          "unit": "day",
+          "qualifiers": "word_form: forty five",
+          "span": {
+            "start": 1797,
+            "end": 1817
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "Provider will grant Customer access to its cloud-hosted analytics software.",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-13",
+        "spans": [
+          {
+            "start": 1797,
+            "end": 1817
+          }
+        ]
+      },
+      "rationale": "Missing 1 Terms property found in authoritative section \"4.2 Payment Terms\""
+    },
+    {
+      "target_section": "section-9",
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2024-03-20",
+          "surface": "03/20/2024",
+          "span": {
+            "start": 1904,
+            "end": 1914
+          },
+          "conf": 0.95
+        }
+      ],
+      "confidence": 0.428,
+      "anchor": "Provider will grant Customer access to its cloud-hosted analytics software.",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-14",
+        "spans": [
+          {
+            "start": 1904,
+            "end": 1914
+          }
+        ]
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"Section 5: Signatures\""
+    },
+    {
+      "target_section": "section-9",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Executive Officer",
+          "person": "Horizon Pharma Llc",
+          "span": {
+            "start": 1987,
+            "end": 2029
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Chief Executive Officer",
+          "person": "Ceo Alex Carter",
+          "span": {
+            "start": 1980,
+            "end": 2010
+          },
+          "conf": 0.85
+        }
+      ],
+      "confidence": 0.40800000000000003,
+      "anchor": "Provider will grant Customer access to its cloud-hosted analytics software.",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-15",
+        "spans": [
+          {
+            "start": 1987,
+            "end": 2029
+          },
+          {
+            "start": 1980,
+            "end": 2010
+          }
+        ]
+      },
+      "rationale": "Missing 2 Name&Role properties found in authoritative section \"By:\""
+    },
+    {
+      "target_section": "section-9",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Financial Officer",
+          "person": "Cfo Dana Brooks",
+          "span": {
+            "start": 2050,
+            "end": 2080
+          },
+          "conf": 0.85
+        }
+      ],
+      "confidence": 0.394,
+      "anchor": "Provider will grant Customer access to its cloud-hosted analytics software.",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-16",
+        "spans": [
+          {
+            "start": 2050,
+            "end": 2080
+          }
+        ]
+      },
+      "rationale": "Missing 1 Name&Role property found in authoritative section \"By:\""
+    },
+    {
+      "target_section": "section-11",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Financial Officer",
+          "person": "Nina Patel These",
+          "span": {
+            "start": 1505,
+            "end": 1525
+          },
+          "conf": 0.92
+        }
+      ],
+      "confidence": 0.42200000000000004,
+      "anchor": "",
+      "anchor_strategy": "beginning_of_section",
+      "evidence_from": {
+        "section": "section-10",
+        "spans": [
+          {
+            "start": 1505,
+            "end": 1525
+          }
+        ]
+      },
+      "rationale": "Missing 1 Name&Role property found in authoritative section \"3.2 Support Representatives\""
+    },
+    {
+      "target_section": "section-12",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Financial Officer",
+          "person": "Nina Patel These",
+          "span": {
+            "start": 1505,
+            "end": 1525
+          },
+          "conf": 0.92
+        }
+      ],
+      "confidence": 0.42200000000000004,
+      "anchor": "Customer will pay a subscription fee of USD $50,000 per year for access and support.",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-10",
+        "spans": [
+          {
+            "start": 1505,
+            "end": 1525
+          }
+        ]
+      },
+      "rationale": "Missing 1 Name&Role property found in authoritative section \"3.2 Support Representatives\""
+    },
+    {
+      "target_section": "section-10",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "fee",
+          "value": 50000,
+          "unit": "USD",
+          "span": {
+            "start": 1711,
+            "end": 1718
+          },
+          "conf": 0.94
+        }
+      ],
+      "confidence": 0.424,
+      "anchor": "The following individuals will oversee technical support and onboarding:",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-12",
+        "spans": [
+          {
+            "start": 1711,
+            "end": 1718
+          }
+        ]
+      },
+      "rationale": "Missing 1 Terms property found in authoritative section \"4.1 Subscription Fee\""
+    },
+    {
+      "target_section": "section-13",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Financial Officer",
+          "person": "Nina Patel These",
+          "span": {
+            "start": 1505,
+            "end": 1525
+          },
+          "conf": 0.92
+        }
+      ],
+      "confidence": 0.42200000000000004,
+      "anchor": "Invoices are due within forty five (45) days of the invoice date.",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-10",
+        "spans": [
+          {
+            "start": 1505,
+            "end": 1525
+          }
+        ]
+      },
+      "rationale": "Missing 1 Name&Role property found in authoritative section \"3.2 Support Representatives\""
+    },
+    {
+      "target_section": "section-10",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 45,
+          "unit": "day",
+          "qualifiers": "word_form: forty five",
+          "span": {
+            "start": 1797,
+            "end": 1817
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "The following individuals will oversee technical support and onboarding:",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-13",
+        "spans": [
+          {
+            "start": 1797,
+            "end": 1817
+          }
+        ]
+      },
+      "rationale": "Missing 1 Terms property found in authoritative section \"4.2 Payment Terms\""
+    },
+    {
+      "target_section": "section-14",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Financial Officer",
+          "person": "Nina Patel These",
+          "span": {
+            "start": 1505,
+            "end": 1525
+          },
+          "conf": 0.92
+        }
+      ],
+      "confidence": 0.42200000000000004,
+      "anchor": "2024.\nSummit",
+      "anchor_strategy": "after_last_list_item",
+      "evidence_from": {
+        "section": "section-10",
+        "spans": [
+          {
+            "start": 1505,
+            "end": 1525
+          }
+        ]
+      },
+      "rationale": "Missing 1 Name&Role property found in authoritative section \"3.2 Support Representatives\""
+    },
+    {
+      "target_section": "section-10",
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2024-03-20",
+          "surface": "03/20/2024",
+          "span": {
+            "start": 1904,
+            "end": 1914
+          },
+          "conf": 0.95
+        }
+      ],
+      "confidence": 0.428,
+      "anchor": "The following individuals will oversee technical support and onboarding:",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-14",
+        "spans": [
+          {
+            "start": 1904,
+            "end": 1914
+          }
+        ]
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"Section 5: Signatures\""
+    },
+    {
+      "target_section": "section-11",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "fee",
+          "value": 50000,
+          "unit": "USD",
+          "span": {
+            "start": 1711,
+            "end": 1718
+          },
+          "conf": 0.94
+        }
+      ],
+      "confidence": 0.45999999999999996,
+      "anchor": "",
+      "anchor_strategy": "beginning_of_section",
+      "evidence_from": {
+        "section": "section-12",
+        "spans": [
+          {
+            "start": 1711,
+            "end": 1718
+          }
+        ]
+      },
+      "rationale": "Missing 1 Terms property found in authoritative section \"4.1 Subscription Fee\""
+    },
+    {
+      "target_section": "section-11",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 45,
+          "unit": "day",
+          "qualifiers": "word_form: forty five",
+          "span": {
+            "start": 1797,
+            "end": 1817
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.46799999999999997,
+      "anchor": "",
+      "anchor_strategy": "beginning_of_section",
+      "evidence_from": {
+        "section": "section-13",
+        "spans": [
+          {
+            "start": 1797,
+            "end": 1817
+          }
+        ]
+      },
+      "rationale": "Missing 1 Terms property found in authoritative section \"4.2 Payment Terms\""
+    },
+    {
+      "target_section": "section-11",
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2024-03-20",
+          "surface": "03/20/2024",
+          "span": {
+            "start": 1904,
+            "end": 1914
+          },
+          "conf": 0.95
+        }
+      ],
+      "confidence": 0.428,
+      "anchor": "",
+      "anchor_strategy": "beginning_of_section",
+      "evidence_from": {
+        "section": "section-14",
+        "spans": [
+          {
+            "start": 1904,
+            "end": 1914
+          }
+        ]
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"Section 5: Signatures\""
+    },
+    {
+      "target_section": "section-11",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Executive Officer",
+          "person": "Horizon Pharma Llc",
+          "span": {
+            "start": 1987,
+            "end": 2029
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Chief Executive Officer",
+          "person": "Ceo Alex Carter",
+          "span": {
+            "start": 1980,
+            "end": 2010
+          },
+          "conf": 0.85
+        }
+      ],
+      "confidence": 0.40800000000000003,
+      "anchor": "",
+      "anchor_strategy": "beginning_of_section",
+      "evidence_from": {
+        "section": "section-15",
+        "spans": [
+          {
+            "start": 1987,
+            "end": 2029
+          },
+          {
+            "start": 1980,
+            "end": 2010
+          }
+        ]
+      },
+      "rationale": "Missing 2 Name&Role properties found in authoritative section \"By:\""
+    },
+    {
+      "target_section": "section-11",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Financial Officer",
+          "person": "Cfo Dana Brooks",
+          "span": {
+            "start": 2050,
+            "end": 2080
+          },
+          "conf": 0.85
+        }
+      ],
+      "confidence": 0.394,
+      "anchor": "",
+      "anchor_strategy": "beginning_of_section",
+      "evidence_from": {
+        "section": "section-16",
+        "spans": [
+          {
+            "start": 2050,
+            "end": 2080
+          }
+        ]
+      },
+      "rationale": "Missing 1 Name&Role property found in authoritative section \"By:\""
+    },
+    {
+      "target_section": "section-12",
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2024-03-20",
+          "surface": "03/20/2024",
+          "span": {
+            "start": 1904,
+            "end": 1914
+          },
+          "conf": 0.95
+        }
+      ],
+      "confidence": 0.428,
+      "anchor": "Customer will pay a subscription fee of USD $50,000 per year for access and support.",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-14",
+        "spans": [
+          {
+            "start": 1904,
+            "end": 1914
+          }
+        ]
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"Section 5: Signatures\""
+    },
+    {
+      "target_section": "section-14",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "fee",
+          "value": 50000,
+          "unit": "USD",
+          "span": {
+            "start": 1711,
+            "end": 1718
+          },
+          "conf": 0.94
+        }
+      ],
+      "confidence": 0.424,
+      "anchor": "The parties have executed this Agreement as of 03/20/2024.",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-12",
+        "spans": [
+          {
+            "start": 1711,
+            "end": 1718
+          }
+        ]
+      },
+      "rationale": "Missing 1 Terms property found in authoritative section \"4.1 Subscription Fee\""
+    },
+    {
+      "target_section": "section-12",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Executive Officer",
+          "person": "Horizon Pharma Llc",
+          "span": {
+            "start": 1987,
+            "end": 2029
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Chief Executive Officer",
+          "person": "Ceo Alex Carter",
+          "span": {
+            "start": 1980,
+            "end": 2010
+          },
+          "conf": 0.85
+        }
+      ],
+      "confidence": 0.40800000000000003,
+      "anchor": "Customer will pay a subscription fee of USD $50,000 per year for access and support.",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-15",
+        "spans": [
+          {
+            "start": 1987,
+            "end": 2029
+          },
+          {
+            "start": 1980,
+            "end": 2010
+          }
+        ]
+      },
+      "rationale": "Missing 2 Name&Role properties found in authoritative section \"By:\""
+    },
+    {
+      "target_section": "section-15",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "fee",
+          "value": 50000,
+          "unit": "USD",
+          "span": {
+            "start": 1711,
+            "end": 1718
+          },
+          "conf": 0.94
+        }
+      ],
+      "confidence": 0.424,
+      "anchor": "CEO Alex Carter",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-12",
+        "spans": [
+          {
+            "start": 1711,
+            "end": 1718
+          }
+        ]
+      },
+      "rationale": "Missing 1 Terms property found in authoritative section \"4.1 Subscription Fee\""
+    },
+    {
+      "target_section": "section-12",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Financial Officer",
+          "person": "Cfo Dana Brooks",
+          "span": {
+            "start": 2050,
+            "end": 2080
+          },
+          "conf": 0.85
+        }
+      ],
+      "confidence": 0.394,
+      "anchor": "Customer will pay a subscription fee of USD $50,000 per year for access and support.",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-16",
+        "spans": [
+          {
+            "start": 2050,
+            "end": 2080
+          }
+        ]
+      },
+      "rationale": "Missing 1 Name&Role property found in authoritative section \"By:\""
+    },
+    {
+      "target_section": "section-16",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "fee",
+          "value": 50000,
+          "unit": "USD",
+          "span": {
+            "start": 1711,
+            "end": 1718
+          },
+          "conf": 0.94
+        }
+      ],
+      "confidence": 0.424,
+      "anchor": "CFO Dana Brooks",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-12",
+        "spans": [
+          {
+            "start": 1711,
+            "end": 1718
+          }
+        ]
+      },
+      "rationale": "Missing 1 Terms property found in authoritative section \"4.1 Subscription Fee\""
+    },
+    {
+      "target_section": "section-13",
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2024-03-20",
+          "surface": "03/20/2024",
+          "span": {
+            "start": 1904,
+            "end": 1914
+          },
+          "conf": 0.95
+        }
+      ],
+      "confidence": 0.46399999999999997,
+      "anchor": "Invoices are due within forty five (45) days of the invoice date.",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-14",
+        "spans": [
+          {
+            "start": 1904,
+            "end": 1914
+          }
+        ]
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"Section 5: Signatures\""
+    },
+    {
+      "target_section": "section-14",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 45,
+          "unit": "day",
+          "qualifiers": "word_form: forty five",
+          "span": {
+            "start": 1797,
+            "end": 1817
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "The parties have executed this Agreement as of 03/20/2024.",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-13",
+        "spans": [
+          {
+            "start": 1797,
+            "end": 1817
+          }
+        ]
+      },
+      "rationale": "Missing 1 Terms property found in authoritative section \"4.2 Payment Terms\""
+    },
+    {
+      "target_section": "section-13",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Executive Officer",
+          "person": "Horizon Pharma Llc",
+          "span": {
+            "start": 1987,
+            "end": 2029
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Chief Executive Officer",
+          "person": "Ceo Alex Carter",
+          "span": {
+            "start": 1980,
+            "end": 2010
+          },
+          "conf": 0.85
+        }
+      ],
+      "confidence": 0.40800000000000003,
+      "anchor": "Invoices are due within forty five (45) days of the invoice date.",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-15",
+        "spans": [
+          {
+            "start": 1987,
+            "end": 2029
+          },
+          {
+            "start": 1980,
+            "end": 2010
+          }
+        ]
+      },
+      "rationale": "Missing 2 Name&Role properties found in authoritative section \"By:\""
+    },
+    {
+      "target_section": "section-15",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 45,
+          "unit": "day",
+          "qualifiers": "word_form: forty five",
+          "span": {
+            "start": 1797,
+            "end": 1817
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "CEO Alex Carter",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-13",
+        "spans": [
+          {
+            "start": 1797,
+            "end": 1817
+          }
+        ]
+      },
+      "rationale": "Missing 1 Terms property found in authoritative section \"4.2 Payment Terms\""
+    },
+    {
+      "target_section": "section-13",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Financial Officer",
+          "person": "Cfo Dana Brooks",
+          "span": {
+            "start": 2050,
+            "end": 2080
+          },
+          "conf": 0.85
+        }
+      ],
+      "confidence": 0.394,
+      "anchor": "Invoices are due within forty five (45) days of the invoice date.",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-16",
+        "spans": [
+          {
+            "start": 2050,
+            "end": 2080
+          }
+        ]
+      },
+      "rationale": "Missing 1 Name&Role property found in authoritative section \"By:\""
+    },
+    {
+      "target_section": "section-16",
+      "operation": "insert",
+      "property_type": "Terms",
+      "values": [
+        {
+          "name": "duration",
+          "value": 45,
+          "unit": "day",
+          "qualifiers": "word_form: forty five",
+          "span": {
+            "start": 1797,
+            "end": 1817
+          },
+          "conf": 0.96
+        }
+      ],
+      "confidence": 0.432,
+      "anchor": "CFO Dana Brooks",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-13",
+        "spans": [
+          {
+            "start": 1797,
+            "end": 1817
+          }
+        ]
+      },
+      "rationale": "Missing 1 Terms property found in authoritative section \"4.2 Payment Terms\""
+    },
+    {
+      "target_section": "section-14",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Executive Officer",
+          "person": "Horizon Pharma Llc",
+          "span": {
+            "start": 1987,
+            "end": 2029
+          },
+          "conf": 0.92
+        },
+        {
+          "role": "Chief Executive Officer",
+          "person": "Ceo Alex Carter",
+          "span": {
+            "start": 1980,
+            "end": 2010
+          },
+          "conf": 0.85
+        }
+      ],
+      "confidence": 0.40800000000000003,
+      "anchor": "2024.\nSummit",
+      "anchor_strategy": "after_last_list_item",
+      "evidence_from": {
+        "section": "section-15",
+        "spans": [
+          {
+            "start": 1987,
+            "end": 2029
+          },
+          {
+            "start": 1980,
+            "end": 2010
+          }
+        ]
+      },
+      "rationale": "Missing 2 Name&Role properties found in authoritative section \"By:\""
+    },
+    {
+      "target_section": "section-15",
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2024-03-20",
+          "surface": "03/20/2024",
+          "span": {
+            "start": 1904,
+            "end": 1914
+          },
+          "conf": 0.95
+        }
+      ],
+      "confidence": 0.428,
+      "anchor": "CEO Alex Carter",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-14",
+        "spans": [
+          {
+            "start": 1904,
+            "end": 1914
+          }
+        ]
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"Section 5: Signatures\""
+    },
+    {
+      "target_section": "section-14",
+      "operation": "insert",
+      "property_type": "Name&Role",
+      "values": [
+        {
+          "role": "Chief Financial Officer",
+          "person": "Cfo Dana Brooks",
+          "span": {
+            "start": 2050,
+            "end": 2080
+          },
+          "conf": 0.85
+        }
+      ],
+      "confidence": 0.394,
+      "anchor": "2024.\nSummit",
+      "anchor_strategy": "after_last_list_item",
+      "evidence_from": {
+        "section": "section-16",
+        "spans": [
+          {
+            "start": 2050,
+            "end": 2080
+          }
+        ]
+      },
+      "rationale": "Missing 1 Name&Role property found in authoritative section \"By:\""
+    },
+    {
+      "target_section": "section-16",
+      "operation": "insert",
+      "property_type": "Date",
+      "values": [
+        {
+          "iso": "2024-03-20",
+          "surface": "03/20/2024",
+          "span": {
+            "start": 1904,
+            "end": 1914
+          },
+          "conf": 0.95
+        }
+      ],
+      "confidence": 0.428,
+      "anchor": "CFO Dana Brooks",
+      "anchor_strategy": "after_heading",
+      "evidence_from": {
+        "section": "section-14",
+        "spans": [
+          {
+            "start": 1904,
+            "end": 1914
+          }
+        ]
+      },
+      "rationale": "Missing 1 Date property found in authoritative section \"Section 5: Signatures\""
+    }
+  ],
+  "unchanged": [],
+  "validation_results": {
+    "passed": 4,
+    "failed": 0,
+    "total": 4
+  }
+}

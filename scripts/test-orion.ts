@@ -1,5 +1,5 @@
 /**
- * Gamma Insights Agreement Test
+ * Orion Agreement Test
  * Validates engine output against the answer key
  */
 
@@ -11,13 +11,13 @@ import { BasicPropertyExtractor } from '../src/extractors/BasicPropertyExtractor
 import { BasicGraphBuilder } from '../src/graph/BasicGraphBuilder';
 import { BasicSuggestionEngine } from '../src/suggestions/BasicSuggestionEngine';
 
-async function testGammaAgreement() {
+async function testOrionAgreement() {
   console.log('='.repeat(80));
-  console.log('GAMMA INSIGHTS AGREEMENT - ENGINE VALIDATION TEST');
+  console.log('ORION AGREEMENT - ENGINE VALIDATION TEST');
   console.log('='.repeat(80));
   console.log();
 
-  const pdfPath = path.join(__dirname, '../pdf_mock_agreements/gamma_insight_agreement.pdf');
+  const pdfPath = path.join(__dirname, '../pdf_mock_agreements/orion_agreement.pdf');
 
   if (!fs.existsSync(pdfPath)) {
     console.error(`❌ PDF not found: ${pdfPath}`);
@@ -58,44 +58,47 @@ async function testGammaAgreement() {
   console.log('\n📋 Validation 1: Authoritative Section Selection');
   const authSection = suggestions.authoritative;
   const isAuthoritativeValidSection = 
-    authSection.section.includes('section-3') || 
-    authSection.section.toLowerCase().includes('designated') ||
-    authSection.section.toLowerCase().includes('individuals');
+    authSection.section.includes('section-1') || 
+    authSection.section.includes('section-2') ||
+    authSection.section.includes('section-3') ||
+    authSection.section.toLowerCase().includes('parties') ||
+    authSection.section.toLowerCase().includes('contact') ||
+    authSection.section.toLowerCase().includes('officer');
     
   if (isAuthoritativeValidSection) {
-    console.log(`   ✅ PASS: Authoritative section has complete roster`);
+    console.log(`   ✅ PASS: Authoritative section identified correctly`);
     console.log(`      Section ID: ${authSection.section}`);
     console.log(`      Rationale: ${authSection.rationale}`);
     validationsPassed++;
   } else {
-    console.log(`   ❌ FAIL: Expected section with complete roster, got ${authSection.section}`);
+    console.log(`   ❌ FAIL: Expected Section 1-3 or Parties/Contacts/Officer section, got ${authSection.section}`);
     validationsFailed++;
   }
 
-  // Validation 2: Check for "Counsel Priya Patel" suggestion in Section 3.2 (section-13)
-  console.log('\n📋 Validation 2: Priya Patel Missing from Section 3.2');
-  const section13Suggestions = suggestions.suggestedUpdates.filter(
-    (s) => s.section.includes('section-13') || s.section.toLowerCase().includes('data protection')
+  // Validation 2: Check for "Head of Security Daniel Kim" suggestion in Section 3.2
+  console.log('\n📋 Validation 2: Daniel Kim Missing from Section 3.2');
+  const section32Suggestions = suggestions.suggestedUpdates.filter(
+    (s) => s.section.includes('section-13') || s.section.includes('3.2') || s.section.toLowerCase().includes('incident')
   );
-  const priyaPatelSuggestion = section13Suggestions.find(
+  const danielKimSuggestion = section32Suggestions.find(
     (s) =>
       s.prop === 'Name&Role' &&
       s.values.some((v: any) => {
-        const text = typeof v === 'string' ? v : v.person || '';
-        return text.toLowerCase().includes('priya') || text.toLowerCase().includes('patel');
+        const text = typeof v === 'string' ? v : (v.person || '');
+        return text.toLowerCase().includes('daniel') && text.toLowerCase().includes('kim');
       })
   );
 
-  if (priyaPatelSuggestion) {
-    console.log(`   ✅ PASS: Found suggestion to add Priya Patel to Section 3.2`);
-    console.log(`      Target: ${priyaPatelSuggestion.section}`);
-    console.log(`      Confidence: ${priyaPatelSuggestion.confidence.toFixed(2)}`);
-    console.log(`      Anchor: "${priyaPatelSuggestion.anchor}"`);
-    console.log(`      Strategy: ${priyaPatelSuggestion.anchorStrategy}`);
+  if (danielKimSuggestion) {
+    console.log(`   ✅ PASS: Found suggestion to add Daniel Kim to Section 3.2`);
+    console.log(`      Target: ${danielKimSuggestion.section}`);
+    console.log(`      Confidence: ${danielKimSuggestion.confidence.toFixed(2)}`);
+    console.log(`      Anchor: "${danielKimSuggestion.anchor}"`);
+    console.log(`      Strategy: ${danielKimSuggestion.anchorStrategy}`);
     validationsPassed++;
   } else {
-    console.log(`   ❌ FAIL: Missing suggestion for Priya Patel in Section 3.2 (section-13)`);
-    console.log(`      Found ${section13Suggestions.length} Name&Role suggestions for section-13`);
+    console.log(`   ❌ FAIL: Missing suggestion for Daniel Kim in Section 3.2`);
+    console.log(`      Found ${section32Suggestions.length} Name&Role suggestions for section-13`);
     validationsFailed++;
   }
 
@@ -103,7 +106,7 @@ async function testGammaAgreement() {
   console.log('\n📋 Validation 3: Property Inventory Parsing');
   let inventoryChecks = { passed: 0, failed: 0 };
 
-  // Find section with most Name&Role properties (should be section-3 with 3)
+  // Find section with most Name&Role properties (should be section-1 with 3)
   let maxNameRoleSection = '';
   let maxNameRoleCount = 0;
   Object.entries(result.inventory).forEach(([key, value]) => {
@@ -118,7 +121,7 @@ async function testGammaAgreement() {
     const nameRoleProps = inv['Name&Role'] || [];
     const actualSection = sections.find((s) => s.id === maxNameRoleSection);
     console.log(`\n   Officers/Contacts (${actualSection?.title}) - Name&Role:`);
-    console.log(`      Expected: 3 (DPO/CIO/Counsel or similar)`);
+    console.log(`      Expected: 3 (CTO/Security/Support Manager or similar)`);
     console.log(`      Found: ${nameRoleProps.length}`);
     nameRoleProps.forEach((p, i) => {
       console.log(`        ${i + 1}. ${p.person} - ${p.role}`);
@@ -154,11 +157,11 @@ async function testGammaAgreement() {
     });
 
     console.log(`      Total Terms: ${totalTerms}`);
-    if (totalTerms >= 6) {
+    if (totalTerms >= 8) {
       console.log(`      ✅ Found sufficient term properties across sections`);
       inventoryChecks.passed++;
     } else {
-      console.log(`      ⚠️  Found ${totalTerms} terms (expected at least 6+)`);
+      console.log(`      ⚠️  Found ${totalTerms} terms (expected at least 8)`);
       inventoryChecks.failed++;
     }
   } else {
@@ -171,7 +174,9 @@ async function testGammaAgreement() {
     const section = sections.find((s) => s.id === key);
     return (
       section &&
-      (section.title.toLowerCase().includes('fee') || section.title.toLowerCase().includes('payment'))
+      (section.title.toLowerCase().includes('fee') || 
+       section.title.toLowerCase().includes('uptime') ||
+       section.title.toLowerCase().includes('payment'))
     );
   });
 
@@ -179,14 +184,14 @@ async function testGammaAgreement() {
     const inv = result.inventory[feeTermsKey];
     const termProps = inv['Terms'] || [];
     const actualSection = sections.find((s) => s.id === feeTermsKey);
-    console.log(`\n   Fees/Payment (${actualSection?.title}) - Terms:`);
-    console.log(`      Expected: ~2+ (Fee, Payment duration)`);
+    console.log(`\n   Fees/SLA (${actualSection?.title}) - Terms:`);
+    console.log(`      Expected: ~4+ (Fee, Payment, Uptime, Credit, Suspension)`);
     console.log(`      Found: ${termProps.length}`);
-    termProps.slice(0, 3).forEach((p, i) => {
+    termProps.slice(0, 5).forEach((p, i) => {
       console.log(`        ${i + 1}. ${p.name}: ${p.value} ${p.unit || ''}`);
     });
 
-    if (termProps.length >= 1) {
+    if (termProps.length >= 2) {
       console.log(`      ✅ Found term properties`);
       inventoryChecks.passed++;
     } else {
@@ -194,7 +199,7 @@ async function testGammaAgreement() {
       inventoryChecks.failed++;
     }
   } else {
-    console.log(`\n   ⚠️  Fee/Payment section not found`);
+    console.log(`\n   ⚠️  Fee/SLA section not found`);
     inventoryChecks.failed++;
   }
 
@@ -225,11 +230,11 @@ async function testGammaAgreement() {
   }
 
   // Output full results to JSON
-  const outputPath = path.join(__dirname, '../output/gamma_suggestions.json');
+  const outputPath = path.join(__dirname, '../output/orion_suggestions.json');
   const outputData = {
     metadata: {
       timestamp: new Date().toISOString(),
-      document: 'gamma_insight_agreement.pdf',
+      document: 'orion_agreement.pdf',
       sections_analyzed: sections.length,
       total_edges: graph.edges.length,
     },
@@ -263,7 +268,7 @@ async function testGammaAgreement() {
   console.log(`\n📄 Full results written to: ${outputPath}`);
 }
 
-testGammaAgreement().catch((error) => {
-  console.error('Error running gamma test:', error);
+testOrionAgreement().catch((error) => {
+  console.error('Error running orion test:', error);
   process.exit(1);
 });

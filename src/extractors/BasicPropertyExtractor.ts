@@ -24,6 +24,13 @@ export class BasicPropertyExtractor implements IPropertyExtractor {
     'CLO', 'Chief Legal Officer',
     'General Counsel',
     
+    // Security and compliance
+    'Head of Security',
+    'Chief Security Officer',
+    'Security Officer',
+    'Compliance Officer',
+    'Chief Compliance Officer',
+    
     // Senior positions
     'President', 'Vice President', 'VP',
     'Senior Vice President', 'SVP',
@@ -36,6 +43,7 @@ export class BasicPropertyExtractor implements IPropertyExtractor {
     'Manager', 'Senior Manager',
     'Program Manager', 'Project Manager',
     'Product Manager',
+    'Support Manager',
     
     // Associates and Staff
     'Associate', 'Senior Associate',
