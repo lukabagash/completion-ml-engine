@@ -280,7 +280,7 @@ export class BasicPDFParser implements IPDFParser {
       const content = contentLines.join('\n');
 
       // Determine section kind
-      const kind = this.classifySectionType(current.title, content);
+      const kind = this.classifySectionType(current.title);
 
       sections.push({
         id: `section-${sections.length}`,
@@ -310,7 +310,7 @@ export class BasicPDFParser implements IPDFParser {
   /**
    * Classify section type (Definitions, Signatures, etc.)
    */
-  private classifySectionType(title: string, content: string): string {
+  private classifySectionType(title: string): string {
     const titleLower = title.toLowerCase();
 
     if (
