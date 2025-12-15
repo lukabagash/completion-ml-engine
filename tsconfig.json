@@ -11,7 +11,7 @@
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "types": ["node", "jest"],
     "typeRoots": ["./node_modules/@types", "./src/types"],
     "noImplicitAny": false
