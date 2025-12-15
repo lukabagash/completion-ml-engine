@@ -204,7 +204,7 @@ export class BasicSectionIndexer implements ISectionIndexer {
 
     // 3. List item anchors (bullet points)
     if (anchorTypes.includes(AnchorType.LIST_ITEM)) {
-      const listItemPattern = /^[\s]*[-•\*]\s+(.+)$/gm;
+      const listItemPattern = /^[\s]*[-•*]\s+(.+)$/gm;
       let match;
       while ((match = listItemPattern.exec(section.content)) !== null) {
         anchors.push({

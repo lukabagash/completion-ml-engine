@@ -19,7 +19,6 @@ import {
   NameAndRole,
   DateProperty,
   TermProperty,
-  Span,
 } from '../types';
 
 export class BasicSuggestionEngine implements ISuggestionEngine {
@@ -39,7 +38,7 @@ export class BasicSuggestionEngine implements ISuggestionEngine {
     const deltas = this.computeDeltasFromClusters(clusters, graph, inventory);
     
     // Step 4: Generate suggestions for missing properties
-    const suggestedUpdates = this.generateUpdateSuggestions(deltas, graph, inventory);
+    const suggestedUpdates = this.generateUpdateSuggestions(deltas, graph);
     
     // Step 5: Identify unchanged properties (high-confidence matches)
     const unchanged = this.identifyUnchangedProperties(graph);
@@ -204,14 +203,14 @@ export class BasicSuggestionEngine implements ISuggestionEngine {
   ): Array<{
     targetSection: string;
     propType: 'Name&Role' | 'Date' | 'Terms';
-    missingValues: any[];
+    missingValues: (NameAndRole | DateProperty | TermProperty)[];
     sourceSection: string;
     confidence: number;
   }> {
     const deltas: Array<{
       targetSection: string;
       propType: 'Name&Role' | 'Date' | 'Terms';
-      missingValues: any[];
+      missingValues: (NameAndRole | DateProperty | TermProperty)[];
       sourceSection: string;
       confidence: number;
     }> = [];
@@ -253,7 +252,7 @@ export class BasicSuggestionEngine implements ISuggestionEngine {
           const currentProps = inv[propType];
           
           // Find properties in reference that are missing in current
-          const missingProps: any[] = [];
+          const missingProps: (NameAndRole | DateProperty | TermProperty)[] = [];
           
           for (const refProp of refProps) {
             const refValue = this.getPropertyValue(refProp, propType);
@@ -382,12 +381,11 @@ export class BasicSuggestionEngine implements ISuggestionEngine {
     deltas: Array<{
       targetSection: string;
       propType: 'Name&Role' | 'Date' | 'Terms';
-      missingValues: any[];
+      missingValues: (NameAndRole | DateProperty | TermProperty)[];
       sourceSection: string;
       confidence: number;
     }>,
-    graph: SectionGraph,
-    inventory?: Map<string, SectionInventory>
+    graph: SectionGraph
   ): SuggestedUpdate[] {
     const suggestions: SuggestedUpdate[] = [];
     
@@ -398,7 +396,7 @@ export class BasicSuggestionEngine implements ISuggestionEngine {
       if (!targetSection || !sourceSection) continue;
       
       // Find anchor point in target section
-      const anchor = this.findAnchor(targetSection, delta.propType, inventory);
+      const anchor = this.findAnchor(targetSection, delta.propType);
       
       // The missingValues from delta are already the actual property objects
       // from the cluster computation, so we can use them directly
@@ -434,8 +432,7 @@ export class BasicSuggestionEngine implements ISuggestionEngine {
    */
   private findAnchor(
     section: { title: string; content: string },
-    propType: 'Name&Role' | 'Date' | 'Terms',
-    inventory?: Map<string, SectionInventory>
+    propType: 'Name&Role' | 'Date' | 'Terms'
   ): { text: string; strategy: string } {
     const content = section.content;
     
@@ -565,7 +562,7 @@ export class BasicSuggestionEngine implements ISuggestionEngine {
     delta: {
       targetSection: string;
       propType: string;
-      missingValues: any[];
+      missingValues: (NameAndRole | DateProperty | TermProperty)[];
       sourceSection: string;
     },
     targetSection: { title: string },
